@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plan du lustre</title>
+<style>
+:root{--bg:#f7f4ee;--card:#fff;--ink:#1f1b16;--mute:#6f675c;--line:#e2dccf;--grid:#ece6da;--plate:#fbf8f2;--wire:#b9ad99;--hi:#c2410c;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14120f;--card:#1d1a16;--ink:#f1ebe0;--mute:#a59b8c;--line:#35302a;--grid:#2a2621;--plate:#191714;--wire:#5b5347;--hi:#fb923c;}}
+:root[data-theme="dark"]{--bg:#14120f;--card:#1d1a16;--ink:#f1ebe0;--mute:#a59b8c;--line:#35302a;--grid:#2a2621;--plate:#191714;--wire:#5b5347;--hi:#fb923c;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1180px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:26px;margin:0 0 4px}h2{font-size:17px;margin:0 0 10px}
+p.lead{color:var(--mute);margin:0 0 20px;max-width:780px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:18px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px}
+.tile b{display:block;font-size:22px;font-variant-numeric:tabular-nums}.tile span{color:var(--mute);font-size:13px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:18px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:18px}@media(max-width:800px){.row{grid-template-columns:1fr}}
+svg{display:block;width:100%;height:auto}
+.legend{display:flex;align-items:center;gap:10px;color:var(--mute);font-size:13px;margin-top:8px;flex-wrap:wrap}
+.bar{width:180px;height:10px;border-radius:5px;background:linear-gradient(90deg,#fad68c,#96480a)}
+#tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg);padding:6px 10px;border-radius:6px;font-size:13px;display:none;z-index:9}
+.note{color:var(--mute);font-size:13px}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:14px}
+th,td{padding:5px 8px;border-bottom:1px solid var(--line);text-align:right}th:first-child,td:first-child{text-align:left}
+th{position:sticky;top:0;background:var(--card);cursor:pointer}
+.tablewrap{max-height:460px;overflow:auto}
+input{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);margin-bottom:10px;width:100%;max-width:260px}
+tr.sel td{background:color-mix(in srgb,var(--hi) 18%,transparent)}
+</style>
+</head>
+<body>
+<main>
+<h1>Lustre cascade : plan du plateau</h1>
+<p class="lead">Plateau 3,00 × 2,40 m, vu <b>de dessous</b>, origine (0,0) au coin bas-gauche. Chaque point est un trou de sortie de fil. La couleur et le nombre donnent la <b>longueur de fil</b> entre le plateau et le haut de la suspension (Ø 5 cm, h 24 cm). Survolez un point pour le voir dans les trois vues.</p>
+<div class="tiles" id="tiles"></div>
+
+<div class="card">
+<h2>Plan 2D du plateau (vue de dessous)</h2>
+<svg id="plan"></svg>
+<div class="legend"><span>fil court</span><div class="bar"></div><span>fil long</span><span id="lg"></span></div>
+</div>
+
+<div class="row">
+<div class="card"><h2>Vue de face (côté 3,00 m)</h2><svg id="front"></svg></div>
+<div class="card"><h2>Vue de côté (côté 2,40 m)</h2><svg id="side"></svg></div>
+</div>
+
+<div class="card">
+<h2>Tableau de montage</h2>
+<p class="note">Repère = bande de 20 cm (A en haut du plan) + numéro de gauche à droite. Longueurs en cm, mesurées du plateau au haut de la suspension. Prévoyez en plus la réserve de fixation (serre-câble / bornier).</p>
+<input id="q" placeholder="Filtrer (ex. C, D07, 350)">
+<div class="tablewrap"><table><thead><tr><th data-k="id">Repère</th><th data-k="x">x (cm)</th><th data-k="y">y (cm)</th><th data-k="fil">Fil (cm)</th><th data-k="bas">Bas suspension (cm)</th></tr></thead><tbody id="tb"></tbody></table></div>
+</div>
+<p class="note" id="foot"></p>
+</main>
+<div id="tip"></div>
+<script>
+const D=__DATA__, S=__STATS__;
+D.forEach(d=>d.bas=d.fil+S.susp_h);
+const NS="http://www.w3.org/2000/svg";
+const col=t=>{const a=[250,214,140],b=[150,72,10];return`rgb(${a.map((v,k)=>Math.round(v+(b[k]-v)*t)).join(",")})`};
+const T=d=>(d.fil-S.FIL_MIN)/(S.FIL_MAX-S.FIL_MIN);
+function el(p,n,a){const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);p.appendChild(e);return e}
+const tip=document.getElementById("tip");let sel=null;const marks={};
+function show(d,ev){tip.style.display="block";tip.innerHTML=`<b>${d.id}</b> · x ${d.x} · y ${d.y}<br>fil ${d.fil} cm · bas à ${d.bas} cm`;tip.style.left=(ev.clientX+14)+"px";tip.style.top=(ev.clientY+14)+"px";highlight(d.id)}
+function hide(){tip.style.display="none";highlight(null)}
+function highlight(id){if(sel)(marks[sel]||[]).forEach(m=>m.classList.remove("on"));sel=id;if(id)(marks[id]||[]).forEach(m=>m.classList.add("on"));document.querySelectorAll("#tb tr").forEach(r=>r.classList.toggle("sel",r.dataset.id===id))}
+const style=document.createElement("style");style.textContent=".on{stroke:var(--hi)!important;stroke-width:3!important}circle.on{r:9}rect.on{fill:var(--hi)!important}";document.head.appendChild(style);
+function reg(id,m){(marks[id]=marks[id]||[]).push(m)}
+
+// Tuiles
+const tiles=[[S.n,"suspensions"],[S.dmean+" cm","distance moyenne au plus proche voisin"],[S.dmin+" cm","distance mini entre deux trous"],[S.fil_min+" → "+S.fil_max+" cm","longueurs de fil"],[S.clear+" cm","jeu mini entre deux suspensions (3D)"]];
+document.getElementById("tiles").innerHTML=tiles.map(t=>`<div class="tile"><b>${t[0]}</b><span>${t[1]}</span></div>`).join("");
+document.getElementById("lg").textContent=`${S.fil_min} cm → ${S.fil_max} cm`;
+document.getElementById("foot").textContent=`Généré par generate.py (graine ${S.seed}). Pas théorique d'un maillage hexagonal régulier : ${S.d_hex} cm.`;
+
+// Plan
+(function(){const sv=document.getElementById("plan"),m=30,k=3.2,w=S.W*k,h=S.H*k;
+sv.setAttribute("viewBox",`${-m-10} ${-m} ${w+2*m+30} ${h+2*m}`);
+el(sv,"rect",{x:0,y:0,width:w,height:h,fill:"var(--plate)",stroke:"var(--ink)","stroke-width":1.5});
+for(let x=0;x<=S.W;x+=10)el(sv,"line",{x1:x*k,y1:0,x2:x*k,y2:h,stroke:"var(--grid)","stroke-width":x%50?0.5:1.2});
+for(let y=0;y<=S.H;y+=10)el(sv,"line",{x1:0,y1:h-y*k,x2:w,y2:h-y*k,stroke:"var(--grid)","stroke-width":y%50?0.5:1.2});
+for(let x=0;x<=S.W;x+=50){const t=el(sv,"text",{x:x*k,y:-8,"font-size":11,"text-anchor":"middle",fill:"var(--mute)"});t.textContent=x}
+for(let y=0;y<=S.H;y+=50){const t=el(sv,"text",{x:-6,y:h-y*k+4,"font-size":11,"text-anchor":"end",fill:"var(--mute)"});t.textContent=y}
+for(let b=0;b<S.H/20;b++){const t=el(sv,"text",{x:w+8,y:(b*20+11)*k,"font-size":12,"font-weight":"bold",fill:"var(--mute)"});t.textContent=String.fromCharCode(65+b);
+ if(b)el(sv,"line",{x1:w,y1:b*20*k,x2:w+5,y2:b*20*k,stroke:"var(--mute)"})}
+D.forEach(d=>{const c=el(sv,"circle",{cx:d.x*k,cy:h-d.y*k,r:6.5,fill:col(T(d)),stroke:"var(--ink)","stroke-width":0.6});
+ c.addEventListener("mousemove",e=>show(d,e));c.addEventListener("mouseleave",hide);reg(d.id,c);
+ const t=el(sv,"text",{x:d.x*k,y:h-d.y*k+17,"font-size":7.5,"text-anchor":"middle",fill:"var(--ink)","pointer-events":"none"});t.textContent=d.fil});
+})();
+
+// Élévations
+function elev(id,axis,len){const sv=document.getElementById(id),k=0.9,m=24,w=len*k,H=(S.FIL_MAX+S.susp_h+20)*k;
+sv.setAttribute("viewBox",`${-m-14} ${-m} ${w+2*m+14} ${H+m}`);
+el(sv,"rect",{x:-6,y:-8,width:w+12,height:8,fill:"var(--ink)"});
+for(let z=0;z<=650;z+=100){el(sv,"line",{x1:0,y1:z*k,x2:w,y2:z*k,stroke:"var(--grid)","stroke-dasharray":"3 4"});const t=el(sv,"text",{x:-6,y:z*k+4,"font-size":10,"text-anchor":"end",fill:"var(--mute)"});t.textContent=z}
+[...D].sort((a,b)=>(axis==="x"?b.y-a.y:a.x-b.x)).forEach(d=>{const p=d[axis]*k;
+ el(sv,"line",{x1:p,y1:0,x2:p,y2:d.fil*k,stroke:"var(--wire)","stroke-width":0.3});
+ const r=el(sv,"rect",{x:p-S.susp_d*k/2,y:d.fil*k,width:S.susp_d*k,height:S.susp_h*k,rx:1.2,fill:col(0.15+0.5*T(d)),stroke:"var(--ink)","stroke-width":0.25,opacity:0.9});
+ r.addEventListener("mousemove",e=>show(d,e));r.addEventListener("mouseleave",hide);reg(d.id,r)});}
+elev("front","x",S.W);elev("side","y",S.H);
+
+// Tableau
+let key="id",dir=1;const tb=document.getElementById("tb"),q=document.getElementById("q");
+function draw(){const f=q.value.trim().toUpperCase();
+ tb.innerHTML=[...D].filter(d=>!f||d.id.startsWith(f)||String(d.fil)===f).sort((a,b)=>(a[key]>b[key]?1:-1)*dir)
+ .map(d=>`<tr data-id="${d.id}"><td>${d.id}</td><td>${d.x}</td><td>${d.y}</td><td><b>${d.fil}</b></td><td>${d.bas}</td></tr>`).join("");
+ tb.querySelectorAll("tr").forEach(r=>{r.onmouseenter=()=>highlight(r.dataset.id);r.onmouseleave=()=>highlight(null)})}
+document.querySelectorAll("th").forEach(th=>th.onclick=()=>{dir=key===th.dataset.k?-dir:1;key=th.dataset.k;draw()});
+q.oninput=draw;draw();
+</script>
+</body>
+</html>
