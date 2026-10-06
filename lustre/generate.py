@@ -21,7 +21,7 @@ W, H = 300.0, 240.0      # plateau 3,00 x 2,40 m (x = longueur, y = largeur)
 # Grille en quinconce : 20 cm entre deux trous d'une même rangée ou d'une même colonne,
 # 14,14 cm en diagonale (rangées tous les 10 cm, décalées de 10 cm une sur deux).
 PITCH = 20.0
-MARGIN_X, MARGIN_Y = 10.0, 5.0   # 24 rangées alternées de 15 et 14 trous = 348 suspensions
+MARGIN_X, MARGIN_Y = 10.0, 10.0  # pourtour de 10 cm : 23 rangées alternées de 15 et 14 trous = 334 suspensions
 SUSP_D, SUSP_H = 5.0, 24.0
 FIL_MIN = 100.0          # 1,00 m de fil nu sous le plateau avant la 1re suspension
 ZONE = 550.0             # 5,50 m de zone de suspension (haut de la plus haute -> bas de la plus basse)

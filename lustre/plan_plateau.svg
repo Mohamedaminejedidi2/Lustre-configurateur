@@ -68,1074 +68,1031 @@
 <line x1="0" y1="200.0" x2="3000.0" y2="200.0" stroke="#bbb" stroke-width="0.8"/>
 <line x1="0" y1="100.0" x2="3000.0" y2="100.0" stroke="#bbb" stroke-width="0.8"/>
 <line x1="0" y1="0.0" x2="3000.0" y2="0.0" stroke="#bbb" stroke-width="0.8"/>
-<text x="3030.0" y="64.0" font-size="40" font-weight="bold" fill="#8a5a14">A  y=235</text>
-<text x="3030.0" y="164.0" font-size="40" font-weight="bold" fill="#8a5a14">B  y=225</text>
-<text x="3030.0" y="264.0" font-size="40" font-weight="bold" fill="#8a5a14">C  y=215</text>
-<text x="3030.0" y="364.0" font-size="40" font-weight="bold" fill="#8a5a14">D  y=205</text>
-<text x="3030.0" y="464.0" font-size="40" font-weight="bold" fill="#8a5a14">E  y=195</text>
-<text x="3030.0" y="564.0" font-size="40" font-weight="bold" fill="#8a5a14">F  y=185</text>
-<text x="3030.0" y="664.0" font-size="40" font-weight="bold" fill="#8a5a14">G  y=175</text>
-<text x="3030.0" y="764.0" font-size="40" font-weight="bold" fill="#8a5a14">H  y=165</text>
-<text x="3030.0" y="864.0" font-size="40" font-weight="bold" fill="#8a5a14">I  y=155</text>
-<text x="3030.0" y="964.0" font-size="40" font-weight="bold" fill="#8a5a14">J  y=145</text>
-<text x="3030.0" y="1064.0" font-size="40" font-weight="bold" fill="#8a5a14">K  y=135</text>
-<text x="3030.0" y="1164.0" font-size="40" font-weight="bold" fill="#8a5a14">L  y=125</text>
-<text x="3030.0" y="1264.0" font-size="40" font-weight="bold" fill="#8a5a14">M  y=115</text>
-<text x="3030.0" y="1364.0" font-size="40" font-weight="bold" fill="#8a5a14">N  y=105</text>
-<text x="3030.0" y="1464.0" font-size="40" font-weight="bold" fill="#8a5a14">O  y=95</text>
-<text x="3030.0" y="1564.0" font-size="40" font-weight="bold" fill="#8a5a14">P  y=85</text>
-<text x="3030.0" y="1664.0" font-size="40" font-weight="bold" fill="#8a5a14">Q  y=75</text>
-<text x="3030.0" y="1764.0" font-size="40" font-weight="bold" fill="#8a5a14">R  y=65</text>
-<text x="3030.0" y="1864.0" font-size="40" font-weight="bold" fill="#8a5a14">S  y=55</text>
-<text x="3030.0" y="1964.0" font-size="40" font-weight="bold" fill="#8a5a14">T  y=45</text>
-<text x="3030.0" y="2064.0" font-size="40" font-weight="bold" fill="#8a5a14">U  y=35</text>
-<text x="3030.0" y="2164.0" font-size="40" font-weight="bold" fill="#8a5a14">V  y=25</text>
-<text x="3030.0" y="2264.0" font-size="40" font-weight="bold" fill="#8a5a14">W  y=15</text>
-<text x="3030.0" y="2364.0" font-size="40" font-weight="bold" fill="#8a5a14">X  y=5</text>
-<circle cx="100" cy="50" r="25" fill="#e1b26b" stroke="#333" stroke-width="2"/>
-<text x="100" y="18" font-size="22" text-anchor="middle" fill="#333">A01</text>
-<text x="100" y="102" font-size="24" font-weight="bold" text-anchor="middle">230</text>
-<circle cx="300" cy="50" r="25" fill="#be803e" stroke="#333" stroke-width="2"/>
-<text x="300" y="18" font-size="22" text-anchor="middle" fill="#333">A02</text>
-<text x="300" y="102" font-size="24" font-weight="bold" text-anchor="middle">415</text>
-<circle cx="500" cy="50" r="25" fill="#cb934f" stroke="#333" stroke-width="2"/>
-<text x="500" y="18" font-size="22" text-anchor="middle" fill="#333">A03</text>
-<text x="500" y="102" font-size="24" font-weight="bold" text-anchor="middle">346</text>
-<circle cx="700" cy="50" r="25" fill="#deae68" stroke="#333" stroke-width="2"/>
-<text x="700" y="18" font-size="22" text-anchor="middle" fill="#333">A04</text>
-<text x="700" y="102" font-size="24" font-weight="bold" text-anchor="middle">245</text>
-<circle cx="900" cy="50" r="25" fill="#b57533" stroke="#333" stroke-width="2"/>
-<text x="900" y="18" font-size="22" text-anchor="middle" fill="#333">A05</text>
-<text x="900" y="102" font-size="24" font-weight="bold" text-anchor="middle">458</text>
-<circle cx="1100" cy="50" r="25" fill="#c78e4a" stroke="#333" stroke-width="2"/>
-<text x="1100" y="18" font-size="22" text-anchor="middle" fill="#333">A06</text>
-<text x="1100" y="102" font-size="24" font-weight="bold" text-anchor="middle">365</text>
-<circle cx="1300" cy="50" r="25" fill="#d9a761" stroke="#333" stroke-width="2"/>
-<text x="1300" y="18" font-size="22" text-anchor="middle" fill="#333">A07</text>
-<text x="1300" y="102" font-size="24" font-weight="bold" text-anchor="middle">272</text>
-<circle cx="1500" cy="50" r="25" fill="#b2702f" stroke="#333" stroke-width="2"/>
-<text x="1500" y="18" font-size="22" text-anchor="middle" fill="#333">A08</text>
-<text x="1500" y="102" font-size="24" font-weight="bold" text-anchor="middle">475</text>
-<circle cx="1700" cy="50" r="25" fill="#ca914d" stroke="#333" stroke-width="2"/>
-<text x="1700" y="18" font-size="22" text-anchor="middle" fill="#333">A09</text>
-<text x="1700" y="102" font-size="24" font-weight="bold" text-anchor="middle">352</text>
-<circle cx="1900" cy="50" r="25" fill="#ecc37a" stroke="#333" stroke-width="2"/>
-<text x="1900" y="18" font-size="22" text-anchor="middle" fill="#333">A10</text>
-<text x="1900" y="102" font-size="24" font-weight="bold" text-anchor="middle">170</text>
-<circle cx="2100" cy="50" r="25" fill="#b2702e" stroke="#333" stroke-width="2"/>
-<text x="2100" y="18" font-size="22" text-anchor="middle" fill="#333">A11</text>
-<text x="2100" y="102" font-size="24" font-weight="bold" text-anchor="middle">477</text>
-<circle cx="2300" cy="50" r="25" fill="#e0b26b" stroke="#333" stroke-width="2"/>
-<text x="2300" y="18" font-size="22" text-anchor="middle" fill="#333">A12</text>
-<text x="2300" y="102" font-size="24" font-weight="bold" text-anchor="middle">233</text>
-<circle cx="2500" cy="50" r="25" fill="#c48946" stroke="#333" stroke-width="2"/>
-<text x="2500" y="18" font-size="22" text-anchor="middle" fill="#333">A13</text>
-<text x="2500" y="102" font-size="24" font-weight="bold" text-anchor="middle">383</text>
-<circle cx="2700" cy="50" r="25" fill="#edc47c" stroke="#333" stroke-width="2"/>
-<text x="2700" y="18" font-size="22" text-anchor="middle" fill="#333">A14</text>
-<text x="2700" y="102" font-size="24" font-weight="bold" text-anchor="middle">164</text>
-<circle cx="2900" cy="50" r="25" fill="#c68d49" stroke="#333" stroke-width="2"/>
-<text x="2900" y="18" font-size="22" text-anchor="middle" fill="#333">A15</text>
-<text x="2900" y="102" font-size="24" font-weight="bold" text-anchor="middle">369</text>
-<circle cx="200" cy="150" r="25" fill="#f2ca81" stroke="#333" stroke-width="2"/>
-<text x="200" y="118" font-size="22" text-anchor="middle" fill="#333">B01</text>
-<text x="200" y="202" font-size="24" font-weight="bold" text-anchor="middle">142</text>
-<circle cx="400" cy="150" r="25" fill="#d6a45e" stroke="#333" stroke-width="2"/>
-<text x="400" y="118" font-size="22" text-anchor="middle" fill="#333">B02</text>
-<text x="400" y="202" font-size="24" font-weight="bold" text-anchor="middle">285</text>
-<circle cx="600" cy="150" r="25" fill="#f4cd84" stroke="#333" stroke-width="2"/>
-<text x="600" y="118" font-size="22" text-anchor="middle" fill="#333">B03</text>
-<text x="600" y="202" font-size="24" font-weight="bold" text-anchor="middle">130</text>
-<circle cx="800" cy="150" r="25" fill="#c9914d" stroke="#333" stroke-width="2"/>
-<text x="800" y="118" font-size="22" text-anchor="middle" fill="#333">B04</text>
-<text x="800" y="202" font-size="24" font-weight="bold" text-anchor="middle">354</text>
-<circle cx="1000" cy="150" r="25" fill="#d8a660" stroke="#333" stroke-width="2"/>
-<text x="1000" y="118" font-size="22" text-anchor="middle" fill="#333">B05</text>
-<text x="1000" y="202" font-size="24" font-weight="bold" text-anchor="middle">275</text>
-<circle cx="1200" cy="150" r="25" fill="#e9bd76" stroke="#333" stroke-width="2"/>
-<text x="1200" y="118" font-size="22" text-anchor="middle" fill="#333">B06</text>
-<text x="1200" y="202" font-size="24" font-weight="bold" text-anchor="middle">189</text>
-<circle cx="1400" cy="150" r="25" fill="#cb934f" stroke="#333" stroke-width="2"/>
-<text x="1400" y="118" font-size="22" text-anchor="middle" fill="#333">B07</text>
-<text x="1400" y="202" font-size="24" font-weight="bold" text-anchor="middle">346</text>
-<circle cx="1600" cy="150" r="25" fill="#e0b26b" stroke="#333" stroke-width="2"/>
-<text x="1600" y="118" font-size="22" text-anchor="middle" fill="#333">B08</text>
-<text x="1600" y="202" font-size="24" font-weight="bold" text-anchor="middle">233</text>
-<circle cx="1800" cy="150" r="25" fill="#b97a37" stroke="#333" stroke-width="2"/>
-<text x="1800" y="118" font-size="22" text-anchor="middle" fill="#333">B09</text>
-<text x="1800" y="202" font-size="24" font-weight="bold" text-anchor="middle">440</text>
-<circle cx="2000" cy="150" r="25" fill="#dcab65" stroke="#333" stroke-width="2"/>
-<text x="2000" y="118" font-size="22" text-anchor="middle" fill="#333">B10</text>
-<text x="2000" y="202" font-size="24" font-weight="bold" text-anchor="middle">257</text>
-<circle cx="2200" cy="150" r="25" fill="#c48a47" stroke="#333" stroke-width="2"/>
-<text x="2200" y="118" font-size="22" text-anchor="middle" fill="#333">B11</text>
-<text x="2200" y="202" font-size="24" font-weight="bold" text-anchor="middle">379</text>
-<circle cx="2400" cy="150" r="25" fill="#f2cc82" stroke="#333" stroke-width="2"/>
-<text x="2400" y="118" font-size="22" text-anchor="middle" fill="#333">B12</text>
-<text x="2400" y="202" font-size="24" font-weight="bold" text-anchor="middle">137</text>
-<circle cx="2600" cy="150" r="25" fill="#daa962" stroke="#333" stroke-width="2"/>
-<text x="2600" y="118" font-size="22" text-anchor="middle" fill="#333">B13</text>
-<text x="2600" y="202" font-size="24" font-weight="bold" text-anchor="middle">266</text>
-<circle cx="2800" cy="150" r="25" fill="#b57533" stroke="#333" stroke-width="2"/>
-<text x="2800" y="118" font-size="22" text-anchor="middle" fill="#333">B14</text>
-<text x="2800" y="202" font-size="24" font-weight="bold" text-anchor="middle">458</text>
-<circle cx="100" cy="250" r="25" fill="#ca934e" stroke="#333" stroke-width="2"/>
-<text x="100" y="218" font-size="22" text-anchor="middle" fill="#333">C01</text>
-<text x="100" y="302" font-size="24" font-weight="bold" text-anchor="middle">348</text>
-<circle cx="300" cy="250" r="25" fill="#ae6a29" stroke="#333" stroke-width="2"/>
-<text x="300" y="218" font-size="22" text-anchor="middle" fill="#333">C02</text>
-<text x="300" y="302" font-size="24" font-weight="bold" text-anchor="middle">498</text>
-<circle cx="500" cy="250" r="25" fill="#e7bb73" stroke="#333" stroke-width="2"/>
-<text x="500" y="218" font-size="22" text-anchor="middle" fill="#333">C03</text>
-<text x="500" y="302" font-size="24" font-weight="bold" text-anchor="middle">199</text>
-<circle cx="700" cy="250" r="25" fill="#a45c1d" stroke="#333" stroke-width="2"/>
-<text x="700" y="218" font-size="22" text-anchor="middle" fill="#333">C04</text>
-<text x="700" y="302" font-size="24" font-weight="bold" text-anchor="middle">549</text>
-<circle cx="900" cy="250" r="25" fill="#ecc37a" stroke="#333" stroke-width="2"/>
-<text x="900" y="218" font-size="22" text-anchor="middle" fill="#333">C05</text>
-<text x="900" y="302" font-size="24" font-weight="bold" text-anchor="middle">169</text>
-<circle cx="1100" cy="250" r="25" fill="#aa6524" stroke="#333" stroke-width="2"/>
-<text x="1100" y="218" font-size="22" text-anchor="middle" fill="#333">C06</text>
-<text x="1100" y="302" font-size="24" font-weight="bold" text-anchor="middle">518</text>
-<circle cx="1300" cy="250" r="25" fill="#be803e" stroke="#333" stroke-width="2"/>
-<text x="1300" y="218" font-size="22" text-anchor="middle" fill="#333">C07</text>
-<text x="1300" y="302" font-size="24" font-weight="bold" text-anchor="middle">415</text>
-<circle cx="1500" cy="250" r="25" fill="#f0c87f" stroke="#333" stroke-width="2"/>
-<text x="1500" y="218" font-size="22" text-anchor="middle" fill="#333">C08</text>
-<text x="1500" y="302" font-size="24" font-weight="bold" text-anchor="middle">150</text>
-<circle cx="1700" cy="250" r="25" fill="#a76020" stroke="#333" stroke-width="2"/>
-<text x="1700" y="218" font-size="22" text-anchor="middle" fill="#333">C09</text>
-<text x="1700" y="302" font-size="24" font-weight="bold" text-anchor="middle">536</text>
-<circle cx="1900" cy="250" r="25" fill="#cb934e" stroke="#333" stroke-width="2"/>
-<text x="1900" y="218" font-size="22" text-anchor="middle" fill="#333">C10</text>
-<text x="1900" y="302" font-size="24" font-weight="bold" text-anchor="middle">347</text>
-<circle cx="2100" cy="250" r="25" fill="#f3cc83" stroke="#333" stroke-width="2"/>
-<text x="2100" y="218" font-size="22" text-anchor="middle" fill="#333">C11</text>
-<text x="2100" y="302" font-size="24" font-weight="bold" text-anchor="middle">136</text>
-<circle cx="2300" cy="250" r="25" fill="#d19b56" stroke="#333" stroke-width="2"/>
-<text x="2300" y="218" font-size="22" text-anchor="middle" fill="#333">C12</text>
-<text x="2300" y="302" font-size="24" font-weight="bold" text-anchor="middle">315</text>
-<circle cx="2500" cy="250" r="25" fill="#b47432" stroke="#333" stroke-width="2"/>
-<text x="2500" y="218" font-size="22" text-anchor="middle" fill="#333">C13</text>
-<text x="2500" y="302" font-size="24" font-weight="bold" text-anchor="middle">463</text>
-<circle cx="2700" cy="250" r="25" fill="#cb944f" stroke="#333" stroke-width="2"/>
-<text x="2700" y="218" font-size="22" text-anchor="middle" fill="#333">C14</text>
-<text x="2700" y="302" font-size="24" font-weight="bold" text-anchor="middle">344</text>
-<circle cx="2900" cy="250" r="25" fill="#daa862" stroke="#333" stroke-width="2"/>
-<text x="2900" y="218" font-size="22" text-anchor="middle" fill="#333">C15</text>
-<text x="2900" y="302" font-size="24" font-weight="bold" text-anchor="middle">268</text>
-<circle cx="200" cy="350" r="25" fill="#e2b36c" stroke="#333" stroke-width="2"/>
-<text x="200" y="318" font-size="22" text-anchor="middle" fill="#333">D01</text>
-<text x="200" y="402" font-size="24" font-weight="bold" text-anchor="middle">226</text>
-<circle cx="400" cy="350" r="25" fill="#c58b48" stroke="#333" stroke-width="2"/>
-<text x="400" y="318" font-size="22" text-anchor="middle" fill="#333">D02</text>
-<text x="400" y="402" font-size="24" font-weight="bold" text-anchor="middle">375</text>
-<circle cx="600" cy="350" r="25" fill="#b77735" stroke="#333" stroke-width="2"/>
-<text x="600" y="318" font-size="22" text-anchor="middle" fill="#333">D03</text>
-<text x="600" y="402" font-size="24" font-weight="bold" text-anchor="middle">451</text>
-<circle cx="800" cy="350" r="25" fill="#ddad66" stroke="#333" stroke-width="2"/>
-<text x="800" y="318" font-size="22" text-anchor="middle" fill="#333">D04</text>
-<text x="800" y="402" font-size="24" font-weight="bold" text-anchor="middle">250</text>
-<circle cx="1000" cy="350" r="25" fill="#c08340" stroke="#333" stroke-width="2"/>
-<text x="1000" y="318" font-size="22" text-anchor="middle" fill="#333">D05</text>
-<text x="1000" y="402" font-size="24" font-weight="bold" text-anchor="middle">404</text>
-<circle cx="1200" cy="350" r="25" fill="#f8d38a" stroke="#333" stroke-width="2"/>
-<text x="1200" y="318" font-size="22" text-anchor="middle" fill="#333">D06</text>
-<text x="1200" y="402" font-size="24" font-weight="bold" text-anchor="middle">108</text>
-<circle cx="1400" cy="350" r="25" fill="#ae6b2a" stroke="#333" stroke-width="2"/>
-<text x="1400" y="318" font-size="22" text-anchor="middle" fill="#333">D07</text>
-<text x="1400" y="402" font-size="24" font-weight="bold" text-anchor="middle">496</text>
-<circle cx="1600" cy="350" r="25" fill="#d19c57" stroke="#333" stroke-width="2"/>
-<text x="1600" y="318" font-size="22" text-anchor="middle" fill="#333">D08</text>
-<text x="1600" y="402" font-size="24" font-weight="bold" text-anchor="middle">312</text>
-<circle cx="1800" cy="350" r="25" fill="#ecc27a" stroke="#333" stroke-width="2"/>
-<text x="1800" y="318" font-size="22" text-anchor="middle" fill="#333">D09</text>
-<text x="1800" y="402" font-size="24" font-weight="bold" text-anchor="middle">171</text>
-<circle cx="2000" cy="350" r="25" fill="#a45b1c" stroke="#333" stroke-width="2"/>
-<text x="2000" y="318" font-size="22" text-anchor="middle" fill="#333">D10</text>
-<text x="2000" y="402" font-size="24" font-weight="bold" text-anchor="middle">552</text>
-<circle cx="2200" cy="350" r="25" fill="#b77635" stroke="#333" stroke-width="2"/>
-<text x="2200" y="318" font-size="22" text-anchor="middle" fill="#333">D11</text>
-<text x="2200" y="402" font-size="24" font-weight="bold" text-anchor="middle">452</text>
-<circle cx="2400" cy="350" r="25" fill="#e3b56e" stroke="#333" stroke-width="2"/>
-<text x="2400" y="318" font-size="22" text-anchor="middle" fill="#333">D12</text>
-<text x="2400" y="402" font-size="24" font-weight="bold" text-anchor="middle">220</text>
-<circle cx="2600" cy="350" r="25" fill="#a65f1f" stroke="#333" stroke-width="2"/>
-<text x="2600" y="318" font-size="22" text-anchor="middle" fill="#333">D13</text>
-<text x="2600" y="402" font-size="24" font-weight="bold" text-anchor="middle">538</text>
-<circle cx="2800" cy="350" r="25" fill="#f6d086" stroke="#333" stroke-width="2"/>
-<text x="2800" y="318" font-size="22" text-anchor="middle" fill="#333">D14</text>
-<text x="2800" y="402" font-size="24" font-weight="bold" text-anchor="middle">121</text>
-<circle cx="100" cy="450" r="25" fill="#b97a37" stroke="#333" stroke-width="2"/>
-<text x="100" y="418" font-size="22" text-anchor="middle" fill="#333">E01</text>
-<text x="100" y="502" font-size="24" font-weight="bold" text-anchor="middle">440</text>
-<circle cx="300" cy="450" r="25" fill="#f4cd84" stroke="#333" stroke-width="2"/>
-<text x="300" y="418" font-size="22" text-anchor="middle" fill="#333">E02</text>
-<text x="300" y="502" font-size="24" font-weight="bold" text-anchor="middle">131</text>
-<circle cx="500" cy="450" r="25" fill="#dbaa64" stroke="#333" stroke-width="2"/>
-<text x="500" y="418" font-size="22" text-anchor="middle" fill="#333">E03</text>
-<text x="500" y="502" font-size="24" font-weight="bold" text-anchor="middle">260</text>
-<circle cx="700" cy="450" r="25" fill="#ce9752" stroke="#333" stroke-width="2"/>
-<text x="700" y="418" font-size="22" text-anchor="middle" fill="#333">E04</text>
-<text x="700" y="502" font-size="24" font-weight="bold" text-anchor="middle">331</text>
-<circle cx="900" cy="450" r="25" fill="#b26f2e" stroke="#333" stroke-width="2"/>
-<text x="900" y="418" font-size="22" text-anchor="middle" fill="#333">E05</text>
-<text x="900" y="502" font-size="24" font-weight="bold" text-anchor="middle">478</text>
-<circle cx="1100" cy="450" r="25" fill="#d4a05b" stroke="#333" stroke-width="2"/>
-<text x="1100" y="418" font-size="22" text-anchor="middle" fill="#333">E06</text>
-<text x="1100" y="502" font-size="24" font-weight="bold" text-anchor="middle">298</text>
-<circle cx="1300" cy="450" r="25" fill="#e2b46d" stroke="#333" stroke-width="2"/>
-<text x="1300" y="418" font-size="22" text-anchor="middle" fill="#333">E07</text>
-<text x="1300" y="502" font-size="24" font-weight="bold" text-anchor="middle">225</text>
-<circle cx="1500" cy="450" r="25" fill="#9a4f10" stroke="#333" stroke-width="2"/>
-<text x="1500" y="418" font-size="22" text-anchor="middle" fill="#333">E08</text>
-<text x="1500" y="502" font-size="24" font-weight="bold" text-anchor="middle">600</text>
-<circle cx="1700" cy="450" r="25" fill="#bd803d" stroke="#333" stroke-width="2"/>
-<text x="1700" y="418" font-size="22" text-anchor="middle" fill="#333">E09</text>
-<text x="1700" y="502" font-size="24" font-weight="bold" text-anchor="middle">416</text>
-<circle cx="1900" cy="450" r="25" fill="#b2712f" stroke="#333" stroke-width="2"/>
-<text x="1900" y="418" font-size="22" text-anchor="middle" fill="#333">E10</text>
-<text x="1900" y="502" font-size="24" font-weight="bold" text-anchor="middle">474</text>
-<circle cx="2100" cy="450" r="25" fill="#dfb069" stroke="#333" stroke-width="2"/>
-<text x="2100" y="418" font-size="22" text-anchor="middle" fill="#333">E11</text>
-<text x="2100" y="502" font-size="24" font-weight="bold" text-anchor="middle">239</text>
-<circle cx="2300" cy="450" r="25" fill="#a25a1a" stroke="#333" stroke-width="2"/>
-<text x="2300" y="418" font-size="22" text-anchor="middle" fill="#333">E12</text>
-<text x="2300" y="502" font-size="24" font-weight="bold" text-anchor="middle">558</text>
-<circle cx="2500" cy="450" r="25" fill="#f3cd84" stroke="#333" stroke-width="2"/>
-<text x="2500" y="418" font-size="22" text-anchor="middle" fill="#333">E13</text>
-<text x="2500" y="502" font-size="24" font-weight="bold" text-anchor="middle">132</text>
-<circle cx="2700" cy="450" r="25" fill="#bf8340" stroke="#333" stroke-width="2"/>
-<text x="2700" y="418" font-size="22" text-anchor="middle" fill="#333">E14</text>
-<text x="2700" y="502" font-size="24" font-weight="bold" text-anchor="middle">407</text>
-<circle cx="2900" cy="450" r="25" fill="#e8bd75" stroke="#333" stroke-width="2"/>
-<text x="2900" y="418" font-size="22" text-anchor="middle" fill="#333">E15</text>
-<text x="2900" y="502" font-size="24" font-weight="bold" text-anchor="middle">191</text>
-<circle cx="200" cy="550" r="25" fill="#d09a55" stroke="#333" stroke-width="2"/>
-<text x="200" y="518" font-size="22" text-anchor="middle" fill="#333">F01</text>
-<text x="200" y="602" font-size="24" font-weight="bold" text-anchor="middle">320</text>
-<circle cx="400" cy="550" r="25" fill="#af6c2b" stroke="#333" stroke-width="2"/>
-<text x="400" y="518" font-size="22" text-anchor="middle" fill="#333">F02</text>
-<text x="400" y="602" font-size="24" font-weight="bold" text-anchor="middle">490</text>
-<circle cx="600" cy="550" r="25" fill="#f9d58b" stroke="#333" stroke-width="2"/>
-<text x="600" y="518" font-size="22" text-anchor="middle" fill="#333">F03</text>
-<text x="600" y="602" font-size="24" font-weight="bold" text-anchor="middle">103</text>
-<circle cx="800" cy="550" r="25" fill="#c28643" stroke="#333" stroke-width="2"/>
-<text x="800" y="518" font-size="22" text-anchor="middle" fill="#333">F04</text>
-<text x="800" y="602" font-size="24" font-weight="bold" text-anchor="middle">393</text>
-<circle cx="1000" cy="550" r="25" fill="#ebc078" stroke="#333" stroke-width="2"/>
-<text x="1000" y="518" font-size="22" text-anchor="middle" fill="#333">F05</text>
-<text x="1000" y="602" font-size="24" font-weight="bold" text-anchor="middle">178</text>
-<circle cx="1200" cy="550" r="25" fill="#a86222" stroke="#333" stroke-width="2"/>
-<text x="1200" y="518" font-size="22" text-anchor="middle" fill="#333">F06</text>
-<text x="1200" y="602" font-size="24" font-weight="bold" text-anchor="middle">528</text>
-<circle cx="1400" cy="550" r="25" fill="#c08340" stroke="#333" stroke-width="2"/>
-<text x="1400" y="518" font-size="22" text-anchor="middle" fill="#333">F07</text>
-<text x="1400" y="602" font-size="24" font-weight="bold" text-anchor="middle">405</text>
-<circle cx="1600" cy="550" r="25" fill="#f7d288" stroke="#333" stroke-width="2"/>
-<text x="1600" y="518" font-size="22" text-anchor="middle" fill="#333">F08</text>
-<text x="1600" y="602" font-size="24" font-weight="bold" text-anchor="middle">114</text>
-<circle cx="1800" cy="550" r="25" fill="#ddad66" stroke="#333" stroke-width="2"/>
-<text x="1800" y="518" font-size="22" text-anchor="middle" fill="#333">F09</text>
-<text x="1800" y="602" font-size="24" font-weight="bold" text-anchor="middle">251</text>
-<circle cx="2000" cy="550" r="25" fill="#c18643" stroke="#333" stroke-width="2"/>
-<text x="2000" y="518" font-size="22" text-anchor="middle" fill="#333">F10</text>
-<text x="2000" y="602" font-size="24" font-weight="bold" text-anchor="middle">395</text>
-<circle cx="2200" cy="550" r="25" fill="#f8d48a" stroke="#333" stroke-width="2"/>
-<text x="2200" y="518" font-size="22" text-anchor="middle" fill="#333">F11</text>
-<text x="2200" y="602" font-size="24" font-weight="bold" text-anchor="middle">106</text>
-<circle cx="2400" cy="550" r="25" fill="#b47332" stroke="#333" stroke-width="2"/>
-<text x="2400" y="518" font-size="22" text-anchor="middle" fill="#333">F12</text>
-<text x="2400" y="602" font-size="24" font-weight="bold" text-anchor="middle">464</text>
-<circle cx="2600" cy="550" r="25" fill="#cf9854" stroke="#333" stroke-width="2"/>
-<text x="2600" y="518" font-size="22" text-anchor="middle" fill="#333">F13</text>
-<text x="2600" y="602" font-size="24" font-weight="bold" text-anchor="middle">326</text>
-<circle cx="2800" cy="550" r="25" fill="#b3712f" stroke="#333" stroke-width="2"/>
-<text x="2800" y="518" font-size="22" text-anchor="middle" fill="#333">F14</text>
-<text x="2800" y="602" font-size="24" font-weight="bold" text-anchor="middle">473</text>
-<circle cx="100" cy="650" r="25" fill="#e6bb73" stroke="#333" stroke-width="2"/>
-<text x="100" y="618" font-size="22" text-anchor="middle" fill="#333">G01</text>
-<text x="100" y="702" font-size="24" font-weight="bold" text-anchor="middle">200</text>
-<circle cx="300" cy="650" r="25" fill="#c28643" stroke="#333" stroke-width="2"/>
-<text x="300" y="618" font-size="22" text-anchor="middle" fill="#333">G02</text>
-<text x="300" y="702" font-size="24" font-weight="bold" text-anchor="middle">394</text>
-<circle cx="500" cy="650" r="25" fill="#a05617" stroke="#333" stroke-width="2"/>
-<text x="500" y="618" font-size="22" text-anchor="middle" fill="#333">G03</text>
-<text x="500" y="702" font-size="24" font-weight="bold" text-anchor="middle">573</text>
-<circle cx="700" cy="650" r="25" fill="#e7bc74" stroke="#333" stroke-width="2"/>
-<text x="700" y="618" font-size="22" text-anchor="middle" fill="#333">G04</text>
-<text x="700" y="702" font-size="24" font-weight="bold" text-anchor="middle">196</text>
-<circle cx="900" cy="650" r="25" fill="#a55d1d" stroke="#333" stroke-width="2"/>
-<text x="900" y="618" font-size="22" text-anchor="middle" fill="#333">G05</text>
-<text x="900" y="702" font-size="24" font-weight="bold" text-anchor="middle">547</text>
-<circle cx="1100" cy="650" r="25" fill="#c78e4a" stroke="#333" stroke-width="2"/>
-<text x="1100" y="618" font-size="22" text-anchor="middle" fill="#333">G06</text>
-<text x="1100" y="702" font-size="24" font-weight="bold" text-anchor="middle">364</text>
-<circle cx="1300" cy="650" r="25" fill="#f3cd83" stroke="#333" stroke-width="2"/>
-<text x="1300" y="618" font-size="22" text-anchor="middle" fill="#333">G07</text>
-<text x="1300" y="702" font-size="24" font-weight="bold" text-anchor="middle">133</text>
-<circle cx="1500" cy="650" r="25" fill="#a96323" stroke="#333" stroke-width="2"/>
-<text x="1500" y="618" font-size="22" text-anchor="middle" fill="#333">G08</text>
-<text x="1500" y="702" font-size="24" font-weight="bold" text-anchor="middle">523</text>
-<circle cx="1700" cy="650" r="25" fill="#c9914d" stroke="#333" stroke-width="2"/>
-<text x="1700" y="618" font-size="22" text-anchor="middle" fill="#333">G09</text>
-<text x="1700" y="702" font-size="24" font-weight="bold" text-anchor="middle">353</text>
-<circle cx="1900" cy="650" r="25" fill="#eec57c" stroke="#333" stroke-width="2"/>
-<text x="1900" y="618" font-size="22" text-anchor="middle" fill="#333">G10</text>
-<text x="1900" y="702" font-size="24" font-weight="bold" text-anchor="middle">161</text>
-<circle cx="2100" cy="650" r="25" fill="#a96423" stroke="#333" stroke-width="2"/>
-<text x="2100" y="618" font-size="22" text-anchor="middle" fill="#333">G11</text>
-<text x="2100" y="702" font-size="24" font-weight="bold" text-anchor="middle">521</text>
-<circle cx="2300" cy="650" r="25" fill="#d4a05b" stroke="#333" stroke-width="2"/>
-<text x="2300" y="618" font-size="22" text-anchor="middle" fill="#333">G12</text>
-<text x="2300" y="702" font-size="24" font-weight="bold" text-anchor="middle">298</text>
-<circle cx="2500" cy="650" r="25" fill="#e6bb73" stroke="#333" stroke-width="2"/>
-<text x="2500" y="618" font-size="22" text-anchor="middle" fill="#333">G13</text>
-<text x="2500" y="702" font-size="24" font-weight="bold" text-anchor="middle">200</text>
-<circle cx="2700" cy="650" r="25" fill="#daa962" stroke="#333" stroke-width="2"/>
-<text x="2700" y="618" font-size="22" text-anchor="middle" fill="#333">G14</text>
-<text x="2700" y="702" font-size="24" font-weight="bold" text-anchor="middle">266</text>
-<circle cx="2900" cy="650" r="25" fill="#cb934f" stroke="#333" stroke-width="2"/>
-<text x="2900" y="618" font-size="22" text-anchor="middle" fill="#333">G15</text>
-<text x="2900" y="702" font-size="24" font-weight="bold" text-anchor="middle">346</text>
-<circle cx="200" cy="750" r="25" fill="#d4a15b" stroke="#333" stroke-width="2"/>
-<text x="200" y="718" font-size="22" text-anchor="middle" fill="#333">H01</text>
-<text x="200" y="802" font-size="24" font-weight="bold" text-anchor="middle">296</text>
-<circle cx="400" cy="750" r="25" fill="#edc47b" stroke="#333" stroke-width="2"/>
-<text x="400" y="718" font-size="22" text-anchor="middle" fill="#333">H02</text>
-<text x="400" y="802" font-size="24" font-weight="bold" text-anchor="middle">165</text>
-<circle cx="600" cy="750" r="25" fill="#b97a37" stroke="#333" stroke-width="2"/>
-<text x="600" y="718" font-size="22" text-anchor="middle" fill="#333">H03</text>
-<text x="600" y="802" font-size="24" font-weight="bold" text-anchor="middle">440</text>
-<circle cx="800" cy="750" r="25" fill="#d6a35d" stroke="#333" stroke-width="2"/>
-<text x="800" y="718" font-size="22" text-anchor="middle" fill="#333">H04</text>
-<text x="800" y="802" font-size="24" font-weight="bold" text-anchor="middle">287</text>
-<circle cx="1000" cy="750" r="25" fill="#b77835" stroke="#333" stroke-width="2"/>
-<text x="1000" y="718" font-size="22" text-anchor="middle" fill="#333">H05</text>
-<text x="1000" y="802" font-size="24" font-weight="bold" text-anchor="middle">448</text>
-<circle cx="1200" cy="750" r="25" fill="#dbaa64" stroke="#333" stroke-width="2"/>
-<text x="1200" y="718" font-size="22" text-anchor="middle" fill="#333">H06</text>
-<text x="1200" y="802" font-size="24" font-weight="bold" text-anchor="middle">261</text>
-<circle cx="1400" cy="750" r="25" fill="#cf9854" stroke="#333" stroke-width="2"/>
-<text x="1400" y="718" font-size="22" text-anchor="middle" fill="#333">H07</text>
-<text x="1400" y="802" font-size="24" font-weight="bold" text-anchor="middle">326</text>
-<circle cx="1600" cy="750" r="25" fill="#e7bb73" stroke="#333" stroke-width="2"/>
-<text x="1600" y="718" font-size="22" text-anchor="middle" fill="#333">H08</text>
-<text x="1600" y="802" font-size="24" font-weight="bold" text-anchor="middle">199</text>
-<circle cx="1800" cy="750" r="25" fill="#a55e1e" stroke="#333" stroke-width="2"/>
-<text x="1800" y="718" font-size="22" text-anchor="middle" fill="#333">H09</text>
-<text x="1800" y="802" font-size="24" font-weight="bold" text-anchor="middle">542</text>
-<circle cx="2000" cy="750" r="25" fill="#d09b56" stroke="#333" stroke-width="2"/>
-<text x="2000" y="718" font-size="22" text-anchor="middle" fill="#333">H10</text>
-<text x="2000" y="802" font-size="24" font-weight="bold" text-anchor="middle">318</text>
-<circle cx="2200" cy="750" r="25" fill="#ecc27a" stroke="#333" stroke-width="2"/>
-<text x="2200" y="718" font-size="22" text-anchor="middle" fill="#333">H11</text>
-<text x="2200" y="802" font-size="24" font-weight="bold" text-anchor="middle">171</text>
-<circle cx="2400" cy="750" r="25" fill="#c48946" stroke="#333" stroke-width="2"/>
-<text x="2400" y="718" font-size="22" text-anchor="middle" fill="#333">H12</text>
-<text x="2400" y="802" font-size="24" font-weight="bold" text-anchor="middle">382</text>
-<circle cx="2600" cy="750" r="25" fill="#f6d187" stroke="#333" stroke-width="2"/>
-<text x="2600" y="718" font-size="22" text-anchor="middle" fill="#333">H13</text>
-<text x="2600" y="802" font-size="24" font-weight="bold" text-anchor="middle">118</text>
-<circle cx="2800" cy="750" r="25" fill="#a55d1d" stroke="#333" stroke-width="2"/>
-<text x="2800" y="718" font-size="22" text-anchor="middle" fill="#333">H14</text>
-<text x="2800" y="802" font-size="24" font-weight="bold" text-anchor="middle">547</text>
-<circle cx="100" cy="850" r="25" fill="#ba7c39" stroke="#333" stroke-width="2"/>
-<text x="100" y="818" font-size="22" text-anchor="middle" fill="#333">I01</text>
-<text x="100" y="902" font-size="24" font-weight="bold" text-anchor="middle">432</text>
-<circle cx="300" cy="850" r="25" fill="#ab6625" stroke="#333" stroke-width="2"/>
-<text x="300" y="818" font-size="22" text-anchor="middle" fill="#333">I02</text>
-<text x="300" y="902" font-size="24" font-weight="bold" text-anchor="middle">513</text>
-<circle cx="500" cy="850" r="25" fill="#dcab65" stroke="#333" stroke-width="2"/>
-<text x="500" y="818" font-size="22" text-anchor="middle" fill="#333">I03</text>
-<text x="500" y="902" font-size="24" font-weight="bold" text-anchor="middle">256</text>
-<circle cx="700" cy="850" r="25" fill="#f4ce84" stroke="#333" stroke-width="2"/>
-<text x="700" y="818" font-size="22" text-anchor="middle" fill="#333">I04</text>
-<text x="700" y="902" font-size="24" font-weight="bold" text-anchor="middle">129</text>
-<circle cx="900" cy="850" r="25" fill="#c48945" stroke="#333" stroke-width="2"/>
-<text x="900" y="818" font-size="22" text-anchor="middle" fill="#333">I05</text>
-<text x="900" y="902" font-size="24" font-weight="bold" text-anchor="middle">384</text>
-<circle cx="1100" cy="850" r="25" fill="#eabf77" stroke="#333" stroke-width="2"/>
-<text x="1100" y="818" font-size="22" text-anchor="middle" fill="#333">I06</text>
-<text x="1100" y="902" font-size="24" font-weight="bold" text-anchor="middle">182</text>
-<circle cx="1300" cy="850" r="25" fill="#984b0d" stroke="#333" stroke-width="2"/>
-<text x="1300" y="818" font-size="22" text-anchor="middle" fill="#333">I07</text>
-<text x="1300" y="902" font-size="24" font-weight="bold" text-anchor="middle">612</text>
-<circle cx="1500" cy="850" r="25" fill="#b77835" stroke="#333" stroke-width="2"/>
-<text x="1500" y="818" font-size="22" text-anchor="middle" fill="#333">I08</text>
-<text x="1500" y="902" font-size="24" font-weight="bold" text-anchor="middle">448</text>
-<circle cx="1700" cy="850" r="25" fill="#d9a761" stroke="#333" stroke-width="2"/>
-<text x="1700" y="818" font-size="22" text-anchor="middle" fill="#333">I09</text>
-<text x="1700" y="902" font-size="24" font-weight="bold" text-anchor="middle">273</text>
-<circle cx="1900" cy="850" r="25" fill="#bd7f3c" stroke="#333" stroke-width="2"/>
-<text x="1900" y="818" font-size="22" text-anchor="middle" fill="#333">I10</text>
-<text x="1900" y="902" font-size="24" font-weight="bold" text-anchor="middle">420</text>
-<circle cx="2100" cy="850" r="25" fill="#deaf68" stroke="#333" stroke-width="2"/>
-<text x="2100" y="818" font-size="22" text-anchor="middle" fill="#333">I11</text>
-<text x="2100" y="902" font-size="24" font-weight="bold" text-anchor="middle">243</text>
-<circle cx="2300" cy="850" r="25" fill="#b77635" stroke="#333" stroke-width="2"/>
-<text x="2300" y="818" font-size="22" text-anchor="middle" fill="#333">I12</text>
-<text x="2300" y="902" font-size="24" font-weight="bold" text-anchor="middle">452</text>
-<circle cx="2500" cy="850" r="25" fill="#a96423" stroke="#333" stroke-width="2"/>
-<text x="2500" y="818" font-size="22" text-anchor="middle" fill="#333">I13</text>
-<text x="2500" y="902" font-size="24" font-weight="bold" text-anchor="middle">522</text>
-<circle cx="2700" cy="850" r="25" fill="#ba7b39" stroke="#333" stroke-width="2"/>
-<text x="2700" y="818" font-size="22" text-anchor="middle" fill="#333">I14</text>
-<text x="2700" y="902" font-size="24" font-weight="bold" text-anchor="middle">435</text>
-<circle cx="2900" cy="850" r="25" fill="#e1b36c" stroke="#333" stroke-width="2"/>
-<text x="2900" y="818" font-size="22" text-anchor="middle" fill="#333">I15</text>
-<text x="2900" y="902" font-size="24" font-weight="bold" text-anchor="middle">227</text>
-<circle cx="200" cy="950" r="25" fill="#e2b56e" stroke="#333" stroke-width="2"/>
-<text x="200" y="918" font-size="22" text-anchor="middle" fill="#333">J01</text>
-<text x="200" y="1002" font-size="24" font-weight="bold" text-anchor="middle">221</text>
-<circle cx="400" cy="950" r="25" fill="#c38845" stroke="#333" stroke-width="2"/>
-<text x="400" y="918" font-size="22" text-anchor="middle" fill="#333">J02</text>
-<text x="400" y="1002" font-size="24" font-weight="bold" text-anchor="middle">387</text>
-<circle cx="600" cy="950" r="25" fill="#cf9954" stroke="#333" stroke-width="2"/>
-<text x="600" y="918" font-size="22" text-anchor="middle" fill="#333">J03</text>
-<text x="600" y="1002" font-size="24" font-weight="bold" text-anchor="middle">324</text>
-<circle cx="800" cy="950" r="25" fill="#aa6424" stroke="#333" stroke-width="2"/>
-<text x="800" y="918" font-size="22" text-anchor="middle" fill="#333">J04</text>
-<text x="800" y="1002" font-size="24" font-weight="bold" text-anchor="middle">519</text>
-<circle cx="1000" cy="950" r="25" fill="#9b4f10" stroke="#333" stroke-width="2"/>
-<text x="1000" y="918" font-size="22" text-anchor="middle" fill="#333">J05</text>
-<text x="1000" y="1002" font-size="24" font-weight="bold" text-anchor="middle">599</text>
-<circle cx="1200" cy="950" r="25" fill="#ab6625" stroke="#333" stroke-width="2"/>
-<text x="1200" y="918" font-size="22" text-anchor="middle" fill="#333">J06</text>
-<text x="1200" y="1002" font-size="24" font-weight="bold" text-anchor="middle">513</text>
-<circle cx="1400" cy="950" r="25" fill="#efc77e" stroke="#333" stroke-width="2"/>
-<text x="1400" y="918" font-size="22" text-anchor="middle" fill="#333">J07</text>
-<text x="1400" y="1002" font-size="24" font-weight="bold" text-anchor="middle">153</text>
-<circle cx="1600" cy="950" r="25" fill="#c68c49" stroke="#333" stroke-width="2"/>
-<text x="1600" y="918" font-size="22" text-anchor="middle" fill="#333">J08</text>
-<text x="1600" y="1002" font-size="24" font-weight="bold" text-anchor="middle">371</text>
-<circle cx="1800" cy="950" r="25" fill="#994d0e" stroke="#333" stroke-width="2"/>
-<text x="1800" y="918" font-size="22" text-anchor="middle" fill="#333">J09</text>
-<text x="1800" y="1002" font-size="24" font-weight="bold" text-anchor="middle">606</text>
-<circle cx="2000" cy="950" r="25" fill="#ae6a29" stroke="#333" stroke-width="2"/>
-<text x="2000" y="918" font-size="22" text-anchor="middle" fill="#333">J10</text>
-<text x="2000" y="1002" font-size="24" font-weight="bold" text-anchor="middle">499</text>
-<circle cx="2200" cy="950" r="25" fill="#9e5314" stroke="#333" stroke-width="2"/>
-<text x="2200" y="918" font-size="22" text-anchor="middle" fill="#333">J11</text>
-<text x="2200" y="1002" font-size="24" font-weight="bold" text-anchor="middle">583</text>
-<circle cx="2400" cy="950" r="25" fill="#d4a15b" stroke="#333" stroke-width="2"/>
-<text x="2400" y="918" font-size="22" text-anchor="middle" fill="#333">J12</text>
-<text x="2400" y="1002" font-size="24" font-weight="bold" text-anchor="middle">295</text>
-<circle cx="2600" cy="950" r="25" fill="#e3b56e" stroke="#333" stroke-width="2"/>
-<text x="2600" y="918" font-size="22" text-anchor="middle" fill="#333">J13</text>
-<text x="2600" y="1002" font-size="24" font-weight="bold" text-anchor="middle">219</text>
-<circle cx="2800" cy="950" r="25" fill="#f0c77f" stroke="#333" stroke-width="2"/>
-<text x="2800" y="918" font-size="22" text-anchor="middle" fill="#333">J14</text>
-<text x="2800" y="1002" font-size="24" font-weight="bold" text-anchor="middle">152</text>
-<circle cx="100" cy="1050" r="25" fill="#cf9954" stroke="#333" stroke-width="2"/>
-<text x="100" y="1018" font-size="22" text-anchor="middle" fill="#333">K01</text>
-<text x="100" y="1102" font-size="24" font-weight="bold" text-anchor="middle">323</text>
-<circle cx="300" cy="1050" r="25" fill="#f5cf86" stroke="#333" stroke-width="2"/>
-<text x="300" y="1018" font-size="22" text-anchor="middle" fill="#333">K02</text>
-<text x="300" y="1102" font-size="24" font-weight="bold" text-anchor="middle">123</text>
-<circle cx="500" cy="1050" r="25" fill="#b57533" stroke="#333" stroke-width="2"/>
-<text x="500" y="1018" font-size="22" text-anchor="middle" fill="#333">K03</text>
-<text x="500" y="1102" font-size="24" font-weight="bold" text-anchor="middle">459</text>
-<circle cx="700" cy="1050" r="25" fill="#e5b971" stroke="#333" stroke-width="2"/>
-<text x="700" y="1018" font-size="22" text-anchor="middle" fill="#333">K04</text>
-<text x="700" y="1102" font-size="24" font-weight="bold" text-anchor="middle">206</text>
-<circle cx="900" cy="1050" r="25" fill="#d4a05b" stroke="#333" stroke-width="2"/>
-<text x="900" y="1018" font-size="22" text-anchor="middle" fill="#333">K05</text>
-<text x="900" y="1102" font-size="24" font-weight="bold" text-anchor="middle">298</text>
-<circle cx="1100" cy="1050" r="25" fill="#ca914d" stroke="#333" stroke-width="2"/>
-<text x="1100" y="1018" font-size="22" text-anchor="middle" fill="#333">K06</text>
-<text x="1100" y="1102" font-size="24" font-weight="bold" text-anchor="middle">352</text>
-<circle cx="1300" cy="1050" r="25" fill="#daa963" stroke="#333" stroke-width="2"/>
-<text x="1300" y="1018" font-size="22" text-anchor="middle" fill="#333">K07</text>
-<text x="1300" y="1102" font-size="24" font-weight="bold" text-anchor="middle">265</text>
-<circle cx="1500" cy="1050" r="25" fill="#a76020" stroke="#333" stroke-width="2"/>
-<text x="1500" y="1018" font-size="22" text-anchor="middle" fill="#333">K08</text>
-<text x="1500" y="1102" font-size="24" font-weight="bold" text-anchor="middle">535</text>
-<circle cx="1700" cy="1050" r="25" fill="#e8bc74" stroke="#333" stroke-width="2"/>
-<text x="1700" y="1018" font-size="22" text-anchor="middle" fill="#333">K09</text>
-<text x="1700" y="1102" font-size="24" font-weight="bold" text-anchor="middle">194</text>
-<circle cx="1900" cy="1050" r="25" fill="#f5d086" stroke="#333" stroke-width="2"/>
-<text x="1900" y="1018" font-size="22" text-anchor="middle" fill="#333">K10</text>
-<text x="1900" y="1102" font-size="24" font-weight="bold" text-anchor="middle">122</text>
-<circle cx="2100" cy="1050" r="25" fill="#cf9854" stroke="#333" stroke-width="2"/>
-<text x="2100" y="1018" font-size="22" text-anchor="middle" fill="#333">K11</text>
-<text x="2100" y="1102" font-size="24" font-weight="bold" text-anchor="middle">326</text>
-<circle cx="2300" cy="1050" r="25" fill="#e4b870" stroke="#333" stroke-width="2"/>
-<text x="2300" y="1018" font-size="22" text-anchor="middle" fill="#333">K12</text>
-<text x="2300" y="1102" font-size="24" font-weight="bold" text-anchor="middle">211</text>
-<circle cx="2500" cy="1050" r="25" fill="#f6d086" stroke="#333" stroke-width="2"/>
-<text x="2500" y="1018" font-size="22" text-anchor="middle" fill="#333">K13</text>
-<text x="2500" y="1102" font-size="24" font-weight="bold" text-anchor="middle">121</text>
-<circle cx="2700" cy="1050" r="25" fill="#d09a55" stroke="#333" stroke-width="2"/>
-<text x="2700" y="1018" font-size="22" text-anchor="middle" fill="#333">K14</text>
-<text x="2700" y="1102" font-size="24" font-weight="bold" text-anchor="middle">319</text>
-<circle cx="2900" cy="1050" r="25" fill="#c38844" stroke="#333" stroke-width="2"/>
-<text x="2900" y="1018" font-size="22" text-anchor="middle" fill="#333">K15</text>
-<text x="2900" y="1102" font-size="24" font-weight="bold" text-anchor="middle">388</text>
-<circle cx="200" cy="1150" r="25" fill="#b06e2d" stroke="#333" stroke-width="2"/>
-<text x="200" y="1118" font-size="22" text-anchor="middle" fill="#333">L01</text>
-<text x="200" y="1202" font-size="24" font-weight="bold" text-anchor="middle">484</text>
-<circle cx="400" cy="1150" r="25" fill="#a35b1b" stroke="#333" stroke-width="2"/>
-<text x="400" y="1118" font-size="22" text-anchor="middle" fill="#333">L02</text>
-<text x="400" y="1202" font-size="24" font-weight="bold" text-anchor="middle">555</text>
-<circle cx="600" cy="1150" r="25" fill="#f4ce85" stroke="#333" stroke-width="2"/>
-<text x="600" y="1118" font-size="22" text-anchor="middle" fill="#333">L03</text>
-<text x="600" y="1202" font-size="24" font-weight="bold" text-anchor="middle">127</text>
-<circle cx="800" cy="1150" r="25" fill="#bc7e3b" stroke="#333" stroke-width="2"/>
-<text x="800" y="1118" font-size="22" text-anchor="middle" fill="#333">L04</text>
-<text x="800" y="1202" font-size="24" font-weight="bold" text-anchor="middle">425</text>
-<circle cx="1000" cy="1150" r="25" fill="#e6b972" stroke="#333" stroke-width="2"/>
-<text x="1000" y="1118" font-size="22" text-anchor="middle" fill="#333">L05</text>
-<text x="1000" y="1202" font-size="24" font-weight="bold" text-anchor="middle">204</text>
-<circle cx="1200" cy="1150" r="25" fill="#b97b38" stroke="#333" stroke-width="2"/>
-<text x="1200" y="1118" font-size="22" text-anchor="middle" fill="#333">L06</text>
-<text x="1200" y="1202" font-size="24" font-weight="bold" text-anchor="middle">437</text>
-<circle cx="1400" cy="1150" r="25" fill="#c9914d" stroke="#333" stroke-width="2"/>
-<text x="1400" y="1118" font-size="22" text-anchor="middle" fill="#333">L07</text>
-<text x="1400" y="1202" font-size="24" font-weight="bold" text-anchor="middle">354</text>
-<circle cx="1600" cy="1150" r="25" fill="#b87936" stroke="#333" stroke-width="2"/>
-<text x="1600" y="1118" font-size="22" text-anchor="middle" fill="#333">L08</text>
-<text x="1600" y="1202" font-size="24" font-weight="bold" text-anchor="middle">444</text>
-<circle cx="1800" cy="1150" r="25" fill="#d5a25c" stroke="#333" stroke-width="2"/>
-<text x="1800" y="1118" font-size="22" text-anchor="middle" fill="#333">L09</text>
-<text x="1800" y="1202" font-size="24" font-weight="bold" text-anchor="middle">291</text>
-<circle cx="2000" cy="1150" r="25" fill="#e4b66f" stroke="#333" stroke-width="2"/>
-<text x="2000" y="1118" font-size="22" text-anchor="middle" fill="#333">L10</text>
-<text x="2000" y="1202" font-size="24" font-weight="bold" text-anchor="middle">215</text>
-<circle cx="2200" cy="1150" r="25" fill="#f3cc83" stroke="#333" stroke-width="2"/>
-<text x="2200" y="1118" font-size="22" text-anchor="middle" fill="#333">L11</text>
-<text x="2200" y="1202" font-size="24" font-weight="bold" text-anchor="middle">134</text>
-<circle cx="2400" cy="1150" r="25" fill="#ae6b2a" stroke="#333" stroke-width="2"/>
-<text x="2400" y="1118" font-size="22" text-anchor="middle" fill="#333">L12</text>
-<text x="2400" y="1202" font-size="24" font-weight="bold" text-anchor="middle">495</text>
-<circle cx="2600" cy="1150" r="25" fill="#be813e" stroke="#333" stroke-width="2"/>
-<text x="2600" y="1118" font-size="22" text-anchor="middle" fill="#333">L13</text>
-<text x="2600" y="1202" font-size="24" font-weight="bold" text-anchor="middle">413</text>
-<circle cx="2800" cy="1150" r="25" fill="#b06c2b" stroke="#333" stroke-width="2"/>
-<text x="2800" y="1118" font-size="22" text-anchor="middle" fill="#333">L14</text>
-<text x="2800" y="1202" font-size="24" font-weight="bold" text-anchor="middle">489</text>
-<circle cx="100" cy="1250" r="25" fill="#c08541" stroke="#333" stroke-width="2"/>
-<text x="100" y="1218" font-size="22" text-anchor="middle" fill="#333">M01</text>
-<text x="100" y="1302" font-size="24" font-weight="bold" text-anchor="middle">400</text>
-<circle cx="300" cy="1250" r="25" fill="#e3b66f" stroke="#333" stroke-width="2"/>
-<text x="300" y="1218" font-size="22" text-anchor="middle" fill="#333">M02</text>
-<text x="300" y="1302" font-size="24" font-weight="bold" text-anchor="middle">217</text>
-<circle cx="500" cy="1250" r="25" fill="#cf9954" stroke="#333" stroke-width="2"/>
-<text x="500" y="1218" font-size="22" text-anchor="middle" fill="#333">M03</text>
-<text x="500" y="1302" font-size="24" font-weight="bold" text-anchor="middle">325</text>
-<circle cx="700" cy="1250" r="25" fill="#a76020" stroke="#333" stroke-width="2"/>
-<text x="700" y="1218" font-size="22" text-anchor="middle" fill="#333">M04</text>
-<text x="700" y="1302" font-size="24" font-weight="bold" text-anchor="middle">534</text>
-<circle cx="900" cy="1250" r="25" fill="#f6d187" stroke="#333" stroke-width="2"/>
-<text x="900" y="1218" font-size="22" text-anchor="middle" fill="#333">M05</text>
-<text x="900" y="1302" font-size="24" font-weight="bold" text-anchor="middle">117</text>
-<circle cx="1100" cy="1250" r="25" fill="#a65f1f" stroke="#333" stroke-width="2"/>
-<text x="1100" y="1218" font-size="22" text-anchor="middle" fill="#333">M06</text>
-<text x="1100" y="1302" font-size="24" font-weight="bold" text-anchor="middle">539</text>
-<circle cx="1300" cy="1250" r="25" fill="#ecc27a" stroke="#333" stroke-width="2"/>
-<text x="1300" y="1218" font-size="22" text-anchor="middle" fill="#333">M07</text>
-<text x="1300" y="1302" font-size="24" font-weight="bold" text-anchor="middle">171</text>
-<circle cx="1500" cy="1250" r="25" fill="#f9d58b" stroke="#333" stroke-width="2"/>
-<text x="1500" y="1218" font-size="22" text-anchor="middle" fill="#333">M08</text>
-<text x="1500" y="1302" font-size="24" font-weight="bold" text-anchor="middle">102</text>
-<circle cx="1700" cy="1250" r="25" fill="#97490b" stroke="#333" stroke-width="2"/>
-<text x="1700" y="1218" font-size="22" text-anchor="middle" fill="#333">M09</text>
-<text x="1700" y="1302" font-size="24" font-weight="bold" text-anchor="middle">619</text>
-<circle cx="1900" cy="1250" r="25" fill="#b87936" stroke="#333" stroke-width="2"/>
-<text x="1900" y="1218" font-size="22" text-anchor="middle" fill="#333">M10</text>
-<text x="1900" y="1302" font-size="24" font-weight="bold" text-anchor="middle">444</text>
-<circle cx="2100" cy="1250" r="25" fill="#a86121" stroke="#333" stroke-width="2"/>
-<text x="2100" y="1218" font-size="22" text-anchor="middle" fill="#333">M11</text>
-<text x="2100" y="1302" font-size="24" font-weight="bold" text-anchor="middle">530</text>
-<circle cx="2300" cy="1250" r="25" fill="#c48946" stroke="#333" stroke-width="2"/>
-<text x="2300" y="1218" font-size="22" text-anchor="middle" fill="#333">M12</text>
-<text x="2300" y="1302" font-size="24" font-weight="bold" text-anchor="middle">382</text>
-<circle cx="2500" cy="1250" r="25" fill="#d9a861" stroke="#333" stroke-width="2"/>
-<text x="2500" y="1218" font-size="22" text-anchor="middle" fill="#333">M13</text>
-<text x="2500" y="1302" font-size="24" font-weight="bold" text-anchor="middle">270</text>
-<circle cx="2700" cy="1250" r="25" fill="#efc77e" stroke="#333" stroke-width="2"/>
-<text x="2700" y="1218" font-size="22" text-anchor="middle" fill="#333">M14</text>
-<text x="2700" y="1302" font-size="24" font-weight="bold" text-anchor="middle">153</text>
-<circle cx="2900" cy="1250" r="25" fill="#e3b66e" stroke="#333" stroke-width="2"/>
-<text x="2900" y="1218" font-size="22" text-anchor="middle" fill="#333">M15</text>
-<text x="2900" y="1302" font-size="24" font-weight="bold" text-anchor="middle">218</text>
-<circle cx="200" cy="1350" r="25" fill="#d09b56" stroke="#333" stroke-width="2"/>
-<text x="200" y="1318" font-size="22" text-anchor="middle" fill="#333">N01</text>
-<text x="200" y="1402" font-size="24" font-weight="bold" text-anchor="middle">316</text>
-<circle cx="400" cy="1350" r="25" fill="#c18542" stroke="#333" stroke-width="2"/>
-<text x="400" y="1318" font-size="22" text-anchor="middle" fill="#333">N02</text>
-<text x="400" y="1402" font-size="24" font-weight="bold" text-anchor="middle">399</text>
-<circle cx="600" cy="1350" r="25" fill="#ddad66" stroke="#333" stroke-width="2"/>
-<text x="600" y="1318" font-size="22" text-anchor="middle" fill="#333">N03</text>
-<text x="600" y="1402" font-size="24" font-weight="bold" text-anchor="middle">250</text>
-<circle cx="800" cy="1350" r="25" fill="#e8bd75" stroke="#333" stroke-width="2"/>
-<text x="800" y="1318" font-size="22" text-anchor="middle" fill="#333">N04</text>
-<text x="800" y="1402" font-size="24" font-weight="bold" text-anchor="middle">190</text>
-<circle cx="1000" cy="1350" r="25" fill="#cc9551" stroke="#333" stroke-width="2"/>
-<text x="1000" y="1318" font-size="22" text-anchor="middle" fill="#333">N05</text>
-<text x="1000" y="1402" font-size="24" font-weight="bold" text-anchor="middle">338</text>
-<circle cx="1200" cy="1350" r="25" fill="#96480a" stroke="#333" stroke-width="2"/>
-<text x="1200" y="1318" font-size="22" text-anchor="middle" fill="#333">N06</text>
-<text x="1200" y="1402" font-size="24" font-weight="bold" text-anchor="middle">626</text>
-<circle cx="1400" cy="1350" r="25" fill="#ae6a29" stroke="#333" stroke-width="2"/>
-<text x="1400" y="1318" font-size="22" text-anchor="middle" fill="#333">N07</text>
-<text x="1400" y="1402" font-size="24" font-weight="bold" text-anchor="middle">497</text>
-<circle cx="1600" cy="1350" r="25" fill="#d09a55" stroke="#333" stroke-width="2"/>
-<text x="1600" y="1318" font-size="22" text-anchor="middle" fill="#333">N08</text>
-<text x="1600" y="1402" font-size="24" font-weight="bold" text-anchor="middle">319</text>
-<circle cx="1800" cy="1350" r="25" fill="#a96423" stroke="#333" stroke-width="2"/>
-<text x="1800" y="1318" font-size="22" text-anchor="middle" fill="#333">N09</text>
-<text x="1800" y="1402" font-size="24" font-weight="bold" text-anchor="middle">522</text>
-<circle cx="2000" cy="1350" r="25" fill="#c88f4b" stroke="#333" stroke-width="2"/>
-<text x="2000" y="1318" font-size="22" text-anchor="middle" fill="#333">N10</text>
-<text x="2000" y="1402" font-size="24" font-weight="bold" text-anchor="middle">362</text>
-<circle cx="2200" cy="1350" r="25" fill="#d6a35d" stroke="#333" stroke-width="2"/>
-<text x="2200" y="1318" font-size="22" text-anchor="middle" fill="#333">N11</text>
-<text x="2200" y="1402" font-size="24" font-weight="bold" text-anchor="middle">288</text>
-<circle cx="2400" cy="1350" r="25" fill="#9f5616" stroke="#333" stroke-width="2"/>
-<text x="2400" y="1318" font-size="22" text-anchor="middle" fill="#333">N12</text>
-<text x="2400" y="1402" font-size="24" font-weight="bold" text-anchor="middle">574</text>
-<circle cx="2600" cy="1350" r="25" fill="#cb944f" stroke="#333" stroke-width="2"/>
-<text x="2600" y="1318" font-size="22" text-anchor="middle" fill="#333">N13</text>
-<text x="2600" y="1402" font-size="24" font-weight="bold" text-anchor="middle">343</text>
-<circle cx="2800" cy="1350" r="25" fill="#d6a45e" stroke="#333" stroke-width="2"/>
-<text x="2800" y="1318" font-size="22" text-anchor="middle" fill="#333">N14</text>
-<text x="2800" y="1402" font-size="24" font-weight="bold" text-anchor="middle">285</text>
-<circle cx="100" cy="1450" r="25" fill="#e1b26b" stroke="#333" stroke-width="2"/>
-<text x="100" y="1418" font-size="22" text-anchor="middle" fill="#333">O01</text>
-<text x="100" y="1502" font-size="24" font-weight="bold" text-anchor="middle">231</text>
-<circle cx="300" cy="1450" r="25" fill="#f9d58b" stroke="#333" stroke-width="2"/>
-<text x="300" y="1418" font-size="22" text-anchor="middle" fill="#333">O02</text>
-<text x="300" y="1502" font-size="24" font-weight="bold" text-anchor="middle">101</text>
-<circle cx="500" cy="1450" r="25" fill="#a45c1c" stroke="#333" stroke-width="2"/>
-<text x="500" y="1418" font-size="22" text-anchor="middle" fill="#333">O03</text>
-<text x="500" y="1502" font-size="24" font-weight="bold" text-anchor="middle">551</text>
-<circle cx="700" cy="1450" r="25" fill="#c9904c" stroke="#333" stroke-width="2"/>
-<text x="700" y="1418" font-size="22" text-anchor="middle" fill="#333">O04</text>
-<text x="700" y="1502" font-size="24" font-weight="bold" text-anchor="middle">356</text>
-<circle cx="900" cy="1450" r="25" fill="#b67534" stroke="#333" stroke-width="2"/>
-<text x="900" y="1418" font-size="22" text-anchor="middle" fill="#333">O05</text>
-<text x="900" y="1502" font-size="24" font-weight="bold" text-anchor="middle">456</text>
-<circle cx="1100" cy="1450" r="25" fill="#e0b16a" stroke="#333" stroke-width="2"/>
-<text x="1100" y="1418" font-size="22" text-anchor="middle" fill="#333">O06</text>
-<text x="1100" y="1502" font-size="24" font-weight="bold" text-anchor="middle">235</text>
-<circle cx="1300" cy="1450" r="25" fill="#cf9a55" stroke="#333" stroke-width="2"/>
-<text x="1300" y="1418" font-size="22" text-anchor="middle" fill="#333">O07</text>
-<text x="1300" y="1502" font-size="24" font-weight="bold" text-anchor="middle">322</text>
-<circle cx="1500" cy="1450" r="25" fill="#e0b26b" stroke="#333" stroke-width="2"/>
-<text x="1500" y="1418" font-size="22" text-anchor="middle" fill="#333">O08</text>
-<text x="1500" y="1502" font-size="24" font-weight="bold" text-anchor="middle">232</text>
-<circle cx="1700" cy="1450" r="25" fill="#be813e" stroke="#333" stroke-width="2"/>
-<text x="1700" y="1418" font-size="22" text-anchor="middle" fill="#333">O09</text>
-<text x="1700" y="1502" font-size="24" font-weight="bold" text-anchor="middle">413</text>
-<circle cx="1900" cy="1450" r="25" fill="#e7bb73" stroke="#333" stroke-width="2"/>
-<text x="1900" y="1418" font-size="22" text-anchor="middle" fill="#333">O10</text>
-<text x="1900" y="1502" font-size="24" font-weight="bold" text-anchor="middle">198</text>
-<circle cx="2100" cy="1450" r="25" fill="#9b4f11" stroke="#333" stroke-width="2"/>
-<text x="2100" y="1418" font-size="22" text-anchor="middle" fill="#333">O11</text>
-<text x="2100" y="1502" font-size="24" font-weight="bold" text-anchor="middle">597</text>
-<circle cx="2300" cy="1450" r="25" fill="#b67634" stroke="#333" stroke-width="2"/>
-<text x="2300" y="1418" font-size="22" text-anchor="middle" fill="#333">O12</text>
-<text x="2300" y="1502" font-size="24" font-weight="bold" text-anchor="middle">455</text>
-<circle cx="2500" cy="1450" r="25" fill="#e5b871" stroke="#333" stroke-width="2"/>
-<text x="2500" y="1418" font-size="22" text-anchor="middle" fill="#333">O13</text>
-<text x="2500" y="1502" font-size="24" font-weight="bold" text-anchor="middle">208</text>
-<circle cx="2700" cy="1450" r="25" fill="#be813e" stroke="#333" stroke-width="2"/>
-<text x="2700" y="1418" font-size="22" text-anchor="middle" fill="#333">O14</text>
-<text x="2700" y="1502" font-size="24" font-weight="bold" text-anchor="middle">412</text>
-<circle cx="2900" cy="1450" r="25" fill="#b26f2e" stroke="#333" stroke-width="2"/>
-<text x="2900" y="1418" font-size="22" text-anchor="middle" fill="#333">O15</text>
-<text x="2900" y="1502" font-size="24" font-weight="bold" text-anchor="middle">478</text>
-<circle cx="200" cy="1550" r="25" fill="#b87836" stroke="#333" stroke-width="2"/>
-<text x="200" y="1518" font-size="22" text-anchor="middle" fill="#333">P01</text>
-<text x="200" y="1602" font-size="24" font-weight="bold" text-anchor="middle">447</text>
-<circle cx="400" cy="1550" r="25" fill="#e9be76" stroke="#333" stroke-width="2"/>
-<text x="400" y="1518" font-size="22" text-anchor="middle" fill="#333">P02</text>
-<text x="400" y="1602" font-size="24" font-weight="bold" text-anchor="middle">187</text>
-<circle cx="600" cy="1550" r="25" fill="#b97a37" stroke="#333" stroke-width="2"/>
-<text x="600" y="1518" font-size="22" text-anchor="middle" fill="#333">P03</text>
-<text x="600" y="1602" font-size="24" font-weight="bold" text-anchor="middle">440</text>
-<circle cx="800" cy="1550" r="25" fill="#a55e1e" stroke="#333" stroke-width="2"/>
-<text x="800" y="1518" font-size="22" text-anchor="middle" fill="#333">P04</text>
-<text x="800" y="1602" font-size="24" font-weight="bold" text-anchor="middle">542</text>
-<circle cx="1000" cy="1550" r="25" fill="#f0c87f" stroke="#333" stroke-width="2"/>
-<text x="1000" y="1518" font-size="22" text-anchor="middle" fill="#333">P05</text>
-<text x="1000" y="1602" font-size="24" font-weight="bold" text-anchor="middle">150</text>
-<circle cx="1200" cy="1550" r="25" fill="#bf823f" stroke="#333" stroke-width="2"/>
-<text x="1200" y="1518" font-size="22" text-anchor="middle" fill="#333">P06</text>
-<text x="1200" y="1602" font-size="24" font-weight="bold" text-anchor="middle">410</text>
-<circle cx="1400" cy="1550" r="25" fill="#a15818" stroke="#333" stroke-width="2"/>
-<text x="1400" y="1518" font-size="22" text-anchor="middle" fill="#333">P07</text>
-<text x="1400" y="1602" font-size="24" font-weight="bold" text-anchor="middle">566</text>
-<circle cx="1600" cy="1550" r="25" fill="#f1ca81" stroke="#333" stroke-width="2"/>
-<text x="1600" y="1518" font-size="22" text-anchor="middle" fill="#333">P08</text>
-<text x="1600" y="1602" font-size="24" font-weight="bold" text-anchor="middle">144</text>
-<circle cx="1800" cy="1550" r="25" fill="#994c0e" stroke="#333" stroke-width="2"/>
-<text x="1800" y="1518" font-size="22" text-anchor="middle" fill="#333">P09</text>
-<text x="1800" y="1602" font-size="24" font-weight="bold" text-anchor="middle">608</text>
-<circle cx="2000" cy="1550" r="25" fill="#b67634" stroke="#333" stroke-width="2"/>
-<text x="2000" y="1518" font-size="22" text-anchor="middle" fill="#333">P10</text>
-<text x="2000" y="1602" font-size="24" font-weight="bold" text-anchor="middle">454</text>
-<circle cx="2200" cy="1550" r="25" fill="#e4b870" stroke="#333" stroke-width="2"/>
-<text x="2200" y="1518" font-size="22" text-anchor="middle" fill="#333">P11</text>
-<text x="2200" y="1602" font-size="24" font-weight="bold" text-anchor="middle">211</text>
-<circle cx="2400" cy="1550" r="25" fill="#f7d289" stroke="#333" stroke-width="2"/>
-<text x="2400" y="1518" font-size="22" text-anchor="middle" fill="#333">P12</text>
-<text x="2400" y="1602" font-size="24" font-weight="bold" text-anchor="middle">112</text>
-<circle cx="2600" cy="1550" r="25" fill="#ae6b2a" stroke="#333" stroke-width="2"/>
-<text x="2600" y="1518" font-size="22" text-anchor="middle" fill="#333">P13</text>
-<text x="2600" y="1602" font-size="24" font-weight="bold" text-anchor="middle">495</text>
-<circle cx="2800" cy="1550" r="25" fill="#ebc179" stroke="#333" stroke-width="2"/>
-<text x="2800" y="1518" font-size="22" text-anchor="middle" fill="#333">P14</text>
-<text x="2800" y="1602" font-size="24" font-weight="bold" text-anchor="middle">175</text>
-<circle cx="100" cy="1650" r="25" fill="#efc67d" stroke="#333" stroke-width="2"/>
-<text x="100" y="1618" font-size="22" text-anchor="middle" fill="#333">Q01</text>
-<text x="100" y="1702" font-size="24" font-weight="bold" text-anchor="middle">157</text>
-<circle cx="300" cy="1650" r="25" fill="#cb944f" stroke="#333" stroke-width="2"/>
-<text x="300" y="1618" font-size="22" text-anchor="middle" fill="#333">Q02</text>
-<text x="300" y="1702" font-size="24" font-weight="bold" text-anchor="middle">343</text>
-<circle cx="500" cy="1650" r="25" fill="#d8a660" stroke="#333" stroke-width="2"/>
-<text x="500" y="1618" font-size="22" text-anchor="middle" fill="#333">Q03</text>
-<text x="500" y="1702" font-size="24" font-weight="bold" text-anchor="middle">276</text>
-<circle cx="700" cy="1650" r="25" fill="#eec47c" stroke="#333" stroke-width="2"/>
-<text x="700" y="1618" font-size="22" text-anchor="middle" fill="#333">Q04</text>
-<text x="700" y="1702" font-size="24" font-weight="bold" text-anchor="middle">163</text>
-<circle cx="900" cy="1650" r="25" fill="#c38844" stroke="#333" stroke-width="2"/>
-<text x="900" y="1618" font-size="22" text-anchor="middle" fill="#333">Q05</text>
-<text x="900" y="1702" font-size="24" font-weight="bold" text-anchor="middle">388</text>
-<circle cx="1100" cy="1650" r="25" fill="#ac6726" stroke="#333" stroke-width="2"/>
-<text x="1100" y="1618" font-size="22" text-anchor="middle" fill="#333">Q06</text>
-<text x="1100" y="1702" font-size="24" font-weight="bold" text-anchor="middle">510</text>
-<circle cx="1300" cy="1650" r="25" fill="#f3cc83" stroke="#333" stroke-width="2"/>
-<text x="1300" y="1618" font-size="22" text-anchor="middle" fill="#333">Q07</text>
-<text x="1300" y="1702" font-size="24" font-weight="bold" text-anchor="middle">136</text>
-<circle cx="1500" cy="1650" r="25" fill="#c48946" stroke="#333" stroke-width="2"/>
-<text x="1500" y="1618" font-size="22" text-anchor="middle" fill="#333">Q08</text>
-<text x="1500" y="1702" font-size="24" font-weight="bold" text-anchor="middle">382</text>
-<circle cx="1700" cy="1650" r="25" fill="#aa6524" stroke="#333" stroke-width="2"/>
-<text x="1700" y="1618" font-size="22" text-anchor="middle" fill="#333">Q09</text>
-<text x="1700" y="1702" font-size="24" font-weight="bold" text-anchor="middle">518</text>
-<circle cx="1900" cy="1650" r="25" fill="#d6a35d" stroke="#333" stroke-width="2"/>
-<text x="1900" y="1618" font-size="22" text-anchor="middle" fill="#333">Q10</text>
-<text x="1900" y="1702" font-size="24" font-weight="bold" text-anchor="middle">288</text>
-<circle cx="2100" cy="1650" r="25" fill="#f4ce84" stroke="#333" stroke-width="2"/>
-<text x="2100" y="1618" font-size="22" text-anchor="middle" fill="#333">Q11</text>
-<text x="2100" y="1702" font-size="24" font-weight="bold" text-anchor="middle">129</text>
-<circle cx="2300" cy="1650" r="25" fill="#c18542" stroke="#333" stroke-width="2"/>
-<text x="2300" y="1618" font-size="22" text-anchor="middle" fill="#333">Q12</text>
-<text x="2300" y="1702" font-size="24" font-weight="bold" text-anchor="middle">397</text>
-<circle cx="2500" cy="1650" r="25" fill="#9d5314" stroke="#333" stroke-width="2"/>
-<text x="2500" y="1618" font-size="22" text-anchor="middle" fill="#333">Q13</text>
-<text x="2500" y="1702" font-size="24" font-weight="bold" text-anchor="middle">585</text>
-<circle cx="2700" cy="1650" r="25" fill="#cc9551" stroke="#333" stroke-width="2"/>
-<text x="2700" y="1618" font-size="22" text-anchor="middle" fill="#333">Q14</text>
-<text x="2700" y="1702" font-size="24" font-weight="bold" text-anchor="middle">338</text>
-<circle cx="2900" cy="1650" r="25" fill="#dcab65" stroke="#333" stroke-width="2"/>
-<text x="2900" y="1618" font-size="22" text-anchor="middle" fill="#333">Q15</text>
-<text x="2900" y="1702" font-size="24" font-weight="bold" text-anchor="middle">257</text>
-<circle cx="200" cy="1750" r="25" fill="#deae67" stroke="#333" stroke-width="2"/>
-<text x="200" y="1718" font-size="22" text-anchor="middle" fill="#333">R01</text>
-<text x="200" y="1802" font-size="24" font-weight="bold" text-anchor="middle">246</text>
-<circle cx="400" cy="1750" r="25" fill="#ad6828" stroke="#333" stroke-width="2"/>
-<text x="400" y="1718" font-size="22" text-anchor="middle" fill="#333">R02</text>
-<text x="400" y="1802" font-size="24" font-weight="bold" text-anchor="middle">504</text>
-<circle cx="600" cy="1750" r="25" fill="#c88f4b" stroke="#333" stroke-width="2"/>
-<text x="600" y="1718" font-size="22" text-anchor="middle" fill="#333">R03</text>
-<text x="600" y="1802" font-size="24" font-weight="bold" text-anchor="middle">363</text>
-<circle cx="800" cy="1750" r="25" fill="#dbaa63" stroke="#333" stroke-width="2"/>
-<text x="800" y="1718" font-size="22" text-anchor="middle" fill="#333">R04</text>
-<text x="800" y="1802" font-size="24" font-weight="bold" text-anchor="middle">262</text>
-<circle cx="1000" cy="1750" r="25" fill="#d09b56" stroke="#333" stroke-width="2"/>
-<text x="1000" y="1718" font-size="22" text-anchor="middle" fill="#333">R05</text>
-<text x="1000" y="1802" font-size="24" font-weight="bold" text-anchor="middle">318</text>
-<circle cx="1200" cy="1750" r="25" fill="#dfb069" stroke="#333" stroke-width="2"/>
-<text x="1200" y="1718" font-size="22" text-anchor="middle" fill="#333">R06</text>
-<text x="1200" y="1802" font-size="24" font-weight="bold" text-anchor="middle">239</text>
-<circle cx="1400" cy="1750" r="25" fill="#b2702f" stroke="#333" stroke-width="2"/>
-<text x="1400" y="1718" font-size="22" text-anchor="middle" fill="#333">R07</text>
-<text x="1400" y="1802" font-size="24" font-weight="bold" text-anchor="middle">475</text>
-<circle cx="1600" cy="1750" r="25" fill="#deaf68" stroke="#333" stroke-width="2"/>
-<text x="1600" y="1718" font-size="22" text-anchor="middle" fill="#333">R08</text>
-<text x="1600" y="1802" font-size="24" font-weight="bold" text-anchor="middle">244</text>
-<circle cx="1800" cy="1750" r="25" fill="#c68c48" stroke="#333" stroke-width="2"/>
-<text x="1800" y="1718" font-size="22" text-anchor="middle" fill="#333">R09</text>
-<text x="1800" y="1802" font-size="24" font-weight="bold" text-anchor="middle">373</text>
-<circle cx="2000" cy="1750" r="25" fill="#a65f1f" stroke="#333" stroke-width="2"/>
-<text x="2000" y="1718" font-size="22" text-anchor="middle" fill="#333">R10</text>
-<text x="2000" y="1802" font-size="24" font-weight="bold" text-anchor="middle">540</text>
-<circle cx="2200" cy="1750" r="25" fill="#cf9954" stroke="#333" stroke-width="2"/>
-<text x="2200" y="1718" font-size="22" text-anchor="middle" fill="#333">R11</text>
-<text x="2200" y="1802" font-size="24" font-weight="bold" text-anchor="middle">324</text>
-<circle cx="2400" cy="1750" r="25" fill="#d9a861" stroke="#333" stroke-width="2"/>
-<text x="2400" y="1718" font-size="22" text-anchor="middle" fill="#333">R12</text>
-<text x="2400" y="1802" font-size="24" font-weight="bold" text-anchor="middle">270</text>
-<circle cx="2600" cy="1750" r="25" fill="#f1ca81" stroke="#333" stroke-width="2"/>
-<text x="2600" y="1718" font-size="22" text-anchor="middle" fill="#333">R13</text>
-<text x="2600" y="1802" font-size="24" font-weight="bold" text-anchor="middle">144</text>
-<circle cx="2800" cy="1750" r="25" fill="#bc7f3c" stroke="#333" stroke-width="2"/>
-<text x="2800" y="1718" font-size="22" text-anchor="middle" fill="#333">R14</text>
-<text x="2800" y="1802" font-size="24" font-weight="bold" text-anchor="middle">422</text>
-<circle cx="100" cy="1850" r="25" fill="#b2702f" stroke="#333" stroke-width="2"/>
-<text x="100" y="1818" font-size="22" text-anchor="middle" fill="#333">S01</text>
-<text x="100" y="1902" font-size="24" font-weight="bold" text-anchor="middle">476</text>
-<circle cx="300" cy="1850" r="25" fill="#be813e" stroke="#333" stroke-width="2"/>
-<text x="300" y="1818" font-size="22" text-anchor="middle" fill="#333">S02</text>
-<text x="300" y="1902" font-size="24" font-weight="bold" text-anchor="middle">414</text>
-<circle cx="500" cy="1850" r="25" fill="#e5b971" stroke="#333" stroke-width="2"/>
-<text x="500" y="1818" font-size="22" text-anchor="middle" fill="#333">S03</text>
-<text x="500" y="1902" font-size="24" font-weight="bold" text-anchor="middle">207</text>
-<circle cx="700" cy="1850" r="25" fill="#b47332" stroke="#333" stroke-width="2"/>
-<text x="700" y="1818" font-size="22" text-anchor="middle" fill="#333">S04</text>
-<text x="700" y="1902" font-size="24" font-weight="bold" text-anchor="middle">464</text>
-<circle cx="900" cy="1850" r="25" fill="#a2591a" stroke="#333" stroke-width="2"/>
-<text x="900" y="1818" font-size="22" text-anchor="middle" fill="#333">S05</text>
-<text x="900" y="1902" font-size="24" font-weight="bold" text-anchor="middle">561</text>
-<circle cx="1100" cy="1850" r="25" fill="#ebc178" stroke="#333" stroke-width="2"/>
-<text x="1100" y="1818" font-size="22" text-anchor="middle" fill="#333">S06</text>
-<text x="1100" y="1902" font-size="24" font-weight="bold" text-anchor="middle">177</text>
-<circle cx="1300" cy="1850" r="25" fill="#d29d58" stroke="#333" stroke-width="2"/>
-<text x="1300" y="1818" font-size="22" text-anchor="middle" fill="#333">S07</text>
-<text x="1300" y="1902" font-size="24" font-weight="bold" text-anchor="middle">310</text>
-<circle cx="1500" cy="1850" r="25" fill="#a05717" stroke="#333" stroke-width="2"/>
-<text x="1500" y="1818" font-size="22" text-anchor="middle" fill="#333">S08</text>
-<text x="1500" y="1902" font-size="24" font-weight="bold" text-anchor="middle">570</text>
-<circle cx="1700" cy="1850" r="25" fill="#b67533" stroke="#333" stroke-width="2"/>
-<text x="1700" y="1818" font-size="22" text-anchor="middle" fill="#333">S09</text>
-<text x="1700" y="1902" font-size="24" font-weight="bold" text-anchor="middle">457</text>
-<circle cx="1900" cy="1850" r="25" fill="#e6b972" stroke="#333" stroke-width="2"/>
-<text x="1900" y="1818" font-size="22" text-anchor="middle" fill="#333">S10</text>
-<text x="1900" y="1902" font-size="24" font-weight="bold" text-anchor="middle">205</text>
-<circle cx="2100" cy="1850" r="25" fill="#b57432" stroke="#333" stroke-width="2"/>
-<text x="2100" y="1818" font-size="22" text-anchor="middle" fill="#333">S11</text>
-<text x="2100" y="1902" font-size="24" font-weight="bold" text-anchor="middle">462</text>
-<circle cx="2300" cy="1850" r="25" fill="#e8bc75" stroke="#333" stroke-width="2"/>
-<text x="2300" y="1818" font-size="22" text-anchor="middle" fill="#333">S12</text>
-<text x="2300" y="1902" font-size="24" font-weight="bold" text-anchor="middle">193</text>
-<circle cx="2500" cy="1850" r="25" fill="#c18542" stroke="#333" stroke-width="2"/>
-<text x="2500" y="1818" font-size="22" text-anchor="middle" fill="#333">S13</text>
-<text x="2500" y="1902" font-size="24" font-weight="bold" text-anchor="middle">398</text>
-<circle cx="2700" cy="1850" r="25" fill="#ae6a29" stroke="#333" stroke-width="2"/>
-<text x="2700" y="1818" font-size="22" text-anchor="middle" fill="#333">S14</text>
-<text x="2700" y="1902" font-size="24" font-weight="bold" text-anchor="middle">498</text>
-<circle cx="2900" cy="1850" r="25" fill="#f0c980" stroke="#333" stroke-width="2"/>
-<text x="2900" y="1818" font-size="22" text-anchor="middle" fill="#333">S15</text>
-<text x="2900" y="1902" font-size="24" font-weight="bold" text-anchor="middle">148</text>
-<circle cx="200" cy="1950" r="25" fill="#f0c980" stroke="#333" stroke-width="2"/>
-<text x="200" y="1918" font-size="22" text-anchor="middle" fill="#333">T01</text>
-<text x="200" y="2002" font-size="24" font-weight="bold" text-anchor="middle">148</text>
-<circle cx="400" cy="1950" r="25" fill="#d6a25d" stroke="#333" stroke-width="2"/>
-<text x="400" y="1918" font-size="22" text-anchor="middle" fill="#333">T02</text>
-<text x="400" y="2002" font-size="24" font-weight="bold" text-anchor="middle">289</text>
-<circle cx="600" cy="1950" r="25" fill="#a25919" stroke="#333" stroke-width="2"/>
-<text x="600" y="1918" font-size="22" text-anchor="middle" fill="#333">T03</text>
-<text x="600" y="2002" font-size="24" font-weight="bold" text-anchor="middle">562</text>
-<circle cx="800" cy="1950" r="25" fill="#eabf77" stroke="#333" stroke-width="2"/>
-<text x="800" y="1918" font-size="22" text-anchor="middle" fill="#333">T04</text>
-<text x="800" y="2002" font-size="24" font-weight="bold" text-anchor="middle">182</text>
-<circle cx="1000" cy="1950" r="25" fill="#b87936" stroke="#333" stroke-width="2"/>
-<text x="1000" y="1918" font-size="22" text-anchor="middle" fill="#333">T05</text>
-<text x="1000" y="2002" font-size="24" font-weight="bold" text-anchor="middle">444</text>
-<circle cx="1200" cy="1950" r="25" fill="#a55d1d" stroke="#333" stroke-width="2"/>
-<text x="1200" y="1918" font-size="22" text-anchor="middle" fill="#333">T06</text>
-<text x="1200" y="2002" font-size="24" font-weight="bold" text-anchor="middle">547</text>
-<circle cx="1400" cy="1950" r="25" fill="#c48945" stroke="#333" stroke-width="2"/>
-<text x="1400" y="1918" font-size="22" text-anchor="middle" fill="#333">T07</text>
-<text x="1400" y="2002" font-size="24" font-weight="bold" text-anchor="middle">384</text>
-<circle cx="1600" cy="1950" r="25" fill="#edc47b" stroke="#333" stroke-width="2"/>
-<text x="1600" y="1918" font-size="22" text-anchor="middle" fill="#333">T08</text>
-<text x="1600" y="2002" font-size="24" font-weight="bold" text-anchor="middle">165</text>
-<circle cx="1800" cy="1950" r="25" fill="#d6a45e" stroke="#333" stroke-width="2"/>
-<text x="1800" y="1918" font-size="22" text-anchor="middle" fill="#333">T09</text>
-<text x="1800" y="2002" font-size="24" font-weight="bold" text-anchor="middle">285</text>
-<circle cx="2000" cy="1950" r="25" fill="#f9d48a" stroke="#333" stroke-width="2"/>
-<text x="2000" y="1918" font-size="22" text-anchor="middle" fill="#333">T10</text>
-<text x="2000" y="2002" font-size="24" font-weight="bold" text-anchor="middle">105</text>
-<circle cx="2200" cy="1950" r="25" fill="#a05718" stroke="#333" stroke-width="2"/>
-<text x="2200" y="1918" font-size="22" text-anchor="middle" fill="#333">T11</text>
-<text x="2200" y="2002" font-size="24" font-weight="bold" text-anchor="middle">569</text>
-<circle cx="2400" cy="1950" r="25" fill="#b16f2d" stroke="#333" stroke-width="2"/>
-<text x="2400" y="1918" font-size="22" text-anchor="middle" fill="#333">T12</text>
-<text x="2400" y="2002" font-size="24" font-weight="bold" text-anchor="middle">481</text>
-<circle cx="2600" cy="1950" r="25" fill="#e4b770" stroke="#333" stroke-width="2"/>
-<text x="2600" y="1918" font-size="22" text-anchor="middle" fill="#333">T13</text>
-<text x="2600" y="2002" font-size="24" font-weight="bold" text-anchor="middle">213</text>
-<circle cx="2800" cy="1950" r="25" fill="#c8904b" stroke="#333" stroke-width="2"/>
-<text x="2800" y="1918" font-size="22" text-anchor="middle" fill="#333">T14</text>
-<text x="2800" y="2002" font-size="24" font-weight="bold" text-anchor="middle">359</text>
-<circle cx="100" cy="2050" r="25" fill="#dbab64" stroke="#333" stroke-width="2"/>
-<text x="100" y="2018" font-size="22" text-anchor="middle" fill="#333">U01</text>
-<text x="100" y="2102" font-size="24" font-weight="bold" text-anchor="middle">259</text>
-<circle cx="300" cy="2050" r="25" fill="#cc9450" stroke="#333" stroke-width="2"/>
-<text x="300" y="2018" font-size="22" text-anchor="middle" fill="#333">U02</text>
-<text x="300" y="2102" font-size="24" font-weight="bold" text-anchor="middle">341</text>
-<circle cx="500" cy="2050" r="25" fill="#bd7f3d" stroke="#333" stroke-width="2"/>
-<text x="500" y="2018" font-size="22" text-anchor="middle" fill="#333">U03</text>
-<text x="500" y="2102" font-size="24" font-weight="bold" text-anchor="middle">419</text>
-<circle cx="700" cy="2050" r="25" fill="#ca934e" stroke="#333" stroke-width="2"/>
-<text x="700" y="2018" font-size="22" text-anchor="middle" fill="#333">U04</text>
-<text x="700" y="2102" font-size="24" font-weight="bold" text-anchor="middle">348</text>
-<circle cx="900" cy="2050" r="25" fill="#dcac65" stroke="#333" stroke-width="2"/>
-<text x="900" y="2018" font-size="22" text-anchor="middle" fill="#333">U05</text>
-<text x="900" y="2102" font-size="24" font-weight="bold" text-anchor="middle">254</text>
-<circle cx="1100" cy="2050" r="25" fill="#c78e4a" stroke="#333" stroke-width="2"/>
-<text x="1100" y="2018" font-size="22" text-anchor="middle" fill="#333">U06</text>
-<text x="1100" y="2102" font-size="24" font-weight="bold" text-anchor="middle">364</text>
-<circle cx="1300" cy="2050" r="25" fill="#f6d187" stroke="#333" stroke-width="2"/>
-<text x="1300" y="2018" font-size="22" text-anchor="middle" fill="#333">U07</text>
-<text x="1300" y="2102" font-size="24" font-weight="bold" text-anchor="middle">117</text>
-<circle cx="1500" cy="2050" r="25" fill="#deae67" stroke="#333" stroke-width="2"/>
-<text x="1500" y="2018" font-size="22" text-anchor="middle" fill="#333">U08</text>
-<text x="1500" y="2102" font-size="24" font-weight="bold" text-anchor="middle">247</text>
-<circle cx="1700" cy="2050" r="25" fill="#c48a46" stroke="#333" stroke-width="2"/>
-<text x="1700" y="2018" font-size="22" text-anchor="middle" fill="#333">U09</text>
-<text x="1700" y="2102" font-size="24" font-weight="bold" text-anchor="middle">380</text>
-<circle cx="1900" cy="2050" r="25" fill="#a55d1d" stroke="#333" stroke-width="2"/>
-<text x="1900" y="2018" font-size="22" text-anchor="middle" fill="#333">U10</text>
-<text x="1900" y="2102" font-size="24" font-weight="bold" text-anchor="middle">547</text>
-<circle cx="2100" cy="2050" r="25" fill="#cf9a55" stroke="#333" stroke-width="2"/>
-<text x="2100" y="2018" font-size="22" text-anchor="middle" fill="#333">U11</text>
-<text x="2100" y="2102" font-size="24" font-weight="bold" text-anchor="middle">322</text>
-<circle cx="2300" cy="2050" r="25" fill="#c08340" stroke="#333" stroke-width="2"/>
-<text x="2300" y="2018" font-size="22" text-anchor="middle" fill="#333">U12</text>
-<text x="2300" y="2102" font-size="24" font-weight="bold" text-anchor="middle">405</text>
-<circle cx="2500" cy="2050" r="25" fill="#f8d389" stroke="#333" stroke-width="2"/>
-<text x="2500" y="2018" font-size="22" text-anchor="middle" fill="#333">U13</text>
-<text x="2500" y="2102" font-size="24" font-weight="bold" text-anchor="middle">110</text>
-<circle cx="2700" cy="2050" r="25" fill="#d5a15c" stroke="#333" stroke-width="2"/>
-<text x="2700" y="2018" font-size="22" text-anchor="middle" fill="#333">U14</text>
-<text x="2700" y="2102" font-size="24" font-weight="bold" text-anchor="middle">294</text>
-<circle cx="2900" cy="2050" r="25" fill="#e1b36c" stroke="#333" stroke-width="2"/>
-<text x="2900" y="2018" font-size="22" text-anchor="middle" fill="#333">U15</text>
-<text x="2900" y="2102" font-size="24" font-weight="bold" text-anchor="middle">228</text>
-<circle cx="200" cy="2150" r="25" fill="#b47331" stroke="#333" stroke-width="2"/>
-<text x="200" y="2118" font-size="22" text-anchor="middle" fill="#333">V01</text>
-<text x="200" y="2202" font-size="24" font-weight="bold" text-anchor="middle">465</text>
-<circle cx="400" cy="2150" r="25" fill="#e6ba72" stroke="#333" stroke-width="2"/>
-<text x="400" y="2118" font-size="22" text-anchor="middle" fill="#333">V02</text>
-<text x="400" y="2202" font-size="24" font-weight="bold" text-anchor="middle">203</text>
-<circle cx="600" cy="2150" r="25" fill="#f7d288" stroke="#333" stroke-width="2"/>
-<text x="600" y="2118" font-size="22" text-anchor="middle" fill="#333">V03</text>
-<text x="600" y="2202" font-size="24" font-weight="bold" text-anchor="middle">113</text>
-<circle cx="800" cy="2150" r="25" fill="#ae6b2a" stroke="#333" stroke-width="2"/>
-<text x="800" y="2118" font-size="22" text-anchor="middle" fill="#333">V04</text>
-<text x="800" y="2202" font-size="24" font-weight="bold" text-anchor="middle">496</text>
-<circle cx="1000" cy="2150" r="25" fill="#f8d38a" stroke="#333" stroke-width="2"/>
-<text x="1000" y="2118" font-size="22" text-anchor="middle" fill="#333">V05</text>
-<text x="1000" y="2202" font-size="24" font-weight="bold" text-anchor="middle">108</text>
-<circle cx="1200" cy="2150" r="25" fill="#e8bd75" stroke="#333" stroke-width="2"/>
-<text x="1200" y="2118" font-size="22" text-anchor="middle" fill="#333">V06</text>
-<text x="1200" y="2202" font-size="24" font-weight="bold" text-anchor="middle">190</text>
-<circle cx="1400" cy="2150" r="25" fill="#b06e2d" stroke="#333" stroke-width="2"/>
-<text x="1400" y="2118" font-size="22" text-anchor="middle" fill="#333">V07</text>
-<text x="1400" y="2202" font-size="24" font-weight="bold" text-anchor="middle">484</text>
-<circle cx="1600" cy="2150" r="25" fill="#9f5415" stroke="#333" stroke-width="2"/>
-<text x="1600" y="2118" font-size="22" text-anchor="middle" fill="#333">V08</text>
-<text x="1600" y="2202" font-size="24" font-weight="bold" text-anchor="middle">578</text>
-<circle cx="1800" cy="2150" r="25" fill="#b87836" stroke="#333" stroke-width="2"/>
-<text x="1800" y="2118" font-size="22" text-anchor="middle" fill="#333">V09</text>
-<text x="1800" y="2202" font-size="24" font-weight="bold" text-anchor="middle">447</text>
-<circle cx="2000" cy="2150" r="25" fill="#e1b36c" stroke="#333" stroke-width="2"/>
-<text x="2000" y="2118" font-size="22" text-anchor="middle" fill="#333">V10</text>
-<text x="2000" y="2202" font-size="24" font-weight="bold" text-anchor="middle">229</text>
-<circle cx="2200" cy="2150" r="25" fill="#edc47b" stroke="#333" stroke-width="2"/>
-<text x="2200" y="2118" font-size="22" text-anchor="middle" fill="#333">V11</text>
-<text x="2200" y="2202" font-size="24" font-weight="bold" text-anchor="middle">165</text>
-<circle cx="2400" cy="2150" r="25" fill="#cd9752" stroke="#333" stroke-width="2"/>
-<text x="2400" y="2118" font-size="22" text-anchor="middle" fill="#333">V12</text>
-<text x="2400" y="2202" font-size="24" font-weight="bold" text-anchor="middle">333</text>
-<circle cx="2600" cy="2150" r="25" fill="#ab6726" stroke="#333" stroke-width="2"/>
-<text x="2600" y="2118" font-size="22" text-anchor="middle" fill="#333">V13</text>
-<text x="2600" y="2202" font-size="24" font-weight="bold" text-anchor="middle">511</text>
-<circle cx="2800" cy="2150" r="25" fill="#f3cc83" stroke="#333" stroke-width="2"/>
-<text x="2800" y="2118" font-size="22" text-anchor="middle" fill="#333">V14</text>
-<text x="2800" y="2202" font-size="24" font-weight="bold" text-anchor="middle">134</text>
-<circle cx="100" cy="2250" r="25" fill="#c88f4b" stroke="#333" stroke-width="2"/>
-<text x="100" y="2218" font-size="22" text-anchor="middle" fill="#333">W01</text>
-<text x="100" y="2302" font-size="24" font-weight="bold" text-anchor="middle">360</text>
-<circle cx="300" cy="2250" r="25" fill="#f3cc83" stroke="#333" stroke-width="2"/>
-<text x="300" y="2218" font-size="22" text-anchor="middle" fill="#333">W02</text>
-<text x="300" y="2302" font-size="24" font-weight="bold" text-anchor="middle">134</text>
-<circle cx="500" cy="2250" r="25" fill="#af6c2b" stroke="#333" stroke-width="2"/>
-<text x="500" y="2218" font-size="22" text-anchor="middle" fill="#333">W03</text>
-<text x="500" y="2302" font-size="24" font-weight="bold" text-anchor="middle">491</text>
-<circle cx="700" cy="2250" r="25" fill="#e8bd75" stroke="#333" stroke-width="2"/>
-<text x="700" y="2218" font-size="22" text-anchor="middle" fill="#333">W04</text>
-<text x="700" y="2302" font-size="24" font-weight="bold" text-anchor="middle">191</text>
-<circle cx="900" cy="2250" r="25" fill="#cf9a55" stroke="#333" stroke-width="2"/>
-<text x="900" y="2218" font-size="22" text-anchor="middle" fill="#333">W05</text>
-<text x="900" y="2302" font-size="24" font-weight="bold" text-anchor="middle">321</text>
-<circle cx="1100" cy="2250" r="25" fill="#b16f2e" stroke="#333" stroke-width="2"/>
-<text x="1100" y="2218" font-size="22" text-anchor="middle" fill="#333">W06</text>
-<text x="1100" y="2302" font-size="24" font-weight="bold" text-anchor="middle">480</text>
-<circle cx="1300" cy="2250" r="25" fill="#d7a45f" stroke="#333" stroke-width="2"/>
-<text x="1300" y="2218" font-size="22" text-anchor="middle" fill="#333">W07</text>
-<text x="1300" y="2302" font-size="24" font-weight="bold" text-anchor="middle">282</text>
-<circle cx="1500" cy="2250" r="25" fill="#edc47c" stroke="#333" stroke-width="2"/>
-<text x="1500" y="2218" font-size="22" text-anchor="middle" fill="#333">W08</text>
-<text x="1500" y="2302" font-size="24" font-weight="bold" text-anchor="middle">164</text>
-<circle cx="1700" cy="2250" r="25" fill="#cf9854" stroke="#333" stroke-width="2"/>
-<text x="1700" y="2218" font-size="22" text-anchor="middle" fill="#333">W09</text>
-<text x="1700" y="2302" font-size="24" font-weight="bold" text-anchor="middle">326</text>
-<circle cx="1900" cy="2250" r="25" fill="#f0c87f" stroke="#333" stroke-width="2"/>
-<text x="1900" y="2218" font-size="22" text-anchor="middle" fill="#333">W10</text>
-<text x="1900" y="2302" font-size="24" font-weight="bold" text-anchor="middle">149</text>
-<circle cx="2100" cy="2250" r="25" fill="#b37130" stroke="#333" stroke-width="2"/>
-<text x="2100" y="2218" font-size="22" text-anchor="middle" fill="#333">W11</text>
-<text x="2100" y="2302" font-size="24" font-weight="bold" text-anchor="middle">471</text>
-<circle cx="2300" cy="2250" r="25" fill="#dcac65" stroke="#333" stroke-width="2"/>
-<text x="2300" y="2218" font-size="22" text-anchor="middle" fill="#333">W12</text>
-<text x="2300" y="2302" font-size="24" font-weight="bold" text-anchor="middle">254</text>
-<circle cx="2500" cy="2250" r="25" fill="#e9be76" stroke="#333" stroke-width="2"/>
-<text x="2500" y="2218" font-size="22" text-anchor="middle" fill="#333">W13</text>
-<text x="2500" y="2302" font-size="24" font-weight="bold" text-anchor="middle">187</text>
-<circle cx="2700" cy="2250" r="25" fill="#bf8340" stroke="#333" stroke-width="2"/>
-<text x="2700" y="2218" font-size="22" text-anchor="middle" fill="#333">W14</text>
-<text x="2700" y="2302" font-size="24" font-weight="bold" text-anchor="middle">407</text>
-<circle cx="2900" cy="2250" r="25" fill="#cd9651" stroke="#333" stroke-width="2"/>
-<text x="2900" y="2218" font-size="22" text-anchor="middle" fill="#333">W15</text>
-<text x="2900" y="2302" font-size="24" font-weight="bold" text-anchor="middle">336</text>
-<circle cx="200" cy="2350" r="25" fill="#dcac65" stroke="#333" stroke-width="2"/>
-<text x="200" y="2318" font-size="22" text-anchor="middle" fill="#333">X01</text>
-<text x="200" y="2402" font-size="24" font-weight="bold" text-anchor="middle">255</text>
-<circle cx="400" cy="2350" r="25" fill="#c68c48" stroke="#333" stroke-width="2"/>
-<text x="400" y="2318" font-size="22" text-anchor="middle" fill="#333">X02</text>
-<text x="400" y="2402" font-size="24" font-weight="bold" text-anchor="middle">373</text>
-<circle cx="600" cy="2350" r="25" fill="#d7a45e" stroke="#333" stroke-width="2"/>
-<text x="600" y="2318" font-size="22" text-anchor="middle" fill="#333">X03</text>
-<text x="600" y="2402" font-size="24" font-weight="bold" text-anchor="middle">284</text>
-<circle cx="800" cy="2350" r="25" fill="#be813e" stroke="#333" stroke-width="2"/>
-<text x="800" y="2318" font-size="22" text-anchor="middle" fill="#333">X04</text>
-<text x="800" y="2402" font-size="24" font-weight="bold" text-anchor="middle">412</text>
-<circle cx="1000" cy="2350" r="25" fill="#e6b972" stroke="#333" stroke-width="2"/>
-<text x="1000" y="2318" font-size="22" text-anchor="middle" fill="#333">X05</text>
-<text x="1000" y="2402" font-size="24" font-weight="bold" text-anchor="middle">205</text>
-<circle cx="1200" cy="2350" r="25" fill="#cb934f" stroke="#333" stroke-width="2"/>
-<text x="1200" y="2318" font-size="22" text-anchor="middle" fill="#333">X06</text>
-<text x="1200" y="2402" font-size="24" font-weight="bold" text-anchor="middle">346</text>
-<circle cx="1400" cy="2350" r="25" fill="#be813e" stroke="#333" stroke-width="2"/>
-<text x="1400" y="2318" font-size="22" text-anchor="middle" fill="#333">X07</text>
-<text x="1400" y="2402" font-size="24" font-weight="bold" text-anchor="middle">413</text>
-<circle cx="1600" cy="2350" r="25" fill="#dcac65" stroke="#333" stroke-width="2"/>
-<text x="1600" y="2318" font-size="22" text-anchor="middle" fill="#333">X08</text>
-<text x="1600" y="2402" font-size="24" font-weight="bold" text-anchor="middle">255</text>
-<circle cx="1800" cy="2350" r="25" fill="#ab6525" stroke="#333" stroke-width="2"/>
-<text x="1800" y="2318" font-size="22" text-anchor="middle" fill="#333">X09</text>
-<text x="1800" y="2402" font-size="24" font-weight="bold" text-anchor="middle">515</text>
-<circle cx="2000" cy="2350" r="25" fill="#d29e59" stroke="#333" stroke-width="2"/>
-<text x="2000" y="2318" font-size="22" text-anchor="middle" fill="#333">X10</text>
-<text x="2000" y="2402" font-size="24" font-weight="bold" text-anchor="middle">306</text>
-<circle cx="2200" cy="2350" r="25" fill="#c58a47" stroke="#333" stroke-width="2"/>
-<text x="2200" y="2318" font-size="22" text-anchor="middle" fill="#333">X11</text>
-<text x="2200" y="2402" font-size="24" font-weight="bold" text-anchor="middle">378</text>
-<circle cx="2400" cy="2350" r="25" fill="#b77735" stroke="#333" stroke-width="2"/>
-<text x="2400" y="2318" font-size="22" text-anchor="middle" fill="#333">X12</text>
-<text x="2400" y="2402" font-size="24" font-weight="bold" text-anchor="middle">449</text>
-<circle cx="2600" cy="2350" r="25" fill="#d4a15b" stroke="#333" stroke-width="2"/>
-<text x="2600" y="2318" font-size="22" text-anchor="middle" fill="#333">X13</text>
-<text x="2600" y="2402" font-size="24" font-weight="bold" text-anchor="middle">295</text>
-<circle cx="2800" cy="2350" r="25" fill="#e5b971" stroke="#333" stroke-width="2"/>
-<text x="2800" y="2318" font-size="22" text-anchor="middle" fill="#333">X14</text>
-<text x="2800" y="2402" font-size="24" font-weight="bold" text-anchor="middle">207</text>
-<text x="0" y="-200" font-size="70" font-weight="bold">Plateau 3,00 x 2,40 m - 348 trous en quinconce (20 cm / diag. 14,14 cm) - vue de dessous</text>
+<text x="3030.0" y="114.0" font-size="40" font-weight="bold" fill="#8a5a14">A  y=230</text>
+<text x="3030.0" y="214.0" font-size="40" font-weight="bold" fill="#8a5a14">B  y=220</text>
+<text x="3030.0" y="314.0" font-size="40" font-weight="bold" fill="#8a5a14">C  y=210</text>
+<text x="3030.0" y="414.0" font-size="40" font-weight="bold" fill="#8a5a14">D  y=200</text>
+<text x="3030.0" y="514.0" font-size="40" font-weight="bold" fill="#8a5a14">E  y=190</text>
+<text x="3030.0" y="614.0" font-size="40" font-weight="bold" fill="#8a5a14">F  y=180</text>
+<text x="3030.0" y="714.0" font-size="40" font-weight="bold" fill="#8a5a14">G  y=170</text>
+<text x="3030.0" y="814.0" font-size="40" font-weight="bold" fill="#8a5a14">H  y=160</text>
+<text x="3030.0" y="914.0" font-size="40" font-weight="bold" fill="#8a5a14">I  y=150</text>
+<text x="3030.0" y="1014.0" font-size="40" font-weight="bold" fill="#8a5a14">J  y=140</text>
+<text x="3030.0" y="1114.0" font-size="40" font-weight="bold" fill="#8a5a14">K  y=130</text>
+<text x="3030.0" y="1214.0" font-size="40" font-weight="bold" fill="#8a5a14">L  y=120</text>
+<text x="3030.0" y="1314.0" font-size="40" font-weight="bold" fill="#8a5a14">M  y=110</text>
+<text x="3030.0" y="1414.0" font-size="40" font-weight="bold" fill="#8a5a14">N  y=100</text>
+<text x="3030.0" y="1514.0" font-size="40" font-weight="bold" fill="#8a5a14">O  y=90</text>
+<text x="3030.0" y="1614.0" font-size="40" font-weight="bold" fill="#8a5a14">P  y=80</text>
+<text x="3030.0" y="1714.0" font-size="40" font-weight="bold" fill="#8a5a14">Q  y=70</text>
+<text x="3030.0" y="1814.0" font-size="40" font-weight="bold" fill="#8a5a14">R  y=60</text>
+<text x="3030.0" y="1914.0" font-size="40" font-weight="bold" fill="#8a5a14">S  y=50</text>
+<text x="3030.0" y="2014.0" font-size="40" font-weight="bold" fill="#8a5a14">T  y=40</text>
+<text x="3030.0" y="2114.0" font-size="40" font-weight="bold" fill="#8a5a14">U  y=30</text>
+<text x="3030.0" y="2214.0" font-size="40" font-weight="bold" fill="#8a5a14">V  y=20</text>
+<text x="3030.0" y="2314.0" font-size="40" font-weight="bold" fill="#8a5a14">W  y=10</text>
+<circle cx="100" cy="100" r="25" fill="#cc9550" stroke="#333" stroke-width="2"/>
+<text x="100" y="68" font-size="22" text-anchor="middle" fill="#333">A01</text>
+<text x="100" y="152" font-size="24" font-weight="bold" text-anchor="middle">339</text>
+<circle cx="300" cy="100" r="25" fill="#efc77e" stroke="#333" stroke-width="2"/>
+<text x="300" y="68" font-size="22" text-anchor="middle" fill="#333">A02</text>
+<text x="300" y="152" font-size="24" font-weight="bold" text-anchor="middle">154</text>
+<circle cx="500" cy="100" r="25" fill="#d8a660" stroke="#333" stroke-width="2"/>
+<text x="500" y="68" font-size="22" text-anchor="middle" fill="#333">A03</text>
+<text x="500" y="152" font-size="24" font-weight="bold" text-anchor="middle">276</text>
+<circle cx="700" cy="100" r="25" fill="#e3b66f" stroke="#333" stroke-width="2"/>
+<text x="700" y="68" font-size="22" text-anchor="middle" fill="#333">A04</text>
+<text x="700" y="152" font-size="24" font-weight="bold" text-anchor="middle">217</text>
+<circle cx="900" cy="100" r="25" fill="#b67533" stroke="#333" stroke-width="2"/>
+<text x="900" y="68" font-size="22" text-anchor="middle" fill="#333">A05</text>
+<text x="900" y="152" font-size="24" font-weight="bold" text-anchor="middle">457</text>
+<circle cx="1100" cy="100" r="25" fill="#f0c87f" stroke="#333" stroke-width="2"/>
+<text x="1100" y="68" font-size="22" text-anchor="middle" fill="#333">A06</text>
+<text x="1100" y="152" font-size="24" font-weight="bold" text-anchor="middle">149</text>
+<circle cx="1300" cy="100" r="25" fill="#c08541" stroke="#333" stroke-width="2"/>
+<text x="1300" y="68" font-size="22" text-anchor="middle" fill="#333">A07</text>
+<text x="1300" y="152" font-size="24" font-weight="bold" text-anchor="middle">400</text>
+<circle cx="1500" cy="100" r="25" fill="#efc77e" stroke="#333" stroke-width="2"/>
+<text x="1500" y="68" font-size="22" text-anchor="middle" fill="#333">A08</text>
+<text x="1500" y="152" font-size="24" font-weight="bold" text-anchor="middle">154</text>
+<circle cx="1700" cy="100" r="25" fill="#ce9853" stroke="#333" stroke-width="2"/>
+<text x="1700" y="68" font-size="22" text-anchor="middle" fill="#333">A09</text>
+<text x="1700" y="152" font-size="24" font-weight="bold" text-anchor="middle">329</text>
+<circle cx="1900" cy="100" r="25" fill="#b97937" stroke="#333" stroke-width="2"/>
+<text x="1900" y="68" font-size="22" text-anchor="middle" fill="#333">A10</text>
+<text x="1900" y="152" font-size="24" font-weight="bold" text-anchor="middle">441</text>
+<circle cx="2100" cy="100" r="25" fill="#d7a55f" stroke="#333" stroke-width="2"/>
+<text x="2100" y="68" font-size="22" text-anchor="middle" fill="#333">A11</text>
+<text x="2100" y="152" font-size="24" font-weight="bold" text-anchor="middle">281</text>
+<circle cx="2300" cy="100" r="25" fill="#b97a38" stroke="#333" stroke-width="2"/>
+<text x="2300" y="68" font-size="22" text-anchor="middle" fill="#333">A12</text>
+<text x="2300" y="152" font-size="24" font-weight="bold" text-anchor="middle">438</text>
+<circle cx="2500" cy="100" r="25" fill="#d8a560" stroke="#333" stroke-width="2"/>
+<text x="2500" y="68" font-size="22" text-anchor="middle" fill="#333">A13</text>
+<text x="2500" y="152" font-size="24" font-weight="bold" text-anchor="middle">278</text>
+<circle cx="2700" cy="100" r="25" fill="#f7d289" stroke="#333" stroke-width="2"/>
+<text x="2700" y="68" font-size="22" text-anchor="middle" fill="#333">A14</text>
+<text x="2700" y="152" font-size="24" font-weight="bold" text-anchor="middle">112</text>
+<circle cx="2900" cy="100" r="25" fill="#ce9853" stroke="#333" stroke-width="2"/>
+<text x="2900" y="68" font-size="22" text-anchor="middle" fill="#333">A15</text>
+<text x="2900" y="152" font-size="24" font-weight="bold" text-anchor="middle">327</text>
+<circle cx="200" cy="200" r="25" fill="#e0b16a" stroke="#333" stroke-width="2"/>
+<text x="200" y="168" font-size="22" text-anchor="middle" fill="#333">B01</text>
+<text x="200" y="252" font-size="24" font-weight="bold" text-anchor="middle">234</text>
+<circle cx="400" cy="200" r="25" fill="#ba7c39" stroke="#333" stroke-width="2"/>
+<text x="400" y="168" font-size="22" text-anchor="middle" fill="#333">B02</text>
+<text x="400" y="252" font-size="24" font-weight="bold" text-anchor="middle">433</text>
+<circle cx="600" cy="200" r="25" fill="#f2cb82" stroke="#333" stroke-width="2"/>
+<text x="600" y="168" font-size="22" text-anchor="middle" fill="#333">B03</text>
+<text x="600" y="252" font-size="24" font-weight="bold" text-anchor="middle">138</text>
+<circle cx="800" cy="200" r="25" fill="#cb934f" stroke="#333" stroke-width="2"/>
+<text x="800" y="168" font-size="22" text-anchor="middle" fill="#333">B04</text>
+<text x="800" y="252" font-size="24" font-weight="bold" text-anchor="middle">345</text>
+<circle cx="1000" cy="200" r="25" fill="#d9a761" stroke="#333" stroke-width="2"/>
+<text x="1000" y="168" font-size="22" text-anchor="middle" fill="#333">B05</text>
+<text x="1000" y="252" font-size="24" font-weight="bold" text-anchor="middle">271</text>
+<circle cx="1200" cy="200" r="25" fill="#ab6726" stroke="#333" stroke-width="2"/>
+<text x="1200" y="168" font-size="22" text-anchor="middle" fill="#333">B06</text>
+<text x="1200" y="252" font-size="24" font-weight="bold" text-anchor="middle">511</text>
+<circle cx="1400" cy="200" r="25" fill="#cf9a55" stroke="#333" stroke-width="2"/>
+<text x="1400" y="168" font-size="22" text-anchor="middle" fill="#333">B07</text>
+<text x="1400" y="252" font-size="24" font-weight="bold" text-anchor="middle">321</text>
+<circle cx="1600" cy="200" r="25" fill="#dfaf69" stroke="#333" stroke-width="2"/>
+<text x="1600" y="168" font-size="22" text-anchor="middle" fill="#333">B08</text>
+<text x="1600" y="252" font-size="24" font-weight="bold" text-anchor="middle">241</text>
+<circle cx="1800" cy="200" r="25" fill="#f2cb82" stroke="#333" stroke-width="2"/>
+<text x="1800" y="168" font-size="22" text-anchor="middle" fill="#333">B09</text>
+<text x="1800" y="252" font-size="24" font-weight="bold" text-anchor="middle">139</text>
+<circle cx="2000" cy="200" r="25" fill="#c9914c" stroke="#333" stroke-width="2"/>
+<text x="2000" y="168" font-size="22" text-anchor="middle" fill="#333">B10</text>
+<text x="2000" y="252" font-size="24" font-weight="bold" text-anchor="middle">355</text>
+<circle cx="2200" cy="200" r="25" fill="#e5b871" stroke="#333" stroke-width="2"/>
+<text x="2200" y="168" font-size="22" text-anchor="middle" fill="#333">B11</text>
+<text x="2200" y="252" font-size="24" font-weight="bold" text-anchor="middle">208</text>
+<circle cx="2400" cy="200" r="25" fill="#f1ca81" stroke="#333" stroke-width="2"/>
+<text x="2400" y="168" font-size="22" text-anchor="middle" fill="#333">B12</text>
+<text x="2400" y="252" font-size="24" font-weight="bold" text-anchor="middle">144</text>
+<circle cx="2600" cy="200" r="25" fill="#c48946" stroke="#333" stroke-width="2"/>
+<text x="2600" y="168" font-size="22" text-anchor="middle" fill="#333">B13</text>
+<text x="2600" y="252" font-size="24" font-weight="bold" text-anchor="middle">383</text>
+<circle cx="2800" cy="200" r="25" fill="#e2b36c" stroke="#333" stroke-width="2"/>
+<text x="2800" y="168" font-size="22" text-anchor="middle" fill="#333">B14</text>
+<text x="2800" y="252" font-size="24" font-weight="bold" text-anchor="middle">226</text>
+<circle cx="100" cy="300" r="25" fill="#c18542" stroke="#333" stroke-width="2"/>
+<text x="100" y="268" font-size="22" text-anchor="middle" fill="#333">C01</text>
+<text x="100" y="352" font-size="24" font-weight="bold" text-anchor="middle">397</text>
+<circle cx="300" cy="300" r="25" fill="#d3a05a" stroke="#333" stroke-width="2"/>
+<text x="300" y="268" font-size="22" text-anchor="middle" fill="#333">C02</text>
+<text x="300" y="352" font-size="24" font-weight="bold" text-anchor="middle">300</text>
+<circle cx="500" cy="300" r="25" fill="#c88f4b" stroke="#333" stroke-width="2"/>
+<text x="500" y="268" font-size="22" text-anchor="middle" fill="#333">C03</text>
+<text x="500" y="352" font-size="24" font-weight="bold" text-anchor="middle">360</text>
+<circle cx="700" cy="300" r="25" fill="#bb7d3b" stroke="#333" stroke-width="2"/>
+<text x="700" y="268" font-size="22" text-anchor="middle" fill="#333">C04</text>
+<text x="700" y="352" font-size="24" font-weight="bold" text-anchor="middle">427</text>
+<circle cx="900" cy="300" r="25" fill="#e9bf76" stroke="#333" stroke-width="2"/>
+<text x="900" y="268" font-size="22" text-anchor="middle" fill="#333">C05</text>
+<text x="900" y="352" font-size="24" font-weight="bold" text-anchor="middle">185</text>
+<circle cx="1100" cy="300" r="25" fill="#ca934e" stroke="#333" stroke-width="2"/>
+<text x="1100" y="268" font-size="22" text-anchor="middle" fill="#333">C06</text>
+<text x="1100" y="352" font-size="24" font-weight="bold" text-anchor="middle">348</text>
+<circle cx="1300" cy="300" r="25" fill="#ddad66" stroke="#333" stroke-width="2"/>
+<text x="1300" y="268" font-size="22" text-anchor="middle" fill="#333">C07</text>
+<text x="1300" y="352" font-size="24" font-weight="bold" text-anchor="middle">251</text>
+<circle cx="1500" cy="300" r="25" fill="#b37230" stroke="#333" stroke-width="2"/>
+<text x="1500" y="268" font-size="22" text-anchor="middle" fill="#333">C08</text>
+<text x="1500" y="352" font-size="24" font-weight="bold" text-anchor="middle">469</text>
+<circle cx="1700" cy="300" r="25" fill="#a86221" stroke="#333" stroke-width="2"/>
+<text x="1700" y="268" font-size="22" text-anchor="middle" fill="#333">C09</text>
+<text x="1700" y="352" font-size="24" font-weight="bold" text-anchor="middle">529</text>
+<circle cx="1900" cy="300" r="25" fill="#e3b56e" stroke="#333" stroke-width="2"/>
+<text x="1900" y="268" font-size="22" text-anchor="middle" fill="#333">C10</text>
+<text x="1900" y="352" font-size="24" font-weight="bold" text-anchor="middle">219</text>
+<circle cx="2100" cy="300" r="25" fill="#f3cd83" stroke="#333" stroke-width="2"/>
+<text x="2100" y="268" font-size="22" text-anchor="middle" fill="#333">C11</text>
+<text x="2100" y="352" font-size="24" font-weight="bold" text-anchor="middle">133</text>
+<circle cx="2300" cy="300" r="25" fill="#c48a46" stroke="#333" stroke-width="2"/>
+<text x="2300" y="268" font-size="22" text-anchor="middle" fill="#333">C12</text>
+<text x="2300" y="352" font-size="24" font-weight="bold" text-anchor="middle">380</text>
+<circle cx="2500" cy="300" r="25" fill="#b06d2c" stroke="#333" stroke-width="2"/>
+<text x="2500" y="268" font-size="22" text-anchor="middle" fill="#333">C13</text>
+<text x="2500" y="352" font-size="24" font-weight="bold" text-anchor="middle">486</text>
+<circle cx="2700" cy="300" r="25" fill="#eec47c" stroke="#333" stroke-width="2"/>
+<text x="2700" y="268" font-size="22" text-anchor="middle" fill="#333">C14</text>
+<text x="2700" y="352" font-size="24" font-weight="bold" text-anchor="middle">163</text>
+<circle cx="2900" cy="300" r="25" fill="#ba7b39" stroke="#333" stroke-width="2"/>
+<text x="2900" y="268" font-size="22" text-anchor="middle" fill="#333">C15</text>
+<text x="2900" y="352" font-size="24" font-weight="bold" text-anchor="middle">434</text>
+<circle cx="200" cy="400" r="25" fill="#b16f2e" stroke="#333" stroke-width="2"/>
+<text x="200" y="368" font-size="22" text-anchor="middle" fill="#333">D01</text>
+<text x="200" y="452" font-size="24" font-weight="bold" text-anchor="middle">479</text>
+<circle cx="400" cy="400" r="25" fill="#e6ba72" stroke="#333" stroke-width="2"/>
+<text x="400" y="368" font-size="22" text-anchor="middle" fill="#333">D02</text>
+<text x="400" y="452" font-size="24" font-weight="bold" text-anchor="middle">203</text>
+<circle cx="600" cy="400" r="25" fill="#d7a55f" stroke="#333" stroke-width="2"/>
+<text x="600" y="368" font-size="22" text-anchor="middle" fill="#333">D03</text>
+<text x="600" y="452" font-size="24" font-weight="bold" text-anchor="middle">281</text>
+<circle cx="800" cy="400" r="25" fill="#ac6727" stroke="#333" stroke-width="2"/>
+<text x="800" y="368" font-size="22" text-anchor="middle" fill="#333">D04</text>
+<text x="800" y="452" font-size="24" font-weight="bold" text-anchor="middle">508</text>
+<circle cx="1000" cy="400" r="25" fill="#bb7d3a" stroke="#333" stroke-width="2"/>
+<text x="1000" y="368" font-size="22" text-anchor="middle" fill="#333">D05</text>
+<text x="1000" y="452" font-size="24" font-weight="bold" text-anchor="middle">429</text>
+<circle cx="1200" cy="400" r="25" fill="#f8d389" stroke="#333" stroke-width="2"/>
+<text x="1200" y="368" font-size="22" text-anchor="middle" fill="#333">D06</text>
+<text x="1200" y="452" font-size="24" font-weight="bold" text-anchor="middle">109</text>
+<circle cx="1400" cy="400" r="25" fill="#eac078" stroke="#333" stroke-width="2"/>
+<text x="1400" y="368" font-size="22" text-anchor="middle" fill="#333">D07</text>
+<text x="1400" y="452" font-size="24" font-weight="bold" text-anchor="middle">180</text>
+<circle cx="1600" cy="400" r="25" fill="#c58b47" stroke="#333" stroke-width="2"/>
+<text x="1600" y="368" font-size="22" text-anchor="middle" fill="#333">D08</text>
+<text x="1600" y="452" font-size="24" font-weight="bold" text-anchor="middle">377</text>
+<circle cx="1800" cy="400" r="25" fill="#d4a15b" stroke="#333" stroke-width="2"/>
+<text x="1800" y="368" font-size="22" text-anchor="middle" fill="#333">D09</text>
+<text x="1800" y="452" font-size="24" font-weight="bold" text-anchor="middle">295</text>
+<circle cx="2000" cy="400" r="25" fill="#c08441" stroke="#333" stroke-width="2"/>
+<text x="2000" y="368" font-size="22" text-anchor="middle" fill="#333">D10</text>
+<text x="2000" y="452" font-size="24" font-weight="bold" text-anchor="middle">403</text>
+<circle cx="2200" cy="400" r="25" fill="#b37230" stroke="#333" stroke-width="2"/>
+<text x="2200" y="368" font-size="22" text-anchor="middle" fill="#333">D11</text>
+<text x="2200" y="452" font-size="24" font-weight="bold" text-anchor="middle">470</text>
+<circle cx="2400" cy="400" r="25" fill="#d19c57" stroke="#333" stroke-width="2"/>
+<text x="2400" y="368" font-size="22" text-anchor="middle" fill="#333">D12</text>
+<text x="2400" y="452" font-size="24" font-weight="bold" text-anchor="middle">313</text>
+<circle cx="2600" cy="400" r="25" fill="#ddad67" stroke="#333" stroke-width="2"/>
+<text x="2600" y="368" font-size="22" text-anchor="middle" fill="#333">D13</text>
+<text x="2600" y="452" font-size="24" font-weight="bold" text-anchor="middle">249</text>
+<circle cx="2800" cy="400" r="25" fill="#cf9a55" stroke="#333" stroke-width="2"/>
+<text x="2800" y="368" font-size="22" text-anchor="middle" fill="#333">D14</text>
+<text x="2800" y="452" font-size="24" font-weight="bold" text-anchor="middle">322</text>
+<circle cx="100" cy="500" r="25" fill="#e7bb73" stroke="#333" stroke-width="2"/>
+<text x="100" y="468" font-size="22" text-anchor="middle" fill="#333">E01</text>
+<text x="100" y="552" font-size="24" font-weight="bold" text-anchor="middle">199</text>
+<circle cx="300" cy="500" r="25" fill="#f5d086" stroke="#333" stroke-width="2"/>
+<text x="300" y="468" font-size="22" text-anchor="middle" fill="#333">E02</text>
+<text x="300" y="552" font-size="24" font-weight="bold" text-anchor="middle">122</text>
+<circle cx="500" cy="500" r="25" fill="#b2702f" stroke="#333" stroke-width="2"/>
+<text x="500" y="468" font-size="22" text-anchor="middle" fill="#333">E03</text>
+<text x="500" y="552" font-size="24" font-weight="bold" text-anchor="middle">476</text>
+<circle cx="700" cy="500" r="25" fill="#f6d086" stroke="#333" stroke-width="2"/>
+<text x="700" y="468" font-size="22" text-anchor="middle" fill="#333">E04</text>
+<text x="700" y="552" font-size="24" font-weight="bold" text-anchor="middle">121</text>
+<circle cx="900" cy="500" r="25" fill="#d6a45e" stroke="#333" stroke-width="2"/>
+<text x="900" y="468" font-size="22" text-anchor="middle" fill="#333">E05</text>
+<text x="900" y="552" font-size="24" font-weight="bold" text-anchor="middle">285</text>
+<circle cx="1100" cy="500" r="25" fill="#a96423" stroke="#333" stroke-width="2"/>
+<text x="1100" y="468" font-size="22" text-anchor="middle" fill="#333">E06</text>
+<text x="1100" y="552" font-size="24" font-weight="bold" text-anchor="middle">522</text>
+<circle cx="1300" cy="500" r="25" fill="#bd7f3c" stroke="#333" stroke-width="2"/>
+<text x="1300" y="468" font-size="22" text-anchor="middle" fill="#333">E07</text>
+<text x="1300" y="552" font-size="24" font-weight="bold" text-anchor="middle">420</text>
+<circle cx="1500" cy="500" r="25" fill="#a15819" stroke="#333" stroke-width="2"/>
+<text x="1500" y="468" font-size="22" text-anchor="middle" fill="#333">E08</text>
+<text x="1500" y="552" font-size="24" font-weight="bold" text-anchor="middle">565</text>
+<circle cx="1700" cy="500" r="25" fill="#f1c980" stroke="#333" stroke-width="2"/>
+<text x="1700" y="468" font-size="22" text-anchor="middle" fill="#333">E09</text>
+<text x="1700" y="552" font-size="24" font-weight="bold" text-anchor="middle">147</text>
+<circle cx="1900" cy="500" r="25" fill="#b47231" stroke="#333" stroke-width="2"/>
+<text x="1900" y="468" font-size="22" text-anchor="middle" fill="#333">E10</text>
+<text x="1900" y="552" font-size="24" font-weight="bold" text-anchor="middle">468</text>
+<circle cx="2100" cy="500" r="25" fill="#d4a15b" stroke="#333" stroke-width="2"/>
+<text x="2100" y="468" font-size="22" text-anchor="middle" fill="#333">E11</text>
+<text x="2100" y="552" font-size="24" font-weight="bold" text-anchor="middle">295</text>
+<circle cx="2300" cy="500" r="25" fill="#e2b46d" stroke="#333" stroke-width="2"/>
+<text x="2300" y="468" font-size="22" text-anchor="middle" fill="#333">E12</text>
+<text x="2300" y="552" font-size="24" font-weight="bold" text-anchor="middle">224</text>
+<circle cx="2500" cy="500" r="25" fill="#ecc27a" stroke="#333" stroke-width="2"/>
+<text x="2500" y="468" font-size="22" text-anchor="middle" fill="#333">E13</text>
+<text x="2500" y="552" font-size="24" font-weight="bold" text-anchor="middle">172</text>
+<circle cx="2700" cy="500" r="25" fill="#c48946" stroke="#333" stroke-width="2"/>
+<text x="2700" y="468" font-size="22" text-anchor="middle" fill="#333">E14</text>
+<text x="2700" y="552" font-size="24" font-weight="bold" text-anchor="middle">383</text>
+<circle cx="2900" cy="500" r="25" fill="#e4b870" stroke="#333" stroke-width="2"/>
+<text x="2900" y="468" font-size="22" text-anchor="middle" fill="#333">E15</text>
+<text x="2900" y="552" font-size="24" font-weight="bold" text-anchor="middle">211</text>
+<circle cx="200" cy="600" r="25" fill="#d4a05b" stroke="#333" stroke-width="2"/>
+<text x="200" y="568" font-size="22" text-anchor="middle" fill="#333">F01</text>
+<text x="200" y="652" font-size="24" font-weight="bold" text-anchor="middle">298</text>
+<circle cx="400" cy="600" r="25" fill="#c48a46" stroke="#333" stroke-width="2"/>
+<text x="400" y="568" font-size="22" text-anchor="middle" fill="#333">F02</text>
+<text x="400" y="652" font-size="24" font-weight="bold" text-anchor="middle">380</text>
+<circle cx="600" cy="600" r="25" fill="#e7bc74" stroke="#333" stroke-width="2"/>
+<text x="600" y="568" font-size="22" text-anchor="middle" fill="#333">F03</text>
+<text x="600" y="652" font-size="24" font-weight="bold" text-anchor="middle">195</text>
+<circle cx="800" cy="600" r="25" fill="#ca914d" stroke="#333" stroke-width="2"/>
+<text x="800" y="568" font-size="22" text-anchor="middle" fill="#333">F04</text>
+<text x="800" y="652" font-size="24" font-weight="bold" text-anchor="middle">352</text>
+<circle cx="1000" cy="600" r="25" fill="#edc47c" stroke="#333" stroke-width="2"/>
+<text x="1000" y="568" font-size="22" text-anchor="middle" fill="#333">F05</text>
+<text x="1000" y="652" font-size="24" font-weight="bold" text-anchor="middle">164</text>
+<circle cx="1200" cy="600" r="25" fill="#cd9652" stroke="#333" stroke-width="2"/>
+<text x="1200" y="568" font-size="22" text-anchor="middle" fill="#333">F06</text>
+<text x="1200" y="652" font-size="24" font-weight="bold" text-anchor="middle">334</text>
+<circle cx="1400" cy="600" r="25" fill="#dbaa63" stroke="#333" stroke-width="2"/>
+<text x="1400" y="568" font-size="22" text-anchor="middle" fill="#333">F07</text>
+<text x="1400" y="652" font-size="24" font-weight="bold" text-anchor="middle">262</text>
+<circle cx="1600" cy="600" r="25" fill="#b77635" stroke="#333" stroke-width="2"/>
+<text x="1600" y="568" font-size="22" text-anchor="middle" fill="#333">F08</text>
+<text x="1600" y="652" font-size="24" font-weight="bold" text-anchor="middle">452</text>
+<circle cx="1800" cy="600" r="25" fill="#a35b1c" stroke="#333" stroke-width="2"/>
+<text x="1800" y="568" font-size="22" text-anchor="middle" fill="#333">F09</text>
+<text x="1800" y="652" font-size="24" font-weight="bold" text-anchor="middle">553</text>
+<circle cx="2000" cy="600" r="25" fill="#e8bd75" stroke="#333" stroke-width="2"/>
+<text x="2000" y="568" font-size="22" text-anchor="middle" fill="#333">F10</text>
+<text x="2000" y="652" font-size="24" font-weight="bold" text-anchor="middle">191</text>
+<circle cx="2200" cy="600" r="25" fill="#a35b1c" stroke="#333" stroke-width="2"/>
+<text x="2200" y="568" font-size="22" text-anchor="middle" fill="#333">F11</text>
+<text x="2200" y="652" font-size="24" font-weight="bold" text-anchor="middle">553</text>
+<circle cx="2400" cy="600" r="25" fill="#f9d58b" stroke="#333" stroke-width="2"/>
+<text x="2400" y="568" font-size="22" text-anchor="middle" fill="#333">F12</text>
+<text x="2400" y="652" font-size="24" font-weight="bold" text-anchor="middle">101</text>
+<circle cx="2600" cy="600" r="25" fill="#b47331" stroke="#333" stroke-width="2"/>
+<text x="2600" y="568" font-size="22" text-anchor="middle" fill="#333">F13</text>
+<text x="2600" y="652" font-size="24" font-weight="bold" text-anchor="middle">466</text>
+<circle cx="2800" cy="600" r="25" fill="#f5ce85" stroke="#333" stroke-width="2"/>
+<text x="2800" y="568" font-size="22" text-anchor="middle" fill="#333">F14</text>
+<text x="2800" y="652" font-size="24" font-weight="bold" text-anchor="middle">126</text>
+<circle cx="100" cy="700" r="25" fill="#c68c48" stroke="#333" stroke-width="2"/>
+<text x="100" y="668" font-size="22" text-anchor="middle" fill="#333">G01</text>
+<text x="100" y="752" font-size="24" font-weight="bold" text-anchor="middle">373</text>
+<circle cx="300" cy="700" r="25" fill="#e1b36c" stroke="#333" stroke-width="2"/>
+<text x="300" y="668" font-size="22" text-anchor="middle" fill="#333">G02</text>
+<text x="300" y="752" font-size="24" font-weight="bold" text-anchor="middle">229</text>
+<circle cx="500" cy="700" r="25" fill="#d39e59" stroke="#333" stroke-width="2"/>
+<text x="500" y="668" font-size="22" text-anchor="middle" fill="#333">G03</text>
+<text x="500" y="752" font-size="24" font-weight="bold" text-anchor="middle">304</text>
+<circle cx="700" cy="700" r="25" fill="#ad6928" stroke="#333" stroke-width="2"/>
+<text x="700" y="668" font-size="22" text-anchor="middle" fill="#333">G04</text>
+<text x="700" y="752" font-size="24" font-weight="bold" text-anchor="middle">501</text>
+<circle cx="900" cy="700" r="25" fill="#bd7f3d" stroke="#333" stroke-width="2"/>
+<text x="900" y="668" font-size="22" text-anchor="middle" fill="#333">G05</text>
+<text x="900" y="752" font-size="24" font-weight="bold" text-anchor="middle">419</text>
+<circle cx="1100" cy="700" r="25" fill="#dfaf68" stroke="#333" stroke-width="2"/>
+<text x="1100" y="668" font-size="22" text-anchor="middle" fill="#333">G06</text>
+<text x="1100" y="752" font-size="24" font-weight="bold" text-anchor="middle">242</text>
+<circle cx="1300" cy="700" r="25" fill="#f9d58b" stroke="#333" stroke-width="2"/>
+<text x="1300" y="668" font-size="22" text-anchor="middle" fill="#333">G07</text>
+<text x="1300" y="752" font-size="24" font-weight="bold" text-anchor="middle">102</text>
+<circle cx="1500" cy="700" r="25" fill="#eac077" stroke="#333" stroke-width="2"/>
+<text x="1500" y="668" font-size="22" text-anchor="middle" fill="#333">G08</text>
+<text x="1500" y="752" font-size="24" font-weight="bold" text-anchor="middle">181</text>
+<circle cx="1700" cy="700" r="25" fill="#deae68" stroke="#333" stroke-width="2"/>
+<text x="1700" y="668" font-size="22" text-anchor="middle" fill="#333">G09</text>
+<text x="1700" y="752" font-size="24" font-weight="bold" text-anchor="middle">245</text>
+<circle cx="1900" cy="700" r="25" fill="#ce9752" stroke="#333" stroke-width="2"/>
+<text x="1900" y="668" font-size="22" text-anchor="middle" fill="#333">G10</text>
+<text x="1900" y="752" font-size="24" font-weight="bold" text-anchor="middle">331</text>
+<circle cx="2100" cy="700" r="25" fill="#c08441" stroke="#333" stroke-width="2"/>
+<text x="2100" y="668" font-size="22" text-anchor="middle" fill="#333">G11</text>
+<text x="2100" y="752" font-size="24" font-weight="bold" text-anchor="middle">401</text>
+<circle cx="2300" cy="700" r="25" fill="#b2702e" stroke="#333" stroke-width="2"/>
+<text x="2300" y="668" font-size="22" text-anchor="middle" fill="#333">G12</text>
+<text x="2300" y="752" font-size="24" font-weight="bold" text-anchor="middle">477</text>
+<circle cx="2500" cy="700" r="25" fill="#cd9651" stroke="#333" stroke-width="2"/>
+<text x="2500" y="668" font-size="22" text-anchor="middle" fill="#333">G13</text>
+<text x="2500" y="752" font-size="24" font-weight="bold" text-anchor="middle">335</text>
+<circle cx="2700" cy="700" r="25" fill="#daa963" stroke="#333" stroke-width="2"/>
+<text x="2700" y="668" font-size="22" text-anchor="middle" fill="#333">G14</text>
+<text x="2700" y="752" font-size="24" font-weight="bold" text-anchor="middle">265</text>
+<circle cx="2900" cy="700" r="25" fill="#b97a37" stroke="#333" stroke-width="2"/>
+<text x="2900" y="668" font-size="22" text-anchor="middle" fill="#333">G15</text>
+<text x="2900" y="752" font-size="24" font-weight="bold" text-anchor="middle">440</text>
+<circle cx="200" cy="800" r="25" fill="#f1c980" stroke="#333" stroke-width="2"/>
+<text x="200" y="768" font-size="22" text-anchor="middle" fill="#333">H01</text>
+<text x="200" y="852" font-size="24" font-weight="bold" text-anchor="middle">145</text>
+<circle cx="400" cy="800" r="25" fill="#b06d2c" stroke="#333" stroke-width="2"/>
+<text x="400" y="768" font-size="22" text-anchor="middle" fill="#333">H02</text>
+<text x="400" y="852" font-size="24" font-weight="bold" text-anchor="middle">486</text>
+<circle cx="600" cy="800" r="25" fill="#bd803d" stroke="#333" stroke-width="2"/>
+<text x="600" y="768" font-size="22" text-anchor="middle" fill="#333">H03</text>
+<text x="600" y="852" font-size="24" font-weight="bold" text-anchor="middle">416</text>
+<circle cx="800" cy="800" r="25" fill="#e0b16a" stroke="#333" stroke-width="2"/>
+<text x="800" y="768" font-size="22" text-anchor="middle" fill="#333">H04</text>
+<text x="800" y="852" font-size="24" font-weight="bold" text-anchor="middle">234</text>
+<circle cx="1000" cy="800" r="25" fill="#a15818" stroke="#333" stroke-width="2"/>
+<text x="1000" y="768" font-size="22" text-anchor="middle" fill="#333">H05</text>
+<text x="1000" y="852" font-size="24" font-weight="bold" text-anchor="middle">566</text>
+<circle cx="1200" cy="800" r="25" fill="#bd803d" stroke="#333" stroke-width="2"/>
+<text x="1200" y="768" font-size="22" text-anchor="middle" fill="#333">H06</text>
+<text x="1200" y="852" font-size="24" font-weight="bold" text-anchor="middle">418</text>
+<circle cx="1400" cy="800" r="25" fill="#ad6a29" stroke="#333" stroke-width="2"/>
+<text x="1400" y="768" font-size="22" text-anchor="middle" fill="#333">H07</text>
+<text x="1400" y="852" font-size="24" font-weight="bold" text-anchor="middle">500</text>
+<circle cx="1600" cy="800" r="25" fill="#d19c57" stroke="#333" stroke-width="2"/>
+<text x="1600" y="768" font-size="22" text-anchor="middle" fill="#333">H08</text>
+<text x="1600" y="852" font-size="24" font-weight="bold" text-anchor="middle">313</text>
+<circle cx="1800" cy="800" r="25" fill="#c18542" stroke="#333" stroke-width="2"/>
+<text x="1800" y="768" font-size="22" text-anchor="middle" fill="#333">H09</text>
+<text x="1800" y="852" font-size="24" font-weight="bold" text-anchor="middle">399</text>
+<circle cx="2000" cy="800" r="25" fill="#daa862" stroke="#333" stroke-width="2"/>
+<text x="2000" y="768" font-size="22" text-anchor="middle" fill="#333">H10</text>
+<text x="2000" y="852" font-size="24" font-weight="bold" text-anchor="middle">267</text>
+<circle cx="2200" cy="800" r="25" fill="#f3cd84" stroke="#333" stroke-width="2"/>
+<text x="2200" y="768" font-size="22" text-anchor="middle" fill="#333">H11</text>
+<text x="2200" y="852" font-size="24" font-weight="bold" text-anchor="middle">132</text>
+<circle cx="2400" cy="800" r="25" fill="#dfaf69" stroke="#333" stroke-width="2"/>
+<text x="2400" y="768" font-size="22" text-anchor="middle" fill="#333">H12</text>
+<text x="2400" y="852" font-size="24" font-weight="bold" text-anchor="middle">241</text>
+<circle cx="2600" cy="800" r="25" fill="#ebc078" stroke="#333" stroke-width="2"/>
+<text x="2600" y="768" font-size="22" text-anchor="middle" fill="#333">H13</text>
+<text x="2600" y="852" font-size="24" font-weight="bold" text-anchor="middle">178</text>
+<circle cx="2800" cy="800" r="25" fill="#cb944f" stroke="#333" stroke-width="2"/>
+<text x="2800" y="768" font-size="22" text-anchor="middle" fill="#333">H14</text>
+<text x="2800" y="852" font-size="24" font-weight="bold" text-anchor="middle">344</text>
+<circle cx="100" cy="900" r="25" fill="#b47331" stroke="#333" stroke-width="2"/>
+<text x="100" y="868" font-size="22" text-anchor="middle" fill="#333">I01</text>
+<text x="100" y="952" font-size="24" font-weight="bold" text-anchor="middle">466</text>
+<circle cx="300" cy="900" r="25" fill="#c48a46" stroke="#333" stroke-width="2"/>
+<text x="300" y="868" font-size="22" text-anchor="middle" fill="#333">I02</text>
+<text x="300" y="952" font-size="24" font-weight="bold" text-anchor="middle">381</text>
+<circle cx="500" cy="900" r="25" fill="#eec57c" stroke="#333" stroke-width="2"/>
+<text x="500" y="868" font-size="22" text-anchor="middle" fill="#333">I03</text>
+<text x="500" y="952" font-size="24" font-weight="bold" text-anchor="middle">161</text>
+<circle cx="700" cy="900" r="25" fill="#a25919" stroke="#333" stroke-width="2"/>
+<text x="700" y="868" font-size="22" text-anchor="middle" fill="#333">I04</text>
+<text x="700" y="952" font-size="24" font-weight="bold" text-anchor="middle">562</text>
+<circle cx="900" cy="900" r="25" fill="#ce9752" stroke="#333" stroke-width="2"/>
+<text x="900" y="868" font-size="22" text-anchor="middle" fill="#333">I05</text>
+<text x="900" y="952" font-size="24" font-weight="bold" text-anchor="middle">331</text>
+<circle cx="1100" cy="900" r="25" fill="#ebc179" stroke="#333" stroke-width="2"/>
+<text x="1100" y="868" font-size="22" text-anchor="middle" fill="#333">I06</text>
+<text x="1100" y="952" font-size="24" font-weight="bold" text-anchor="middle">175</text>
+<circle cx="1300" cy="900" r="25" fill="#9e5415" stroke="#333" stroke-width="2"/>
+<text x="1300" y="868" font-size="22" text-anchor="middle" fill="#333">I07</text>
+<text x="1300" y="952" font-size="24" font-weight="bold" text-anchor="middle">581</text>
+<circle cx="1500" cy="900" r="25" fill="#c28744" stroke="#333" stroke-width="2"/>
+<text x="1500" y="868" font-size="22" text-anchor="middle" fill="#333">I08</text>
+<text x="1500" y="952" font-size="24" font-weight="bold" text-anchor="middle">391</text>
+<circle cx="1700" cy="900" r="25" fill="#f7d289" stroke="#333" stroke-width="2"/>
+<text x="1700" y="868" font-size="22" text-anchor="middle" fill="#333">I09</text>
+<text x="1700" y="952" font-size="24" font-weight="bold" text-anchor="middle">112</text>
+<circle cx="1900" cy="900" r="25" fill="#ab6726" stroke="#333" stroke-width="2"/>
+<text x="1900" y="868" font-size="22" text-anchor="middle" fill="#333">I10</text>
+<text x="1900" y="952" font-size="24" font-weight="bold" text-anchor="middle">511</text>
+<circle cx="2100" cy="900" r="25" fill="#e6ba72" stroke="#333" stroke-width="2"/>
+<text x="2100" y="868" font-size="22" text-anchor="middle" fill="#333">I11</text>
+<text x="2100" y="952" font-size="24" font-weight="bold" text-anchor="middle">203</text>
+<circle cx="2300" cy="900" r="25" fill="#c38744" stroke="#333" stroke-width="2"/>
+<text x="2300" y="868" font-size="22" text-anchor="middle" fill="#333">I12</text>
+<text x="2300" y="952" font-size="24" font-weight="bold" text-anchor="middle">389</text>
+<circle cx="2500" cy="900" r="25" fill="#a15718" stroke="#333" stroke-width="2"/>
+<text x="2500" y="868" font-size="22" text-anchor="middle" fill="#333">I13</text>
+<text x="2500" y="952" font-size="24" font-weight="bold" text-anchor="middle">568</text>
+<circle cx="2700" cy="900" r="25" fill="#b06d2c" stroke="#333" stroke-width="2"/>
+<text x="2700" y="868" font-size="22" text-anchor="middle" fill="#333">I14</text>
+<text x="2700" y="952" font-size="24" font-weight="bold" text-anchor="middle">487</text>
+<circle cx="2900" cy="900" r="25" fill="#e6bb73" stroke="#333" stroke-width="2"/>
+<text x="2900" y="868" font-size="22" text-anchor="middle" fill="#333">I15</text>
+<text x="2900" y="952" font-size="24" font-weight="bold" text-anchor="middle">200</text>
+<circle cx="200" cy="1000" r="25" fill="#cf9a55" stroke="#333" stroke-width="2"/>
+<text x="200" y="968" font-size="22" text-anchor="middle" fill="#333">J01</text>
+<text x="200" y="1052" font-size="24" font-weight="bold" text-anchor="middle">321</text>
+<circle cx="400" cy="1000" r="25" fill="#dcac66" stroke="#333" stroke-width="2"/>
+<text x="400" y="968" font-size="22" text-anchor="middle" fill="#333">J02</text>
+<text x="400" y="1052" font-size="24" font-weight="bold" text-anchor="middle">253</text>
+<circle cx="600" cy="1000" r="25" fill="#cf9954" stroke="#333" stroke-width="2"/>
+<text x="600" y="968" font-size="22" text-anchor="middle" fill="#333">J03</text>
+<text x="600" y="1052" font-size="24" font-weight="bold" text-anchor="middle">323</text>
+<circle cx="800" cy="1000" r="25" fill="#bd803d" stroke="#333" stroke-width="2"/>
+<text x="800" y="968" font-size="22" text-anchor="middle" fill="#333">J04</text>
+<text x="800" y="1052" font-size="24" font-weight="bold" text-anchor="middle">416</text>
+<circle cx="1000" cy="1000" r="25" fill="#ad6928" stroke="#333" stroke-width="2"/>
+<text x="1000" y="968" font-size="22" text-anchor="middle" fill="#333">J05</text>
+<text x="1000" y="1052" font-size="24" font-weight="bold" text-anchor="middle">501</text>
+<circle cx="1200" cy="1000" r="25" fill="#dbaa64" stroke="#333" stroke-width="2"/>
+<text x="1200" y="968" font-size="22" text-anchor="middle" fill="#333">J06</text>
+<text x="1200" y="1052" font-size="24" font-weight="bold" text-anchor="middle">261</text>
+<circle cx="1400" cy="1000" r="25" fill="#f1c980" stroke="#333" stroke-width="2"/>
+<text x="1400" y="968" font-size="22" text-anchor="middle" fill="#333">J07</text>
+<text x="1400" y="1052" font-size="24" font-weight="bold" text-anchor="middle">147</text>
+<circle cx="1600" cy="1000" r="25" fill="#a45d1d" stroke="#333" stroke-width="2"/>
+<text x="1600" y="968" font-size="22" text-anchor="middle" fill="#333">J08</text>
+<text x="1600" y="1052" font-size="24" font-weight="bold" text-anchor="middle">548</text>
+<circle cx="1800" cy="1000" r="25" fill="#e8bc75" stroke="#333" stroke-width="2"/>
+<text x="1800" y="968" font-size="22" text-anchor="middle" fill="#333">J09</text>
+<text x="1800" y="1052" font-size="24" font-weight="bold" text-anchor="middle">193</text>
+<circle cx="2000" cy="1000" r="25" fill="#b97a37" stroke="#333" stroke-width="2"/>
+<text x="2000" y="968" font-size="22" text-anchor="middle" fill="#333">J10</text>
+<text x="2000" y="1052" font-size="24" font-weight="bold" text-anchor="middle">440</text>
+<circle cx="2200" cy="1000" r="25" fill="#d39f5a" stroke="#333" stroke-width="2"/>
+<text x="2200" y="968" font-size="22" text-anchor="middle" fill="#333">J11</text>
+<text x="2200" y="1052" font-size="24" font-weight="bold" text-anchor="middle">301</text>
+<circle cx="2400" cy="1000" r="25" fill="#b2702f" stroke="#333" stroke-width="2"/>
+<text x="2400" y="968" font-size="22" text-anchor="middle" fill="#333">J12</text>
+<text x="2400" y="1052" font-size="24" font-weight="bold" text-anchor="middle">476</text>
+<circle cx="2600" cy="1000" r="25" fill="#c18542" stroke="#333" stroke-width="2"/>
+<text x="2600" y="968" font-size="22" text-anchor="middle" fill="#333">J13</text>
+<text x="2600" y="1052" font-size="24" font-weight="bold" text-anchor="middle">398</text>
+<circle cx="2800" cy="1000" r="25" fill="#d8a560" stroke="#333" stroke-width="2"/>
+<text x="2800" y="968" font-size="22" text-anchor="middle" fill="#333">J14</text>
+<text x="2800" y="1052" font-size="24" font-weight="bold" text-anchor="middle">278</text>
+<circle cx="100" cy="1100" r="25" fill="#ddad66" stroke="#333" stroke-width="2"/>
+<text x="100" y="1068" font-size="22" text-anchor="middle" fill="#333">K01</text>
+<text x="100" y="1152" font-size="24" font-weight="bold" text-anchor="middle">250</text>
+<circle cx="300" cy="1100" r="25" fill="#a86121" stroke="#333" stroke-width="2"/>
+<text x="300" y="1068" font-size="22" text-anchor="middle" fill="#333">K02</text>
+<text x="300" y="1152" font-size="24" font-weight="bold" text-anchor="middle">531</text>
+<circle cx="500" cy="1100" r="25" fill="#bb7c3a" stroke="#333" stroke-width="2"/>
+<text x="500" y="1068" font-size="22" text-anchor="middle" fill="#333">K03</text>
+<text x="500" y="1152" font-size="24" font-weight="bold" text-anchor="middle">431</text>
+<circle cx="700" cy="1100" r="25" fill="#e2b36c" stroke="#333" stroke-width="2"/>
+<text x="700" y="1068" font-size="22" text-anchor="middle" fill="#333">K04</text>
+<text x="700" y="1152" font-size="24" font-weight="bold" text-anchor="middle">226</text>
+<circle cx="900" cy="1100" r="25" fill="#f5cf85" stroke="#333" stroke-width="2"/>
+<text x="900" y="1068" font-size="22" text-anchor="middle" fill="#333">K05</text>
+<text x="900" y="1152" font-size="24" font-weight="bold" text-anchor="middle">125</text>
+<circle cx="1100" cy="1100" r="25" fill="#bd803d" stroke="#333" stroke-width="2"/>
+<text x="1100" y="1068" font-size="22" text-anchor="middle" fill="#333">K06</text>
+<text x="1100" y="1152" font-size="24" font-weight="bold" text-anchor="middle">417</text>
+<circle cx="1300" cy="1100" r="25" fill="#af6b2a" stroke="#333" stroke-width="2"/>
+<text x="1300" y="1068" font-size="22" text-anchor="middle" fill="#333">K07</text>
+<text x="1300" y="1152" font-size="24" font-weight="bold" text-anchor="middle">494</text>
+<circle cx="1500" cy="1100" r="25" fill="#dfb069" stroke="#333" stroke-width="2"/>
+<text x="1500" y="1068" font-size="22" text-anchor="middle" fill="#333">K08</text>
+<text x="1500" y="1152" font-size="24" font-weight="bold" text-anchor="middle">240</text>
+<circle cx="1700" cy="1100" r="25" fill="#b67533" stroke="#333" stroke-width="2"/>
+<text x="1700" y="1068" font-size="22" text-anchor="middle" fill="#333">K09</text>
+<text x="1700" y="1152" font-size="24" font-weight="bold" text-anchor="middle">457</text>
+<circle cx="1900" cy="1100" r="25" fill="#d09b56" stroke="#333" stroke-width="2"/>
+<text x="1900" y="1068" font-size="22" text-anchor="middle" fill="#333">K10</text>
+<text x="1900" y="1152" font-size="24" font-weight="bold" text-anchor="middle">316</text>
+<circle cx="2100" cy="1100" r="25" fill="#9c5011" stroke="#333" stroke-width="2"/>
+<text x="2100" y="1068" font-size="22" text-anchor="middle" fill="#333">K11</text>
+<text x="2100" y="1152" font-size="24" font-weight="bold" text-anchor="middle">594</text>
+<circle cx="2300" cy="1100" r="25" fill="#f4cd84" stroke="#333" stroke-width="2"/>
+<text x="2300" y="1068" font-size="22" text-anchor="middle" fill="#333">K12</text>
+<text x="2300" y="1152" font-size="24" font-weight="bold" text-anchor="middle">130</text>
+<circle cx="2500" cy="1100" r="25" fill="#e1b36c" stroke="#333" stroke-width="2"/>
+<text x="2500" y="1068" font-size="22" text-anchor="middle" fill="#333">K13</text>
+<text x="2500" y="1152" font-size="24" font-weight="bold" text-anchor="middle">228</text>
+<circle cx="2700" cy="1100" r="25" fill="#efc77e" stroke="#333" stroke-width="2"/>
+<text x="2700" y="1068" font-size="22" text-anchor="middle" fill="#333">K14</text>
+<text x="2700" y="1152" font-size="24" font-weight="bold" text-anchor="middle">154</text>
+<circle cx="2900" cy="1100" r="25" fill="#c48945" stroke="#333" stroke-width="2"/>
+<text x="2900" y="1068" font-size="22" text-anchor="middle" fill="#333">K15</text>
+<text x="2900" y="1152" font-size="24" font-weight="bold" text-anchor="middle">384</text>
+<circle cx="200" cy="1200" r="25" fill="#bb7c3a" stroke="#333" stroke-width="2"/>
+<text x="200" y="1168" font-size="22" text-anchor="middle" fill="#333">L01</text>
+<text x="200" y="1252" font-size="24" font-weight="bold" text-anchor="middle">431</text>
+<circle cx="400" cy="1200" r="25" fill="#ecc27a" stroke="#333" stroke-width="2"/>
+<text x="400" y="1168" font-size="22" text-anchor="middle" fill="#333">L02</text>
+<text x="400" y="1252" font-size="24" font-weight="bold" text-anchor="middle">171</text>
+<circle cx="600" cy="1200" r="25" fill="#f9d48a" stroke="#333" stroke-width="2"/>
+<text x="600" y="1168" font-size="22" text-anchor="middle" fill="#333">L03</text>
+<text x="600" y="1252" font-size="24" font-weight="bold" text-anchor="middle">105</text>
+<circle cx="800" cy="1200" r="25" fill="#9c5112" stroke="#333" stroke-width="2"/>
+<text x="800" y="1168" font-size="22" text-anchor="middle" fill="#333">L04</text>
+<text x="800" y="1252" font-size="24" font-weight="bold" text-anchor="middle">591</text>
+<circle cx="1000" cy="1200" r="25" fill="#e5b870" stroke="#333" stroke-width="2"/>
+<text x="1000" y="1168" font-size="22" text-anchor="middle" fill="#333">L05</text>
+<text x="1000" y="1252" font-size="24" font-weight="bold" text-anchor="middle">210</text>
+<circle cx="1200" cy="1200" r="25" fill="#cd9652" stroke="#333" stroke-width="2"/>
+<text x="1200" y="1168" font-size="22" text-anchor="middle" fill="#333">L06</text>
+<text x="1200" y="1252" font-size="24" font-weight="bold" text-anchor="middle">334</text>
+<circle cx="1400" cy="1200" r="25" fill="#bc7d3b" stroke="#333" stroke-width="2"/>
+<text x="1400" y="1168" font-size="22" text-anchor="middle" fill="#333">L07</text>
+<text x="1400" y="1252" font-size="24" font-weight="bold" text-anchor="middle">426</text>
+<circle cx="1600" cy="1200" r="25" fill="#cb9450" stroke="#333" stroke-width="2"/>
+<text x="1600" y="1168" font-size="22" text-anchor="middle" fill="#333">L08</text>
+<text x="1600" y="1252" font-size="24" font-weight="bold" text-anchor="middle">342</text>
+<circle cx="1800" cy="1200" r="25" fill="#deae67" stroke="#333" stroke-width="2"/>
+<text x="1800" y="1168" font-size="22" text-anchor="middle" fill="#333">L09</text>
+<text x="1800" y="1252" font-size="24" font-weight="bold" text-anchor="middle">246</text>
+<circle cx="2000" cy="1200" r="25" fill="#ab6525" stroke="#333" stroke-width="2"/>
+<text x="2000" y="1168" font-size="22" text-anchor="middle" fill="#333">L10</text>
+<text x="2000" y="1252" font-size="24" font-weight="bold" text-anchor="middle">515</text>
+<circle cx="2200" cy="1200" r="25" fill="#c28643" stroke="#333" stroke-width="2"/>
+<text x="2200" y="1168" font-size="22" text-anchor="middle" fill="#333">L11</text>
+<text x="2200" y="1252" font-size="24" font-weight="bold" text-anchor="middle">394</text>
+<circle cx="2400" cy="1200" r="25" fill="#a15819" stroke="#333" stroke-width="2"/>
+<text x="2400" y="1168" font-size="22" text-anchor="middle" fill="#333">L12</text>
+<text x="2400" y="1252" font-size="24" font-weight="bold" text-anchor="middle">565</text>
+<circle cx="2600" cy="1200" r="25" fill="#d09b56" stroke="#333" stroke-width="2"/>
+<text x="2600" y="1168" font-size="22" text-anchor="middle" fill="#333">L13</text>
+<text x="2600" y="1252" font-size="24" font-weight="bold" text-anchor="middle">318</text>
+<circle cx="2800" cy="1200" r="25" fill="#b47331" stroke="#333" stroke-width="2"/>
+<text x="2800" y="1168" font-size="22" text-anchor="middle" fill="#333">L14</text>
+<text x="2800" y="1252" font-size="24" font-weight="bold" text-anchor="middle">465</text>
+<circle cx="100" cy="1300" r="25" fill="#efc67e" stroke="#333" stroke-width="2"/>
+<text x="100" y="1268" font-size="22" text-anchor="middle" fill="#333">M01</text>
+<text x="100" y="1352" font-size="24" font-weight="bold" text-anchor="middle">156</text>
+<circle cx="300" cy="1300" r="25" fill="#ca914d" stroke="#333" stroke-width="2"/>
+<text x="300" y="1268" font-size="22" text-anchor="middle" fill="#333">M02</text>
+<text x="300" y="1352" font-size="24" font-weight="bold" text-anchor="middle">352</text>
+<circle cx="500" cy="1300" r="25" fill="#d29d58" stroke="#333" stroke-width="2"/>
+<text x="500" y="1268" font-size="22" text-anchor="middle" fill="#333">M03</text>
+<text x="500" y="1352" font-size="24" font-weight="bold" text-anchor="middle">310</text>
+<circle cx="700" cy="1300" r="25" fill="#ae6a29" stroke="#333" stroke-width="2"/>
+<text x="700" y="1268" font-size="22" text-anchor="middle" fill="#333">M04</text>
+<text x="700" y="1352" font-size="24" font-weight="bold" text-anchor="middle">498</text>
+<circle cx="900" cy="1300" r="25" fill="#cf9854" stroke="#333" stroke-width="2"/>
+<text x="900" y="1268" font-size="22" text-anchor="middle" fill="#333">M05</text>
+<text x="900" y="1352" font-size="24" font-weight="bold" text-anchor="middle">326</text>
+<circle cx="1100" cy="1300" r="25" fill="#a86121" stroke="#333" stroke-width="2"/>
+<text x="1100" y="1268" font-size="22" text-anchor="middle" fill="#333">M06</text>
+<text x="1100" y="1352" font-size="24" font-weight="bold" text-anchor="middle">530</text>
+<circle cx="1300" cy="1300" r="25" fill="#f2cb82" stroke="#333" stroke-width="2"/>
+<text x="1300" y="1268" font-size="22" text-anchor="middle" fill="#333">M07</text>
+<text x="1300" y="1352" font-size="24" font-weight="bold" text-anchor="middle">140</text>
+<circle cx="1500" cy="1300" r="25" fill="#a65f1f" stroke="#333" stroke-width="2"/>
+<text x="1500" y="1268" font-size="22" text-anchor="middle" fill="#333">M08</text>
+<text x="1500" y="1352" font-size="24" font-weight="bold" text-anchor="middle">538</text>
+<circle cx="1700" cy="1300" r="25" fill="#efc67e" stroke="#333" stroke-width="2"/>
+<text x="1700" y="1268" font-size="22" text-anchor="middle" fill="#333">M09</text>
+<text x="1700" y="1352" font-size="24" font-weight="bold" text-anchor="middle">156</text>
+<circle cx="1900" cy="1300" r="25" fill="#c48a47" stroke="#333" stroke-width="2"/>
+<text x="1900" y="1268" font-size="22" text-anchor="middle" fill="#333">M10</text>
+<text x="1900" y="1352" font-size="24" font-weight="bold" text-anchor="middle">379</text>
+<circle cx="2100" cy="1300" r="25" fill="#e7bc74" stroke="#333" stroke-width="2"/>
+<text x="2100" y="1268" font-size="22" text-anchor="middle" fill="#333">M11</text>
+<text x="2100" y="1352" font-size="24" font-weight="bold" text-anchor="middle">195</text>
+<circle cx="2300" cy="1300" r="25" fill="#b06e2c" stroke="#333" stroke-width="2"/>
+<text x="2300" y="1268" font-size="22" text-anchor="middle" fill="#333">M12</text>
+<text x="2300" y="1352" font-size="24" font-weight="bold" text-anchor="middle">485</text>
+<circle cx="2500" cy="1300" r="25" fill="#be813e" stroke="#333" stroke-width="2"/>
+<text x="2500" y="1268" font-size="22" text-anchor="middle" fill="#333">M13</text>
+<text x="2500" y="1352" font-size="24" font-weight="bold" text-anchor="middle">412</text>
+<circle cx="2700" cy="1300" r="25" fill="#a45b1c" stroke="#333" stroke-width="2"/>
+<text x="2700" y="1268" font-size="22" text-anchor="middle" fill="#333">M14</text>
+<text x="2700" y="1352" font-size="24" font-weight="bold" text-anchor="middle">552</text>
+<circle cx="2900" cy="1300" r="25" fill="#d6a35d" stroke="#333" stroke-width="2"/>
+<text x="2900" y="1268" font-size="22" text-anchor="middle" fill="#333">M15</text>
+<text x="2900" y="1352" font-size="24" font-weight="bold" text-anchor="middle">287</text>
+<circle cx="200" cy="1400" r="25" fill="#a86222" stroke="#333" stroke-width="2"/>
+<text x="200" y="1368" font-size="22" text-anchor="middle" fill="#333">N01</text>
+<text x="200" y="1452" font-size="24" font-weight="bold" text-anchor="middle">528</text>
+<circle cx="400" cy="1400" r="25" fill="#dfb069" stroke="#333" stroke-width="2"/>
+<text x="400" y="1368" font-size="22" text-anchor="middle" fill="#333">N02</text>
+<text x="400" y="1452" font-size="24" font-weight="bold" text-anchor="middle">240</text>
+<circle cx="600" cy="1400" r="25" fill="#be813e" stroke="#333" stroke-width="2"/>
+<text x="600" y="1368" font-size="22" text-anchor="middle" fill="#333">N03</text>
+<text x="600" y="1452" font-size="24" font-weight="bold" text-anchor="middle">412</text>
+<circle cx="800" cy="1400" r="25" fill="#f3cc83" stroke="#333" stroke-width="2"/>
+<text x="800" y="1368" font-size="22" text-anchor="middle" fill="#333">N04</text>
+<text x="800" y="1452" font-size="24" font-weight="bold" text-anchor="middle">136</text>
+<circle cx="1000" cy="1400" r="25" fill="#b97a37" stroke="#333" stroke-width="2"/>
+<text x="1000" y="1368" font-size="22" text-anchor="middle" fill="#333">N05</text>
+<text x="1000" y="1452" font-size="24" font-weight="bold" text-anchor="middle">440</text>
+<circle cx="1200" cy="1400" r="25" fill="#974a0c" stroke="#333" stroke-width="2"/>
+<text x="1200" y="1368" font-size="22" text-anchor="middle" fill="#333">N06</text>
+<text x="1200" y="1452" font-size="24" font-weight="bold" text-anchor="middle">617</text>
+<circle cx="1400" cy="1400" r="25" fill="#e4b66f" stroke="#333" stroke-width="2"/>
+<text x="1400" y="1368" font-size="22" text-anchor="middle" fill="#333">N07</text>
+<text x="1400" y="1452" font-size="24" font-weight="bold" text-anchor="middle">215</text>
+<circle cx="1600" cy="1400" r="25" fill="#96480a" stroke="#333" stroke-width="2"/>
+<text x="1600" y="1368" font-size="22" text-anchor="middle" fill="#333">N08</text>
+<text x="1600" y="1452" font-size="24" font-weight="bold" text-anchor="middle">626</text>
+<circle cx="1800" cy="1400" r="25" fill="#a76020" stroke="#333" stroke-width="2"/>
+<text x="1800" y="1368" font-size="22" text-anchor="middle" fill="#333">N09</text>
+<text x="1800" y="1452" font-size="24" font-weight="bold" text-anchor="middle">535</text>
+<circle cx="2000" cy="1400" r="25" fill="#b77735" stroke="#333" stroke-width="2"/>
+<text x="2000" y="1368" font-size="22" text-anchor="middle" fill="#333">N10</text>
+<text x="2000" y="1452" font-size="24" font-weight="bold" text-anchor="middle">450</text>
+<circle cx="2200" cy="1400" r="25" fill="#cf9854" stroke="#333" stroke-width="2"/>
+<text x="2200" y="1368" font-size="22" text-anchor="middle" fill="#333">N11</text>
+<text x="2200" y="1452" font-size="24" font-weight="bold" text-anchor="middle">326</text>
+<circle cx="2400" cy="1400" r="25" fill="#f6d187" stroke="#333" stroke-width="2"/>
+<text x="2400" y="1368" font-size="22" text-anchor="middle" fill="#333">N12</text>
+<text x="2400" y="1452" font-size="24" font-weight="bold" text-anchor="middle">118</text>
+<circle cx="2600" cy="1400" r="25" fill="#e5b870" stroke="#333" stroke-width="2"/>
+<text x="2600" y="1368" font-size="22" text-anchor="middle" fill="#333">N13</text>
+<text x="2600" y="1452" font-size="24" font-weight="bold" text-anchor="middle">210</text>
+<circle cx="2800" cy="1400" r="25" fill="#f2cc82" stroke="#333" stroke-width="2"/>
+<text x="2800" y="1368" font-size="22" text-anchor="middle" fill="#333">N14</text>
+<text x="2800" y="1452" font-size="24" font-weight="bold" text-anchor="middle">137</text>
+<circle cx="100" cy="1500" r="25" fill="#d09b56" stroke="#333" stroke-width="2"/>
+<text x="100" y="1468" font-size="22" text-anchor="middle" fill="#333">O01</text>
+<text x="100" y="1552" font-size="24" font-weight="bold" text-anchor="middle">316</text>
+<circle cx="300" cy="1500" r="25" fill="#b77735" stroke="#333" stroke-width="2"/>
+<text x="300" y="1468" font-size="22" text-anchor="middle" fill="#333">O02</text>
+<text x="300" y="1552" font-size="24" font-weight="bold" text-anchor="middle">449</text>
+<circle cx="500" cy="1500" r="25" fill="#ecc37a" stroke="#333" stroke-width="2"/>
+<text x="500" y="1468" font-size="22" text-anchor="middle" fill="#333">O03</text>
+<text x="500" y="1552" font-size="24" font-weight="bold" text-anchor="middle">169</text>
+<circle cx="700" cy="1500" r="25" fill="#daa862" stroke="#333" stroke-width="2"/>
+<text x="700" y="1468" font-size="22" text-anchor="middle" fill="#333">O04</text>
+<text x="700" y="1552" font-size="24" font-weight="bold" text-anchor="middle">268</text>
+<circle cx="900" cy="1500" r="25" fill="#e7bb73" stroke="#333" stroke-width="2"/>
+<text x="900" y="1468" font-size="22" text-anchor="middle" fill="#333">O05</text>
+<text x="900" y="1552" font-size="24" font-weight="bold" text-anchor="middle">198</text>
+<circle cx="1100" cy="1500" r="25" fill="#c88f4b" stroke="#333" stroke-width="2"/>
+<text x="1100" y="1468" font-size="22" text-anchor="middle" fill="#333">O06</text>
+<text x="1100" y="1552" font-size="24" font-weight="bold" text-anchor="middle">363</text>
+<circle cx="1300" cy="1500" r="25" fill="#d6a45e" stroke="#333" stroke-width="2"/>
+<text x="1300" y="1468" font-size="22" text-anchor="middle" fill="#333">O07</text>
+<text x="1300" y="1552" font-size="24" font-weight="bold" text-anchor="middle">285</text>
+<circle cx="1500" cy="1500" r="25" fill="#c9904c" stroke="#333" stroke-width="2"/>
+<text x="1500" y="1468" font-size="22" text-anchor="middle" fill="#333">O08</text>
+<text x="1500" y="1552" font-size="24" font-weight="bold" text-anchor="middle">357</text>
+<circle cx="1700" cy="1500" r="25" fill="#deaf68" stroke="#333" stroke-width="2"/>
+<text x="1700" y="1468" font-size="22" text-anchor="middle" fill="#333">O09</text>
+<text x="1700" y="1552" font-size="24" font-weight="bold" text-anchor="middle">244</text>
+<circle cx="1900" cy="1500" r="25" fill="#d29e58" stroke="#333" stroke-width="2"/>
+<text x="1900" y="1468" font-size="22" text-anchor="middle" fill="#333">O10</text>
+<text x="1900" y="1552" font-size="24" font-weight="bold" text-anchor="middle">307</text>
+<circle cx="2100" cy="1500" r="25" fill="#a05717" stroke="#333" stroke-width="2"/>
+<text x="2100" y="1468" font-size="22" text-anchor="middle" fill="#333">O11</text>
+<text x="2100" y="1552" font-size="24" font-weight="bold" text-anchor="middle">570</text>
+<circle cx="2300" cy="1500" r="25" fill="#dcac66" stroke="#333" stroke-width="2"/>
+<text x="2300" y="1468" font-size="22" text-anchor="middle" fill="#333">O12</text>
+<text x="2300" y="1552" font-size="24" font-weight="bold" text-anchor="middle">253</text>
+<circle cx="2500" cy="1500" r="25" fill="#cb934f" stroke="#333" stroke-width="2"/>
+<text x="2500" y="1468" font-size="22" text-anchor="middle" fill="#333">O13</text>
+<text x="2500" y="1552" font-size="24" font-weight="bold" text-anchor="middle">346</text>
+<circle cx="2700" cy="1500" r="25" fill="#b67634" stroke="#333" stroke-width="2"/>
+<text x="2700" y="1468" font-size="22" text-anchor="middle" fill="#333">O14</text>
+<text x="2700" y="1552" font-size="24" font-weight="bold" text-anchor="middle">455</text>
+<circle cx="2900" cy="1500" r="25" fill="#e5b870" stroke="#333" stroke-width="2"/>
+<text x="2900" y="1468" font-size="22" text-anchor="middle" fill="#333">O15</text>
+<text x="2900" y="1552" font-size="24" font-weight="bold" text-anchor="middle">210</text>
+<circle cx="200" cy="1600" r="25" fill="#dfb069" stroke="#333" stroke-width="2"/>
+<text x="200" y="1568" font-size="22" text-anchor="middle" fill="#333">P01</text>
+<text x="200" y="1652" font-size="24" font-weight="bold" text-anchor="middle">240</text>
+<circle cx="400" cy="1600" r="25" fill="#c78d49" stroke="#333" stroke-width="2"/>
+<text x="400" y="1568" font-size="22" text-anchor="middle" fill="#333">P02</text>
+<text x="400" y="1652" font-size="24" font-weight="bold" text-anchor="middle">368</text>
+<circle cx="600" cy="1600" r="25" fill="#b16e2d" stroke="#333" stroke-width="2"/>
+<text x="600" y="1568" font-size="22" text-anchor="middle" fill="#333">P03</text>
+<text x="600" y="1652" font-size="24" font-weight="bold" text-anchor="middle">482</text>
+<circle cx="800" cy="1600" r="25" fill="#c8904b" stroke="#333" stroke-width="2"/>
+<text x="800" y="1568" font-size="22" text-anchor="middle" fill="#333">P04</text>
+<text x="800" y="1652" font-size="24" font-weight="bold" text-anchor="middle">359</text>
+<circle cx="1000" cy="1600" r="25" fill="#d8a760" stroke="#333" stroke-width="2"/>
+<text x="1000" y="1568" font-size="22" text-anchor="middle" fill="#333">P05</text>
+<text x="1000" y="1652" font-size="24" font-weight="bold" text-anchor="middle">274</text>
+<circle cx="1200" cy="1600" r="25" fill="#ac6726" stroke="#333" stroke-width="2"/>
+<text x="1200" y="1568" font-size="22" text-anchor="middle" fill="#333">P06</text>
+<text x="1200" y="1652" font-size="24" font-weight="bold" text-anchor="middle">510</text>
+<circle cx="1400" cy="1600" r="25" fill="#f6d187" stroke="#333" stroke-width="2"/>
+<text x="1400" y="1568" font-size="22" text-anchor="middle" fill="#333">P07</text>
+<text x="1400" y="1652" font-size="24" font-weight="bold" text-anchor="middle">117</text>
+<circle cx="1600" cy="1600" r="25" fill="#b87836" stroke="#333" stroke-width="2"/>
+<text x="1600" y="1568" font-size="22" text-anchor="middle" fill="#333">P08</text>
+<text x="1600" y="1652" font-size="24" font-weight="bold" text-anchor="middle">445</text>
+<circle cx="1800" cy="1600" r="25" fill="#f4ce84" stroke="#333" stroke-width="2"/>
+<text x="1800" y="1568" font-size="22" text-anchor="middle" fill="#333">P09</text>
+<text x="1800" y="1652" font-size="24" font-weight="bold" text-anchor="middle">129</text>
+<circle cx="2000" cy="1600" r="25" fill="#e4b770" stroke="#333" stroke-width="2"/>
+<text x="2000" y="1568" font-size="22" text-anchor="middle" fill="#333">P10</text>
+<text x="2000" y="1652" font-size="24" font-weight="bold" text-anchor="middle">212</text>
+<circle cx="2200" cy="1600" r="25" fill="#eec67d" stroke="#333" stroke-width="2"/>
+<text x="2200" y="1568" font-size="22" text-anchor="middle" fill="#333">P11</text>
+<text x="2200" y="1652" font-size="24" font-weight="bold" text-anchor="middle">158</text>
+<circle cx="2400" cy="1600" r="25" fill="#bd803d" stroke="#333" stroke-width="2"/>
+<text x="2400" y="1568" font-size="22" text-anchor="middle" fill="#333">P12</text>
+<text x="2400" y="1652" font-size="24" font-weight="bold" text-anchor="middle">418</text>
+<circle cx="2600" cy="1600" r="25" fill="#d8a660" stroke="#333" stroke-width="2"/>
+<text x="2600" y="1568" font-size="22" text-anchor="middle" fill="#333">P13</text>
+<text x="2600" y="1652" font-size="24" font-weight="bold" text-anchor="middle">277</text>
+<circle cx="2800" cy="1600" r="25" fill="#ca914d" stroke="#333" stroke-width="2"/>
+<text x="2800" y="1568" font-size="22" text-anchor="middle" fill="#333">P14</text>
+<text x="2800" y="1652" font-size="24" font-weight="bold" text-anchor="middle">352</text>
+<circle cx="100" cy="1700" r="25" fill="#c08541" stroke="#333" stroke-width="2"/>
+<text x="100" y="1668" font-size="22" text-anchor="middle" fill="#333">Q01</text>
+<text x="100" y="1752" font-size="24" font-weight="bold" text-anchor="middle">400</text>
+<circle cx="300" cy="1700" r="25" fill="#f7d389" stroke="#333" stroke-width="2"/>
+<text x="300" y="1668" font-size="22" text-anchor="middle" fill="#333">Q02</text>
+<text x="300" y="1752" font-size="24" font-weight="bold" text-anchor="middle">111</text>
+<circle cx="500" cy="1700" r="25" fill="#d4a05b" stroke="#333" stroke-width="2"/>
+<text x="500" y="1668" font-size="22" text-anchor="middle" fill="#333">Q03</text>
+<text x="500" y="1752" font-size="24" font-weight="bold" text-anchor="middle">297</text>
+<circle cx="700" cy="1700" r="25" fill="#f8d48a" stroke="#333" stroke-width="2"/>
+<text x="700" y="1668" font-size="22" text-anchor="middle" fill="#333">Q04</text>
+<text x="700" y="1752" font-size="24" font-weight="bold" text-anchor="middle">106</text>
+<circle cx="900" cy="1700" r="25" fill="#b47231" stroke="#333" stroke-width="2"/>
+<text x="900" y="1668" font-size="22" text-anchor="middle" fill="#333">Q05</text>
+<text x="900" y="1752" font-size="24" font-weight="bold" text-anchor="middle">467</text>
+<circle cx="1100" cy="1700" r="25" fill="#f1c980" stroke="#333" stroke-width="2"/>
+<text x="1100" y="1668" font-size="22" text-anchor="middle" fill="#333">Q06</text>
+<text x="1100" y="1752" font-size="24" font-weight="bold" text-anchor="middle">147</text>
+<circle cx="1300" cy="1700" r="25" fill="#bb7d3b" stroke="#333" stroke-width="2"/>
+<text x="1300" y="1668" font-size="22" text-anchor="middle" fill="#333">Q07</text>
+<text x="1300" y="1752" font-size="24" font-weight="bold" text-anchor="middle">427</text>
+<circle cx="1500" cy="1700" r="25" fill="#e9be76" stroke="#333" stroke-width="2"/>
+<text x="1500" y="1668" font-size="22" text-anchor="middle" fill="#333">Q08</text>
+<text x="1500" y="1752" font-size="24" font-weight="bold" text-anchor="middle">187</text>
+<circle cx="1700" cy="1700" r="25" fill="#a76120" stroke="#333" stroke-width="2"/>
+<text x="1700" y="1668" font-size="22" text-anchor="middle" fill="#333">Q09</text>
+<text x="1700" y="1752" font-size="24" font-weight="bold" text-anchor="middle">533</text>
+<circle cx="1900" cy="1700" r="25" fill="#b87836" stroke="#333" stroke-width="2"/>
+<text x="1900" y="1668" font-size="22" text-anchor="middle" fill="#333">Q10</text>
+<text x="1900" y="1752" font-size="24" font-weight="bold" text-anchor="middle">446</text>
+<circle cx="2100" cy="1700" r="25" fill="#c78d49" stroke="#333" stroke-width="2"/>
+<text x="2100" y="1668" font-size="22" text-anchor="middle" fill="#333">Q11</text>
+<text x="2100" y="1752" font-size="24" font-weight="bold" text-anchor="middle">368</text>
+<circle cx="2300" cy="1700" r="25" fill="#aa6525" stroke="#333" stroke-width="2"/>
+<text x="2300" y="1668" font-size="22" text-anchor="middle" fill="#333">Q12</text>
+<text x="2300" y="1752" font-size="24" font-weight="bold" text-anchor="middle">516</text>
+<circle cx="2500" cy="1700" r="25" fill="#ebc078" stroke="#333" stroke-width="2"/>
+<text x="2500" y="1668" font-size="22" text-anchor="middle" fill="#333">Q13</text>
+<text x="2500" y="1752" font-size="24" font-weight="bold" text-anchor="middle">178</text>
+<circle cx="2700" cy="1700" r="25" fill="#f8d48a" stroke="#333" stroke-width="2"/>
+<text x="2700" y="1668" font-size="22" text-anchor="middle" fill="#333">Q14</text>
+<text x="2700" y="1752" font-size="24" font-weight="bold" text-anchor="middle">107</text>
+<circle cx="2900" cy="1700" r="25" fill="#b57432" stroke="#333" stroke-width="2"/>
+<text x="2900" y="1668" font-size="22" text-anchor="middle" fill="#333">Q15</text>
+<text x="2900" y="1752" font-size="24" font-weight="bold" text-anchor="middle">461</text>
+<circle cx="200" cy="1800" r="25" fill="#b16f2e" stroke="#333" stroke-width="2"/>
+<text x="200" y="1768" font-size="22" text-anchor="middle" fill="#333">R01</text>
+<text x="200" y="1852" font-size="24" font-weight="bold" text-anchor="middle">479</text>
+<circle cx="400" cy="1800" r="25" fill="#eabf77" stroke="#333" stroke-width="2"/>
+<text x="400" y="1768" font-size="22" text-anchor="middle" fill="#333">R02</text>
+<text x="400" y="1852" font-size="24" font-weight="bold" text-anchor="middle">182</text>
+<circle cx="600" cy="1800" r="25" fill="#a55e1e" stroke="#333" stroke-width="2"/>
+<text x="600" y="1768" font-size="22" text-anchor="middle" fill="#333">R03</text>
+<text x="600" y="1852" font-size="24" font-weight="bold" text-anchor="middle">543</text>
+<circle cx="800" cy="1800" r="25" fill="#e8bd75" stroke="#333" stroke-width="2"/>
+<text x="800" y="1768" font-size="22" text-anchor="middle" fill="#333">R04</text>
+<text x="800" y="1852" font-size="24" font-weight="bold" text-anchor="middle">191</text>
+<circle cx="1000" cy="1800" r="25" fill="#a2591a" stroke="#333" stroke-width="2"/>
+<text x="1000" y="1768" font-size="22" text-anchor="middle" fill="#333">R05</text>
+<text x="1000" y="1852" font-size="24" font-weight="bold" text-anchor="middle">561</text>
+<circle cx="1200" cy="1800" r="25" fill="#cb934f" stroke="#333" stroke-width="2"/>
+<text x="1200" y="1768" font-size="22" text-anchor="middle" fill="#333">R06</text>
+<text x="1200" y="1852" font-size="24" font-weight="bold" text-anchor="middle">346</text>
+<circle cx="1400" cy="1800" r="25" fill="#deae67" stroke="#333" stroke-width="2"/>
+<text x="1400" y="1768" font-size="22" text-anchor="middle" fill="#333">R07</text>
+<text x="1400" y="1852" font-size="24" font-weight="bold" text-anchor="middle">247</text>
+<circle cx="1600" cy="1800" r="25" fill="#cb944f" stroke="#333" stroke-width="2"/>
+<text x="1600" y="1768" font-size="22" text-anchor="middle" fill="#333">R08</text>
+<text x="1600" y="1852" font-size="24" font-weight="bold" text-anchor="middle">344</text>
+<circle cx="1800" cy="1800" r="25" fill="#e0b26b" stroke="#333" stroke-width="2"/>
+<text x="1800" y="1768" font-size="22" text-anchor="middle" fill="#333">R09</text>
+<text x="1800" y="1852" font-size="24" font-weight="bold" text-anchor="middle">232</text>
+<circle cx="2000" cy="1800" r="25" fill="#a86121" stroke="#333" stroke-width="2"/>
+<text x="2000" y="1768" font-size="22" text-anchor="middle" fill="#333">R10</text>
+<text x="2000" y="1852" font-size="24" font-weight="bold" text-anchor="middle">531</text>
+<circle cx="2200" cy="1800" r="25" fill="#daa963" stroke="#333" stroke-width="2"/>
+<text x="2200" y="1768" font-size="22" text-anchor="middle" fill="#333">R11</text>
+<text x="2200" y="1852" font-size="24" font-weight="bold" text-anchor="middle">264</text>
+<circle cx="2400" cy="1800" r="25" fill="#cb944f" stroke="#333" stroke-width="2"/>
+<text x="2400" y="1768" font-size="22" text-anchor="middle" fill="#333">R12</text>
+<text x="2400" y="1852" font-size="24" font-weight="bold" text-anchor="middle">343</text>
+<circle cx="2600" cy="1800" r="25" fill="#ae6a29" stroke="#333" stroke-width="2"/>
+<text x="2600" y="1768" font-size="22" text-anchor="middle" fill="#333">R13</text>
+<text x="2600" y="1852" font-size="24" font-weight="bold" text-anchor="middle">497</text>
+<circle cx="2800" cy="1800" r="25" fill="#e6ba72" stroke="#333" stroke-width="2"/>
+<text x="2800" y="1768" font-size="22" text-anchor="middle" fill="#333">R14</text>
+<text x="2800" y="1852" font-size="24" font-weight="bold" text-anchor="middle">202</text>
+<circle cx="100" cy="1900" r="25" fill="#daa962" stroke="#333" stroke-width="2"/>
+<text x="100" y="1868" font-size="22" text-anchor="middle" fill="#333">S01</text>
+<text x="100" y="1952" font-size="24" font-weight="bold" text-anchor="middle">266</text>
+<circle cx="300" cy="1900" r="25" fill="#cc9450" stroke="#333" stroke-width="2"/>
+<text x="300" y="1868" font-size="22" text-anchor="middle" fill="#333">S02</text>
+<text x="300" y="1952" font-size="24" font-weight="bold" text-anchor="middle">341</text>
+<circle cx="500" cy="1900" r="25" fill="#bd803d" stroke="#333" stroke-width="2"/>
+<text x="500" y="1868" font-size="22" text-anchor="middle" fill="#333">S03</text>
+<text x="500" y="1952" font-size="24" font-weight="bold" text-anchor="middle">416</text>
+<circle cx="700" cy="1900" r="25" fill="#daa962" stroke="#333" stroke-width="2"/>
+<text x="700" y="1868" font-size="22" text-anchor="middle" fill="#333">S04</text>
+<text x="700" y="1952" font-size="24" font-weight="bold" text-anchor="middle">266</text>
+<circle cx="900" cy="1900" r="25" fill="#c58b47" stroke="#333" stroke-width="2"/>
+<text x="900" y="1868" font-size="22" text-anchor="middle" fill="#333">S05</text>
+<text x="900" y="1952" font-size="24" font-weight="bold" text-anchor="middle">377</text>
+<circle cx="1100" cy="1900" r="25" fill="#e4b66f" stroke="#333" stroke-width="2"/>
+<text x="1100" y="1868" font-size="22" text-anchor="middle" fill="#333">S06</text>
+<text x="1100" y="1952" font-size="24" font-weight="bold" text-anchor="middle">215</text>
+<circle cx="1300" cy="1900" r="25" fill="#a86121" stroke="#333" stroke-width="2"/>
+<text x="1300" y="1868" font-size="22" text-anchor="middle" fill="#333">S07</text>
+<text x="1300" y="1952" font-size="24" font-weight="bold" text-anchor="middle">530</text>
+<circle cx="1500" cy="1900" r="25" fill="#b87936" stroke="#333" stroke-width="2"/>
+<text x="1500" y="1868" font-size="22" text-anchor="middle" fill="#333">S08</text>
+<text x="1500" y="1952" font-size="24" font-weight="bold" text-anchor="middle">444</text>
+<circle cx="1700" cy="1900" r="25" fill="#f3cc83" stroke="#333" stroke-width="2"/>
+<text x="1700" y="1868" font-size="22" text-anchor="middle" fill="#333">S09</text>
+<text x="1700" y="1952" font-size="24" font-weight="bold" text-anchor="middle">134</text>
+<circle cx="1900" cy="1900" r="25" fill="#d19c57" stroke="#333" stroke-width="2"/>
+<text x="1900" y="1868" font-size="22" text-anchor="middle" fill="#333">S10</text>
+<text x="1900" y="1952" font-size="24" font-weight="bold" text-anchor="middle">313</text>
+<circle cx="2100" cy="1900" r="25" fill="#f6d087" stroke="#333" stroke-width="2"/>
+<text x="2100" y="1868" font-size="22" text-anchor="middle" fill="#333">S11</text>
+<text x="2100" y="1952" font-size="24" font-weight="bold" text-anchor="middle">119</text>
+<circle cx="2300" cy="1900" r="25" fill="#bb7d3b" stroke="#333" stroke-width="2"/>
+<text x="2300" y="1868" font-size="22" text-anchor="middle" fill="#333">S12</text>
+<text x="2300" y="1952" font-size="24" font-weight="bold" text-anchor="middle">427</text>
+<circle cx="2500" cy="1900" r="25" fill="#dfb16a" stroke="#333" stroke-width="2"/>
+<text x="2500" y="1868" font-size="22" text-anchor="middle" fill="#333">S13</text>
+<text x="2500" y="1952" font-size="24" font-weight="bold" text-anchor="middle">237</text>
+<circle cx="2700" cy="1900" r="25" fill="#d29e58" stroke="#333" stroke-width="2"/>
+<text x="2700" y="1868" font-size="22" text-anchor="middle" fill="#333">S14</text>
+<text x="2700" y="1952" font-size="24" font-weight="bold" text-anchor="middle">307</text>
+<circle cx="2900" cy="1900" r="25" fill="#c78e4a" stroke="#333" stroke-width="2"/>
+<text x="2900" y="1868" font-size="22" text-anchor="middle" fill="#333">S15</text>
+<text x="2900" y="1952" font-size="24" font-weight="bold" text-anchor="middle">365</text>
+<circle cx="200" cy="2000" r="25" fill="#ebc179" stroke="#333" stroke-width="2"/>
+<text x="200" y="1968" font-size="22" text-anchor="middle" fill="#333">T01</text>
+<text x="200" y="2052" font-size="24" font-weight="bold" text-anchor="middle">175</text>
+<circle cx="400" cy="2000" r="25" fill="#dcab65" stroke="#333" stroke-width="2"/>
+<text x="400" y="1968" font-size="22" text-anchor="middle" fill="#333">T02</text>
+<text x="400" y="2052" font-size="24" font-weight="bold" text-anchor="middle">257</text>
+<circle cx="600" cy="2000" r="25" fill="#f6d187" stroke="#333" stroke-width="2"/>
+<text x="600" y="1968" font-size="22" text-anchor="middle" fill="#333">T03</text>
+<text x="600" y="2052" font-size="24" font-weight="bold" text-anchor="middle">118</text>
+<circle cx="800" cy="2000" r="25" fill="#b77635" stroke="#333" stroke-width="2"/>
+<text x="800" y="1968" font-size="22" text-anchor="middle" fill="#333">T04</text>
+<text x="800" y="2052" font-size="24" font-weight="bold" text-anchor="middle">452</text>
+<circle cx="1000" cy="2000" r="25" fill="#d4a15b" stroke="#333" stroke-width="2"/>
+<text x="1000" y="1968" font-size="22" text-anchor="middle" fill="#333">T05</text>
+<text x="1000" y="2052" font-size="24" font-weight="bold" text-anchor="middle">295</text>
+<circle cx="1200" cy="2000" r="25" fill="#ba7b39" stroke="#333" stroke-width="2"/>
+<text x="1200" y="1968" font-size="22" text-anchor="middle" fill="#333">T06</text>
+<text x="1200" y="2052" font-size="24" font-weight="bold" text-anchor="middle">434</text>
+<circle cx="1400" cy="2000" r="25" fill="#f0c87f" stroke="#333" stroke-width="2"/>
+<text x="1400" y="1968" font-size="22" text-anchor="middle" fill="#333">T07</text>
+<text x="1400" y="2052" font-size="24" font-weight="bold" text-anchor="middle">149</text>
+<circle cx="1600" cy="2000" r="25" fill="#a65f1f" stroke="#333" stroke-width="2"/>
+<text x="1600" y="1968" font-size="22" text-anchor="middle" fill="#333">T08</text>
+<text x="1600" y="2052" font-size="24" font-weight="bold" text-anchor="middle">538</text>
+<circle cx="1800" cy="2000" r="25" fill="#b57433" stroke="#333" stroke-width="2"/>
+<text x="1800" y="1968" font-size="22" text-anchor="middle" fill="#333">T09</text>
+<text x="1800" y="2052" font-size="24" font-weight="bold" text-anchor="middle">460</text>
+<circle cx="2000" cy="2000" r="25" fill="#c28744" stroke="#333" stroke-width="2"/>
+<text x="2000" y="1968" font-size="22" text-anchor="middle" fill="#333">T10</text>
+<text x="2000" y="2052" font-size="24" font-weight="bold" text-anchor="middle">391</text>
+<circle cx="2200" cy="2000" r="25" fill="#e6bb73" stroke="#333" stroke-width="2"/>
+<text x="2200" y="1968" font-size="22" text-anchor="middle" fill="#333">T11</text>
+<text x="2200" y="2052" font-size="24" font-weight="bold" text-anchor="middle">200</text>
+<circle cx="2400" cy="2000" r="25" fill="#f9d58b" stroke="#333" stroke-width="2"/>
+<text x="2400" y="1968" font-size="22" text-anchor="middle" fill="#333">T12</text>
+<text x="2400" y="2052" font-size="24" font-weight="bold" text-anchor="middle">103</text>
+<circle cx="2600" cy="2000" r="25" fill="#c18542" stroke="#333" stroke-width="2"/>
+<text x="2600" y="1968" font-size="22" text-anchor="middle" fill="#333">T13</text>
+<text x="2600" y="2052" font-size="24" font-weight="bold" text-anchor="middle">398</text>
+<circle cx="2800" cy="2000" r="25" fill="#b57533" stroke="#333" stroke-width="2"/>
+<text x="2800" y="1968" font-size="22" text-anchor="middle" fill="#333">T14</text>
+<text x="2800" y="2052" font-size="24" font-weight="bold" text-anchor="middle">458</text>
+<circle cx="100" cy="2100" r="25" fill="#c48a46" stroke="#333" stroke-width="2"/>
+<text x="100" y="2068" font-size="22" text-anchor="middle" fill="#333">U01</text>
+<text x="100" y="2152" font-size="24" font-weight="bold" text-anchor="middle">380</text>
+<circle cx="300" cy="2100" r="25" fill="#f7d389" stroke="#333" stroke-width="2"/>
+<text x="300" y="2068" font-size="22" text-anchor="middle" fill="#333">U02</text>
+<text x="300" y="2152" font-size="24" font-weight="bold" text-anchor="middle">111</text>
+<circle cx="500" cy="2100" r="25" fill="#b06c2b" stroke="#333" stroke-width="2"/>
+<text x="500" y="2068" font-size="22" text-anchor="middle" fill="#333">U03</text>
+<text x="500" y="2152" font-size="24" font-weight="bold" text-anchor="middle">489</text>
+<circle cx="700" cy="2100" r="25" fill="#ca914d" stroke="#333" stroke-width="2"/>
+<text x="700" y="2068" font-size="22" text-anchor="middle" fill="#333">U04</text>
+<text x="700" y="2152" font-size="24" font-weight="bold" text-anchor="middle">352</text>
+<circle cx="900" cy="2100" r="25" fill="#a96323" stroke="#333" stroke-width="2"/>
+<text x="900" y="2068" font-size="22" text-anchor="middle" fill="#333">U05</text>
+<text x="900" y="2152" font-size="24" font-weight="bold" text-anchor="middle">523</text>
+<circle cx="1100" cy="2100" r="25" fill="#f2cb82" stroke="#333" stroke-width="2"/>
+<text x="1100" y="2068" font-size="22" text-anchor="middle" fill="#333">U06</text>
+<text x="1100" y="2152" font-size="24" font-weight="bold" text-anchor="middle">138</text>
+<circle cx="1300" cy="2100" r="25" fill="#d9a761" stroke="#333" stroke-width="2"/>
+<text x="1300" y="2068" font-size="22" text-anchor="middle" fill="#333">U07</text>
+<text x="1300" y="2152" font-size="24" font-weight="bold" text-anchor="middle">272</text>
+<circle cx="1500" cy="2100" r="25" fill="#cd9652" stroke="#333" stroke-width="2"/>
+<text x="1500" y="2068" font-size="22" text-anchor="middle" fill="#333">U08</text>
+<text x="1500" y="2152" font-size="24" font-weight="bold" text-anchor="middle">334</text>
+<circle cx="1700" cy="2100" r="25" fill="#d9a761" stroke="#333" stroke-width="2"/>
+<text x="1700" y="2068" font-size="22" text-anchor="middle" fill="#333">U09</text>
+<text x="1700" y="2152" font-size="24" font-weight="bold" text-anchor="middle">271</text>
+<circle cx="1900" cy="2100" r="25" fill="#e6b972" stroke="#333" stroke-width="2"/>
+<text x="1900" y="2068" font-size="22" text-anchor="middle" fill="#333">U10</text>
+<text x="1900" y="2152" font-size="24" font-weight="bold" text-anchor="middle">205</text>
+<circle cx="2100" cy="2100" r="25" fill="#ad6928" stroke="#333" stroke-width="2"/>
+<text x="2100" y="2068" font-size="22" text-anchor="middle" fill="#333">U11</text>
+<text x="2100" y="2152" font-size="24" font-weight="bold" text-anchor="middle">502</text>
+<circle cx="2300" cy="2100" r="25" fill="#cb934e" stroke="#333" stroke-width="2"/>
+<text x="2300" y="2068" font-size="22" text-anchor="middle" fill="#333">U12</text>
+<text x="2300" y="2152" font-size="24" font-weight="bold" text-anchor="middle">347</text>
+<circle cx="2500" cy="2100" r="25" fill="#ae6b2a" stroke="#333" stroke-width="2"/>
+<text x="2500" y="2068" font-size="22" text-anchor="middle" fill="#333">U13</text>
+<text x="2500" y="2152" font-size="24" font-weight="bold" text-anchor="middle">496</text>
+<circle cx="2700" cy="2100" r="25" fill="#efc77e" stroke="#333" stroke-width="2"/>
+<text x="2700" y="2068" font-size="22" text-anchor="middle" fill="#333">U14</text>
+<text x="2700" y="2152" font-size="24" font-weight="bold" text-anchor="middle">153</text>
+<circle cx="2900" cy="2100" r="25" fill="#dbaa64" stroke="#333" stroke-width="2"/>
+<text x="2900" y="2068" font-size="22" text-anchor="middle" fill="#333">U15</text>
+<text x="2900" y="2152" font-size="24" font-weight="bold" text-anchor="middle">260</text>
+<circle cx="200" cy="2200" r="25" fill="#b47331" stroke="#333" stroke-width="2"/>
+<text x="200" y="2168" font-size="22" text-anchor="middle" fill="#333">V01</text>
+<text x="200" y="2252" font-size="24" font-weight="bold" text-anchor="middle">466</text>
+<circle cx="400" cy="2200" r="25" fill="#c48945" stroke="#333" stroke-width="2"/>
+<text x="400" y="2168" font-size="22" text-anchor="middle" fill="#333">V02</text>
+<text x="400" y="2252" font-size="24" font-weight="bold" text-anchor="middle">384</text>
+<circle cx="600" cy="2200" r="25" fill="#d7a45e" stroke="#333" stroke-width="2"/>
+<text x="600" y="2168" font-size="22" text-anchor="middle" fill="#333">V03</text>
+<text x="600" y="2252" font-size="24" font-weight="bold" text-anchor="middle">283</text>
+<circle cx="800" cy="2200" r="25" fill="#edc47b" stroke="#333" stroke-width="2"/>
+<text x="800" y="2168" font-size="22" text-anchor="middle" fill="#333">V04</text>
+<text x="800" y="2252" font-size="24" font-weight="bold" text-anchor="middle">165</text>
+<circle cx="1000" cy="2200" r="25" fill="#c38744" stroke="#333" stroke-width="2"/>
+<text x="1000" y="2168" font-size="22" text-anchor="middle" fill="#333">V05</text>
+<text x="1000" y="2252" font-size="24" font-weight="bold" text-anchor="middle">389</text>
+<circle cx="1200" cy="2200" r="25" fill="#ad6928" stroke="#333" stroke-width="2"/>
+<text x="1200" y="2168" font-size="22" text-anchor="middle" fill="#333">V06</text>
+<text x="1200" y="2252" font-size="24" font-weight="bold" text-anchor="middle">502</text>
+<circle cx="1400" cy="2200" r="25" fill="#c08340" stroke="#333" stroke-width="2"/>
+<text x="1400" y="2168" font-size="22" text-anchor="middle" fill="#333">V07</text>
+<text x="1400" y="2252" font-size="24" font-weight="bold" text-anchor="middle">404</text>
+<circle cx="1600" cy="2200" r="25" fill="#e7bb74" stroke="#333" stroke-width="2"/>
+<text x="1600" y="2168" font-size="22" text-anchor="middle" fill="#333">V08</text>
+<text x="1600" y="2252" font-size="24" font-weight="bold" text-anchor="middle">197</text>
+<circle cx="1800" cy="2200" r="25" fill="#f5cf86" stroke="#333" stroke-width="2"/>
+<text x="1800" y="2168" font-size="22" text-anchor="middle" fill="#333">V09</text>
+<text x="1800" y="2252" font-size="24" font-weight="bold" text-anchor="middle">124</text>
+<circle cx="2000" cy="2200" r="25" fill="#d19c57" stroke="#333" stroke-width="2"/>
+<text x="2000" y="2168" font-size="22" text-anchor="middle" fill="#333">V10</text>
+<text x="2000" y="2252" font-size="24" font-weight="bold" text-anchor="middle">313</text>
+<circle cx="2200" cy="2200" r="25" fill="#dcab65" stroke="#333" stroke-width="2"/>
+<text x="2200" y="2168" font-size="22" text-anchor="middle" fill="#333">V11</text>
+<text x="2200" y="2252" font-size="24" font-weight="bold" text-anchor="middle">257</text>
+<circle cx="2400" cy="2200" r="25" fill="#eec57c" stroke="#333" stroke-width="2"/>
+<text x="2400" y="2168" font-size="22" text-anchor="middle" fill="#333">V12</text>
+<text x="2400" y="2252" font-size="24" font-weight="bold" text-anchor="middle">161</text>
+<circle cx="2600" cy="2200" r="25" fill="#dfaf69" stroke="#333" stroke-width="2"/>
+<text x="2600" y="2168" font-size="22" text-anchor="middle" fill="#333">V13</text>
+<text x="2600" y="2252" font-size="24" font-weight="bold" text-anchor="middle">241</text>
+<circle cx="2800" cy="2200" r="25" fill="#cd9651" stroke="#333" stroke-width="2"/>
+<text x="2800" y="2168" font-size="22" text-anchor="middle" fill="#333">V14</text>
+<text x="2800" y="2252" font-size="24" font-weight="bold" text-anchor="middle">335</text>
+<circle cx="100" cy="2300" r="25" fill="#e0b16a" stroke="#333" stroke-width="2"/>
+<text x="100" y="2268" font-size="22" text-anchor="middle" fill="#333">W01</text>
+<text x="100" y="2352" font-size="24" font-weight="bold" text-anchor="middle">235</text>
+<circle cx="300" cy="2300" r="25" fill="#d4a05b" stroke="#333" stroke-width="2"/>
+<text x="300" y="2268" font-size="22" text-anchor="middle" fill="#333">W02</text>
+<text x="300" y="2352" font-size="24" font-weight="bold" text-anchor="middle">298</text>
+<circle cx="500" cy="2300" r="25" fill="#e9be76" stroke="#333" stroke-width="2"/>
+<text x="500" y="2268" font-size="22" text-anchor="middle" fill="#333">W03</text>
+<text x="500" y="2352" font-size="24" font-weight="bold" text-anchor="middle">188</text>
+<circle cx="700" cy="2300" r="25" fill="#bd7f3d" stroke="#333" stroke-width="2"/>
+<text x="700" y="2268" font-size="22" text-anchor="middle" fill="#333">W04</text>
+<text x="700" y="2352" font-size="24" font-weight="bold" text-anchor="middle">419</text>
+<circle cx="900" cy="2300" r="25" fill="#e1b26b" stroke="#333" stroke-width="2"/>
+<text x="900" y="2268" font-size="22" text-anchor="middle" fill="#333">W05</text>
+<text x="900" y="2352" font-size="24" font-weight="bold" text-anchor="middle">231</text>
+<circle cx="1100" cy="2300" r="25" fill="#d19c57" stroke="#333" stroke-width="2"/>
+<text x="1100" y="2268" font-size="22" text-anchor="middle" fill="#333">W06</text>
+<text x="1100" y="2352" font-size="24" font-weight="bold" text-anchor="middle">313</text>
+<circle cx="1300" cy="2300" r="25" fill="#e9be76" stroke="#333" stroke-width="2"/>
+<text x="1300" y="2268" font-size="22" text-anchor="middle" fill="#333">W07</text>
+<text x="1300" y="2352" font-size="24" font-weight="bold" text-anchor="middle">188</text>
+<circle cx="1500" cy="2300" r="25" fill="#b06e2c" stroke="#333" stroke-width="2"/>
+<text x="1500" y="2268" font-size="22" text-anchor="middle" fill="#333">W08</text>
+<text x="1500" y="2352" font-size="24" font-weight="bold" text-anchor="middle">485</text>
+<circle cx="1700" cy="2300" r="25" fill="#c78e4a" stroke="#333" stroke-width="2"/>
+<text x="1700" y="2268" font-size="22" text-anchor="middle" fill="#333">W09</text>
+<text x="1700" y="2352" font-size="24" font-weight="bold" text-anchor="middle">366</text>
+<circle cx="1900" cy="2300" r="25" fill="#ba7b39" stroke="#333" stroke-width="2"/>
+<text x="1900" y="2268" font-size="22" text-anchor="middle" fill="#333">W10</text>
+<text x="1900" y="2352" font-size="24" font-weight="bold" text-anchor="middle">434</text>
+<circle cx="2100" cy="2300" r="25" fill="#f0c87f" stroke="#333" stroke-width="2"/>
+<text x="2100" y="2268" font-size="22" text-anchor="middle" fill="#333">W11</text>
+<text x="2100" y="2352" font-size="24" font-weight="bold" text-anchor="middle">151</text>
+<circle cx="2300" cy="2300" r="25" fill="#be813e" stroke="#333" stroke-width="2"/>
+<text x="2300" y="2268" font-size="22" text-anchor="middle" fill="#333">W12</text>
+<text x="2300" y="2352" font-size="24" font-weight="bold" text-anchor="middle">414</text>
+<circle cx="2500" cy="2300" r="25" fill="#cf9954" stroke="#333" stroke-width="2"/>
+<text x="2500" y="2268" font-size="22" text-anchor="middle" fill="#333">W13</text>
+<text x="2500" y="2352" font-size="24" font-weight="bold" text-anchor="middle">323</text>
+<circle cx="2700" cy="2300" r="25" fill="#bd803d" stroke="#333" stroke-width="2"/>
+<text x="2700" y="2268" font-size="22" text-anchor="middle" fill="#333">W14</text>
+<text x="2700" y="2352" font-size="24" font-weight="bold" text-anchor="middle">417</text>
+<circle cx="2900" cy="2300" r="25" fill="#e8bc75" stroke="#333" stroke-width="2"/>
+<text x="2900" y="2268" font-size="22" text-anchor="middle" fill="#333">W15</text>
+<text x="2900" y="2352" font-size="24" font-weight="bold" text-anchor="middle">193</text>
+<text x="0" y="-200" font-size="70" font-weight="bold">Plateau 3,00 x 2,40 m - 334 trous en quinconce (20 cm / diag. 14,14 cm) - vue de dessous</text>
 <text x="0" y="-120" font-size="40">Cotes en cm depuis le coin bas-gauche (0,0). Sous chaque point : longueur de fil (cm) du plateau au haut de la suspension. Quadrillage 10 cm.</text>
 </svg>

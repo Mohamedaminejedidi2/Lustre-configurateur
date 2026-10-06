@@ -1,9 +1,9 @@
 # Lustre-configurateur
 
-## Lustre cascade 348 suspensions en quinconce (`lustre/`)
+## Lustre cascade 334 suspensions en quinconce (`lustre/`)
 
 Trous en quinconce : 20 cm entre deux trous d'une même rangée ou colonne, 14,14 cm en diagonale.
-24 rangées (A à X, tous les 10 cm) de 15 et 14 trous, marges 10 cm (x) et 5 cm (y). Un pas de 20 cm ne permet pas exactement 350 trous sur 3,00 × 2,40 m.
+23 rangées (A à W, tous les 10 cm) de 15 et 14 trous, pourtour de 10 cm entre les trous extérieurs et le bord du plateau.
 
 | Fichier | Contenu |
 |---|---|
