@@ -34,7 +34,7 @@ tr.sel td{background:color-mix(in srgb,var(--hi) 18%,transparent)}
 <body>
 <main>
 <h1>Lustre cascade : plan du plateau</h1>
-<p class="lead">Plateau 3,00 × 2,40 m, vu <b>de dessous</b>, origine (0,0) au coin bas-gauche. Chaque point est un trou de sortie de fil. La couleur et le nombre donnent la <b>longueur de fil</b> entre le plateau et le haut de la suspension (Ø 5 cm, h 24 cm). Survolez un point pour le voir dans les trois vues.</p>
+<p class="lead">Plateau 3,00 × 2,40 m, vu <b>de dessous</b>, origine (0,0) au coin bas-gauche. Les trous sont en <b>quinconce</b> : 20 cm entre deux trous d'une même rangée ou colonne, 14,14 cm en diagonale. La couleur et le nombre donnent la <b>longueur de fil</b> entre le plateau et le haut de la suspension (Ø 5 cm, h 24 cm). Survolez un point pour le voir dans les trois vues.</p>
 <div class="tiles" id="tiles"></div>
 
 <div class="card">
@@ -50,7 +50,7 @@ tr.sel td{background:color-mix(in srgb,var(--hi) 18%,transparent)}
 
 <div class="card">
 <h2>Tableau de montage</h2>
-<p class="note">Repère = bande de 20 cm (A en haut du plan) + numéro de gauche à droite. Longueurs en cm, mesurées du plateau au haut de la suspension. Prévoyez en plus la réserve de fixation (serre-câble / bornier).</p>
+<p class="note">Repère = lettre de la rangée (A en haut du plan, rangées tous les 10 cm) + numéro de gauche à droite. Longueurs en cm, mesurées du plateau au haut de la suspension. Prévoyez en plus la réserve de fixation (serre-câble / bornier).</p>
 <input id="q" placeholder="Filtrer (ex. C, D07, 350)">
 <div class="tablewrap"><table><thead><tr><th data-k="id">Repère</th><th data-k="x">x (cm)</th><th data-k="y">y (cm)</th><th data-k="fil">Fil (cm)</th><th data-k="bas">Bas suspension (cm)</th></tr></thead><tbody id="tb"></tbody></table></div>
 </div>
@@ -72,10 +72,10 @@ const style=document.createElement("style");style.textContent=".on{stroke:var(--
 function reg(id,m){(marks[id]=marks[id]||[]).push(m)}
 
 // Tuiles
-const tiles=[[S.n,"suspensions"],[S.dmean+" cm","distance moyenne au plus proche voisin"],[S.dmin+" cm","distance mini entre deux trous"],[S.fil_min+" → "+S.fil_max+" cm","longueurs de fil"],[S.clear+" cm","jeu mini entre deux suspensions (3D)"]];
+const tiles=[[S.n,"suspensions"],["20 cm","pas en rangée et en colonne"],[S.dmin+" cm","pas en diagonale"],[S.fil_min+" → "+S.fil_max+" cm","longueurs de fil"],[S.clear+" cm","jeu mini entre deux suspensions (3D)"]];
 document.getElementById("tiles").innerHTML=tiles.map(t=>`<div class="tile"><b>${t[0]}</b><span>${t[1]}</span></div>`).join("");
 document.getElementById("lg").textContent=`${S.fil_min} cm → ${S.fil_max} cm`;
-document.getElementById("foot").textContent=`Généré par generate.py (graine ${S.seed}). Pas théorique d'un maillage hexagonal régulier : ${S.d_hex} cm.`;
+document.getElementById("foot").textContent=`Généré par generate.py (graine ${S.seed}). Grille en quinconce au pas de ${S.pitch} cm.`;
 
 // Plan
 (function(){const sv=document.getElementById("plan"),m=30,k=3.2,w=S.W*k,h=S.H*k;
@@ -85,8 +85,7 @@ for(let x=0;x<=S.W;x+=10)el(sv,"line",{x1:x*k,y1:0,x2:x*k,y2:h,stroke:"var(--gri
 for(let y=0;y<=S.H;y+=10)el(sv,"line",{x1:0,y1:h-y*k,x2:w,y2:h-y*k,stroke:"var(--grid)","stroke-width":y%50?0.5:1.2});
 for(let x=0;x<=S.W;x+=50){const t=el(sv,"text",{x:x*k,y:-8,"font-size":11,"text-anchor":"middle",fill:"var(--mute)"});t.textContent=x}
 for(let y=0;y<=S.H;y+=50){const t=el(sv,"text",{x:-6,y:h-y*k+4,"font-size":11,"text-anchor":"end",fill:"var(--mute)"});t.textContent=y}
-for(let b=0;b<S.H/20;b++){const t=el(sv,"text",{x:w+8,y:(b*20+11)*k,"font-size":12,"font-weight":"bold",fill:"var(--mute)"});t.textContent=String.fromCharCode(65+b);
- if(b)el(sv,"line",{x1:w,y1:b*20*k,x2:w+5,y2:b*20*k,stroke:"var(--mute)"})}
+[...new Set(D.map(d=>d.y))].forEach(y=>{const t=el(sv,"text",{x:w+6,y:h-y*k+4,"font-size":9,"font-weight":"bold",fill:"var(--mute)"});t.textContent=D.find(d=>d.y===y).id[0]});
 D.forEach(d=>{const c=el(sv,"circle",{cx:d.x*k,cy:h-d.y*k,r:6.5,fill:col(T(d)),stroke:"var(--ink)","stroke-width":0.6});
  c.addEventListener("mousemove",e=>show(d,e));c.addEventListener("mouseleave",hide);reg(d.id,c);
  const t=el(sv,"text",{x:d.x*k,y:h-d.y*k+17,"font-size":7.5,"text-anchor":"middle",fill:"var(--ink)","pointer-events":"none"});t.textContent=d.fil});

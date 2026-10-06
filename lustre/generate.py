@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Générateur du plan de perçage et des longueurs de fil du lustre « cascade ».
+"""Générateur du plan de perçage et des longueurs de fil du lustre « cascade »
+(trous en quinconce : 20 cm en rangée / colonne, 14,14 cm en diagonale).
 
 Python 3 standard uniquement (aucune dépendance). Relancer avec une autre
 graine (SEED) pour obtenir une autre répartition aléatoire.
@@ -17,8 +18,10 @@ import random
 
 # --- Paramètres du lustre (cm) -------------------------------------------
 W, H = 300.0, 240.0      # plateau 3,00 x 2,40 m (x = longueur, y = largeur)
-MARGIN = 8.0             # distance mini trou <-> bord du plateau
-N = 350                  # nombre de suspensions
+# Grille en quinconce : 20 cm entre deux trous d'une même rangée ou d'une même colonne,
+# 14,14 cm en diagonale (rangées tous les 10 cm, décalées de 10 cm une sur deux).
+PITCH = 20.0
+MARGIN_X, MARGIN_Y = 10.0, 5.0   # 24 rangées alternées de 15 et 14 trous = 348 suspensions
 SUSP_D, SUSP_H = 5.0, 24.0
 FIL_MIN = 100.0          # 1,00 m de fil nu sous le plateau avant la 1re suspension
 ZONE = 550.0             # 5,50 m de zone de suspension (haut de la plus haute -> bas de la plus basse)
@@ -32,38 +35,27 @@ random.seed(SEED)
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 
-# --- 1. Répartition des trous : bruit bleu (aléatoire mais homogène) -----
-def spread_points():
-    x0, x1, y0, y1 = MARGIN, W - MARGIN, MARGIN, H - MARGIN
-    area = (x1 - x0) * (y1 - y0)
-    d_hex = math.sqrt(2 * area / (math.sqrt(3) * N))   # pas d'un maillage hexagonal parfait
-    pts = [[random.uniform(x0, x1), random.uniform(y0, y1)] for _ in range(N)]
-    reach = 1.0 * d_hex
-    # Relaxation par répulsion, volontairement incomplète pour garder l'aspect « au hasard ».
-    for it in range(45):
-        step = 0.5 * (1 - it / 45) + 0.05
-        moves = [[0.0, 0.0] for _ in range(N)]
-        for i in range(N):
-            xi, yi = pts[i]
-            for j in range(i + 1, N):
-                dx, dy = xi - pts[j][0], yi - pts[j][1]
-                if abs(dx) > reach or abs(dy) > reach:
-                    continue
-                d = math.hypot(dx, dy) or 1e-6
-                if d < reach:
-                    f = (reach - d) / d * step * 0.5
-                    moves[i][0] += dx * f; moves[i][1] += dy * f
-                    moves[j][0] -= dx * f; moves[j][1] -= dy * f
-        for p, m in zip(pts, moves):
-            p[0] = min(x1, max(x0, p[0] + m[0]))
-            p[1] = min(y1, max(y0, p[1] + m[1]))
-    return pts, d_hex
+# --- 1. Trous en quinconce -------------------------------------------------
+def grid_points():
+    half = PITCH / 2
+    pts, rows = [], []
+    nrows = int(round((H - 2 * MARGIN_Y) / half)) + 1
+    for r in range(nrows):                      # r = 0 : rangée du haut du plan (A)
+        y = H - MARGIN_Y - r * half
+        x = MARGIN_X + (half if r % 2 else 0.0)
+        c = 0
+        while x <= W - MARGIN_X + 1e-9:
+            c += 1
+            pts.append([x, y]); rows.append((r, c))
+            x += PITCH
+    return pts, rows
 
 
 # --- 2. Hauteurs : contour en goutte + voisins à des hauteurs différentes --
 def assign_lengths(pts):
+    N = len(pts)
     cx, cy = W / 2, H / 2
-    hx, hy = W / 2 - MARGIN, H / 2 - MARGIN
+    hx, hy = W / 2 - MARGIN_X, H / 2 - MARGIN_Y
     rho = [math.hypot((x - cx) / hx, (y - cy) / hy) / math.sqrt(2) for x, y in pts]  # 0 centre, 1 coin
     rho = [min(1.0, r * 1.15) for r in rho]
     lmax = [FIL_MAX - DROP * r ** DROP_EXP - abs(random.gauss(0, BOTTOM_NOISE)) for r in rho]
@@ -114,6 +106,7 @@ def assign_lengths(pts):
 
 # --- 3. Contrôles -----------------------------------------------------------
 def check(pts, L):
+    N = len(pts)
     nn, clear = [], 1e9
     for i in range(N):
         best = 1e9
@@ -130,17 +123,10 @@ def check(pts, L):
     return min(nn), sum(nn) / N, clear
 
 
-# --- 4. Numérotation par bandes (A = bord haut du plan) -------------------
-def label(pts, L):
-    band_h = 20.0
-    rows = sorted(range(N), key=lambda i: (int((H - pts[i][1]) // band_h), pts[i][0]))
-    out, counters = [], {}
-    for i in rows:
-        b = chr(ord('A') + int((H - pts[i][1]) // band_h))
-        counters[b] = counters.get(b, 0) + 1
-        out.append({"id": f"{b}{counters[b]:02d}", "x": round(pts[i][0], 1),
-                    "y": round(pts[i][1], 1), "fil": L[i]})
-    return out
+# --- 4. Repérage : lettre de rangée (A = haut du plan) + numéro de gauche à droite
+def label(pts, rows, L):
+    return [{"id": f"{chr(ord('A') + r)}{c:02d}", "x": round(p[0], 1), "y": round(p[1], 1), "fil": l}
+            for p, (r, c), l in zip(pts, rows, L)]
 
 
 def color(t):   # 0 = court (clair) -> 1 = long (foncé), dégradé ambre
@@ -163,16 +149,16 @@ def write_svg(rows, path):
         out.append(f'<line x1="0" y1="{(H-gy)*mm}" x2="{W*mm}" y2="{(H-gy)*mm}" stroke="#bbb" stroke-width="{sw}"/>')
         if gy % 50 == 0:
             out.append(f'<text x="-25" y="{(H-gy)*mm+14}" font-size="40" text-anchor="end">{gy}</text>')
-    for gy in range(0, int(H), 20):   # repères de bandes
-        b = chr(ord('A') + gy // 20)
-        out.append(f'<text x="{W*mm+30}" y="{gy*mm+115}" font-size="50" font-weight="bold" fill="#8a5a14">{b}</text>')
+    for ry in sorted({r["y"] for r in rows}, reverse=True):   # repères de rangées
+        b = next(r["id"][0] for r in rows if r["y"] == ry)
+        out.append(f'<text x="{W*mm+30}" y="{(H-ry)*mm+14}" font-size="40" font-weight="bold" fill="#8a5a14">{b}  y={ry:g}</text>')
     for r in rows:
         t = (r["fil"] - FIL_MIN) / (FIL_MAX - FIL_MIN)
         X, Y = r["x"] * mm, (H - r["y"]) * mm
         out.append(f'<circle cx="{X:.0f}" cy="{Y:.0f}" r="25" fill="{color(t)}" stroke="#333" stroke-width="2"/>')
         out.append(f'<text x="{X:.0f}" y="{Y-32:.0f}" font-size="22" text-anchor="middle" fill="#333">{r["id"]}</text>')
         out.append(f'<text x="{X:.0f}" y="{Y+52:.0f}" font-size="24" font-weight="bold" text-anchor="middle">{r["fil"]}</text>')
-    out.append(f'<text x="0" y="-200" font-size="70" font-weight="bold">Plateau 3,00 x 2,40 m - {N} trous - vue de dessous</text>')
+    out.append(f'<text x="0" y="-200" font-size="70" font-weight="bold">Plateau 3,00 x 2,40 m - {len(rows)} trous en quinconce (20 cm / diag. 14,14 cm) - vue de dessous</text>')
     out.append('<text x="0" y="-120" font-size="40">Cotes en cm depuis le coin bas-gauche (0,0). '
                'Sous chaque point : longueur de fil (cm) du plateau au haut de la suspension. Quadrillage 10 cm.</text>')
     out.append('</svg>')
@@ -181,11 +167,11 @@ def write_svg(rows, path):
 
 
 def main():
-    pts, d_hex = spread_points()
+    pts, rc = grid_points()
     L = assign_lengths(pts)
     dmin, dmean, clear = check(pts, L)
-    rows = label(pts, L)
-    stats = {"n": N, "d_hex": round(d_hex, 1), "dmin": round(dmin, 1), "dmean": round(dmean, 1),
+    rows = label(pts, rc, L)
+    stats = {"n": len(pts), "pitch": PITCH, "dmin": round(dmin, 1), "dmean": round(dmean, 1),
              "clear": round(clear, 1), "fil_min": min(L), "fil_max": max(L),
              "W": W, "H": H, "susp_d": SUSP_D, "susp_h": SUSP_H, "FIL_MIN": FIL_MIN,
              "FIL_MAX": FIL_MAX, "seed": SEED}
