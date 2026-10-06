@@ -12,6 +12,8 @@ Trous en quinconce : 20 cm entre deux trous d'une même rangée ou colonne, 14,1
 | `lustre/suspensions.csv` | Repère (rangée + numéro), x, y (cm depuis le coin bas-gauche, vue de dessous), longueur de fil (cm) |
 | `lustre/lustre_plan.dxf` | Plan AutoCAD 2D coté (mm) : plateau, perçages, repères, longueurs de fil, calques séparés |
 | `lustre/lustre_3d.dxf` | Modèle AutoCAD 3D (mm) : plateau, fils, suspensions à leur hauteur |
+| `lustre/lustre_3d_suspension5.dxf` | Modèle AutoCAD 3D avec la suspension réelle (`suspension5.dxf` en bloc `SUSPENSION5`, 334 insertions) |
+| `lustre/suspension5.dxf` | Modèle de la suspension (fourni) : 233 mm, Ø 62 mm hors tout |
 | `lustre/lustre_3d.lsp` | AutoLISP `LUSTRE3D` : construit le lustre 3D dans AutoCAD avec `suspension5.dwg` |
 | `lustre/suspension5.dwg` | Modèle de la suspension (fourni) |
 | `lustre/export_dxf.py` | Export DXF depuis `suspensions.csv` (`pip install ezdxf`) |

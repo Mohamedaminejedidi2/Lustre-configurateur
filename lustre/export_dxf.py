@@ -3,6 +3,7 @@
 
   lustre_plan.dxf  plan 2D coté du plateau (trous, repères, longueurs de fil)
   lustre_3d.dxf    modèle 3D : plateau, fils et suspensions (cylindres génériques)
+  lustre_3d_suspension5.dxf  modèle 3D avec la suspension réelle (suspension5.dxf en bloc)
   lustre_3d.lsp    AutoLISP : construit le lustre 3D dans AutoCAD avec VOTRE suspension
                    (suspension5.dwg insérée comme bloc à chaque point, à la bonne hauteur)
 
@@ -10,6 +11,7 @@ Ouvrir dans AutoCAD puis SAUVEGARDER SOUS (ENREGSOUS / SAVEAS) au format .dwg.
 Dépendance : pip install ezdxf
 """
 import csv
+import math
 import unicodedata
 import os
 
@@ -122,6 +124,46 @@ def model3d(rows):
     doc.saveas(os.path.join(HERE, "lustre_3d.dxf"))
 
 
+def suspension_block(doc, path):
+    """Copie suspension5.dxf dans un bloc SUSPENSION5 : axe vertical, origine = centre du sommet."""
+    from ezdxf.addons import Importer
+    from ezdxf import bbox
+    src = ezdxf.readfile(path)
+    ext = bbox.extents(src.modelspace())
+    lo, hi = ext.extmin, ext.extmax
+    size = hi - lo
+    axis = max(range(3), key=lambda k: size[k])        # axe le plus long = axe de la suspension
+    c = (lo + hi) / 2
+    top = [c.x, c.y, c.z]; top[axis] = hi[axis]          # culot en haut (coordonnée max)
+    m = Matrix44.translate(-top[0], -top[1], -top[2])
+    if axis == 1:
+        m @= Matrix44.x_rotate(math.pi / 2)              # +Y -> +Z
+    elif axis == 0:
+        m @= Matrix44.y_rotate(-math.pi / 2)             # +X -> +Z
+    blk = doc.blocks.new("SUSPENSION5")
+    imp = Importer(src, doc)
+    imp.import_entities(src.modelspace(), blk)
+    imp.finalize()
+    for e in blk:
+        e.transform(m)
+    return size[axis], max(size[k] for k in range(3) if k != axis)
+
+
+def model3d_real(rows, path):
+    doc = new_doc([("PLATEAU", 8), ("FILS", 9), ("SUSPENSIONS", 51)])
+    h, d = suspension_block(doc, path)
+    msp = doc.modelspace()
+    plate = forms.cube().scale(W, H, PLATE_T).translate(W / 2, H / 2, PLATE_T / 2)
+    plate.render_mesh(msp, dxfattribs={"layer": "PLATEAU"})
+    for r in rows:
+        x, y, top = r["x"], r["y"], -r["fil"]
+        msp.add_line((x, y, 0), (x, y, top), dxfattribs={"layer": "FILS"})
+        msp.add_blockref("SUSPENSION5", (x, y, top), dxfattribs={"layer": "SUSPENSIONS"})
+    doc.set_modelspace_vport(height=8000, center=(W / 2, -3000))
+    doc.saveas(os.path.join(HERE, "lustre_3d_suspension5.dxf"))
+    return h, d
+
+
 LISP = r""";;; LUSTRE3D - construit le lustre cascade dans AutoCAD avec la suspension fournie.
 ;;; Utilisation : APPLOAD -> lustre_3d.lsp, puis taper LUSTRE3D dans un dessin vide (unités mm).
 ;;; Le fichier suspension5.dwg est cherché dans le dossier de ce .lsp, sinon il est demandé.
@@ -212,4 +254,8 @@ if __name__ == "__main__":
     plan(rows)
     model3d(rows)
     lisp(rows)
+    real = os.path.join(HERE, "suspension5.dxf")
+    if os.path.exists(real):
+        h, d = model3d_real(rows, real)
+        print(f"suspension5.dxf : hauteur {h:.0f} mm, Ø hors tout {d:.0f} mm -> lustre_3d_suspension5.dxf")
     print(f"{len(rows)} suspensions -> lustre_plan.dxf, lustre_3d.dxf, lustre_3d.lsp")
