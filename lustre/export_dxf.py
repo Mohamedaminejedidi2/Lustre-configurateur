@@ -2,12 +2,15 @@
 """Export AutoCAD (DXF R2018, unités = mm) à partir de suspensions.csv.
 
   lustre_plan.dxf  plan 2D coté du plateau (trous, repères, longueurs de fil)
-  lustre_3d.dxf    modèle 3D : plateau, fils et suspensions à leur hauteur réelle
+  lustre_3d.dxf    modèle 3D : plateau, fils et suspensions (cylindres génériques)
+  lustre_3d.lsp    AutoLISP : construit le lustre 3D dans AutoCAD avec VOTRE suspension
+                   (suspension5.dwg insérée comme bloc à chaque point, à la bonne hauteur)
 
 Ouvrir dans AutoCAD puis SAUVEGARDER SOUS (ENREGSOUS / SAVEAS) au format .dwg.
 Dépendance : pip install ezdxf
 """
 import csv
+import unicodedata
 import os
 
 import ezdxf
@@ -119,8 +122,94 @@ def model3d(rows):
     doc.saveas(os.path.join(HERE, "lustre_3d.dxf"))
 
 
+LISP = r""";;; LUSTRE3D - construit le lustre cascade dans AutoCAD avec la suspension fournie.
+;;; Utilisation : APPLOAD -> lustre_3d.lsp, puis taper LUSTRE3D dans un dessin vide (unités mm).
+;;; Le fichier suspension5.dwg est cherché dans le dossier de ce .lsp, sinon il est demandé.
+;;; La suspension est accrochée par le CENTRE DE SON SOMMET au bout de chaque fil.
+;;; Mettre *LUSTRE-FLIP* a T si la suspension apparait la tete en bas.
+(vl-load-com)
+(setq *LUSTRE-FLIP* nil)
+(setq *LUSTRE-DIR* (if (findfile "lustre_3d.lsp") (vl-filename-directory (findfile "lustre_3d.lsp")) ""))
+;;; (repere x y fil) en mm - origine coin bas-gauche du plateau, fil = plateau -> haut de la suspension
+(setq *LUSTRE-PTS* '(
+__PTS__
+))
+
+(defun lustre:bbox (obj / mn mx)
+  (vla-GetBoundingBox obj 'mn 'mx)
+  (list (vlax-safearray->list mn) (vlax-safearray->list mx)))
+
+(defun lustre:layer (name col / lay)
+  (setq lay (vla-Add (vla-get-Layers (vla-get-ActiveDocument (vlax-get-acad-object))) name))
+  (vla-put-Color lay col) name)
+
+(defun c:LUSTRE3D (/ doc ms path ref bb ext h s top n line box base obj)
+  (setq doc (vla-get-ActiveDocument (vlax-get-acad-object))
+        ms  (vla-get-ModelSpace doc))
+  (setq path (findfile (strcat *LUSTRE-DIR* "\\suspension5.dwg")))
+  (if (not path) (setq path (findfile "suspension5.dwg")))
+  (if (not path) (setq path (getfiled "Choisir le fichier de la suspension" "" "dwg" 0)))
+  (if (not path) (progn (princ "\nAucune suspension choisie.") (exit)))
+  (setvar "INSUNITS" 4)
+  (lustre:layer "PLATEAU" 8) (lustre:layer "FILS" 9) (lustre:layer "SUSPENSIONS" 0)
+  ;; 1. Gabarit : insertion du DWG comme bloc, mise a la verticale et a l'echelle
+  (setq ref (vla-InsertBlock ms (vlax-3d-point 0 0 0) path 1.0 1.0 1.0 0.0))
+  (setq bb (lustre:bbox ref)
+        ext (mapcar '- (cadr bb) (car bb)))
+  (cond ((and (> (cadr ext) (caddr ext)) (> (cadr ext) (car ext)))
+         (vla-Rotate3D ref (vlax-3d-point 0 0 0) (vlax-3d-point 1 0 0) (/ pi 2)))
+        ((and (> (car ext) (caddr ext)) (> (car ext) (cadr ext)))
+         (vla-Rotate3D ref (vlax-3d-point 0 0 0) (vlax-3d-point 0 1 0) (/ pi 2))))
+  (if *LUSTRE-FLIP* (vla-Rotate3D ref (vlax-3d-point 0 0 0) (vlax-3d-point 1 0 0) pi))
+  (setq bb (lustre:bbox ref) h (- (caddr (cadr bb)) (caddr (car bb))))
+  ;; detection des unites du fichier suspension (hauteur attendue 240 mm)
+  (setq s (cond ((and (> h 150.0) (< h 400.0)) 1.0)
+                ((and (> h 15.0) (< h 40.0)) 10.0)
+                ((and (> h 1.5) (< h 4.0)) 100.0)
+                ((and (> h 0.15) (< h 0.4)) 1000.0)
+                (T (/ __SUSP_H__ h))))
+  (if (/= s 1.0) (vla-ScaleEntity ref (vlax-3d-point 0 0 0) s))
+  (setq bb (lustre:bbox ref)
+        top (list (/ (+ (car (car bb)) (car (cadr bb))) 2.0)
+                  (/ (+ (cadr (car bb)) (cadr (cadr bb))) 2.0)
+                  (caddr (cadr bb))))
+  (princ (strcat "\nSuspension : hauteur " (rtos (* h s) 2 1) " mm (echelle x" (rtos s 2 0) ")"))
+  ;; 2. Plateau
+  (setq box (vla-AddBox ms (vlax-3d-point (/ __W__ 2.0) (/ __H__ 2.0) (/ __T__ 2.0)) __W__ __H__ __T__))
+  (vla-put-Layer box "PLATEAU")
+  ;; 3. Fils + suspensions
+  (setq n 0)
+  (foreach p *LUSTRE-PTS*
+    (setq base (list (cadr p) (caddr p) (- (cadddr p))))
+    (setq line (vla-AddLine ms (vlax-3d-point (cadr p) (caddr p) 0.0) (vlax-3d-point base)))
+    (vla-put-Layer line "FILS")
+    (setq obj (vla-Copy ref))
+    (vla-Move obj (vlax-3d-point top) (vlax-3d-point base))
+    (vla-put-Layer obj "SUSPENSIONS")
+    (setq n (1+ n)))
+  (vla-Delete ref)
+  (command "_.-VIEW" "_SEISO")
+  (command "_.ZOOM" "_E")
+  (command "_.VSCURRENT" "_R")
+  (princ (strcat "\n" (itoa n) " suspensions placees. Enregistrer avec ENREGSOUS au format DWG."))
+  (princ))
+(princ "\nTaper LUSTRE3D pour construire le lustre.")
+(princ)
+"""
+
+
+def lisp(rows):
+    pts = "\n".join(f'("{r["id"]}" {r["x"]:.1f} {r["y"]:.1f} {r["fil"]:.1f})' for r in rows)
+    src = (LISP.replace("__PTS__", pts).replace("__SUSP_H__", f"{SUSP_H:.1f}")
+           .replace("__W__", f"{W:.1f}").replace("__H__", f"{H:.1f}").replace("__T__", f"{PLATE_T:.1f}"))
+    src = unicodedata.normalize("NFKD", src).encode("ascii", "ignore").decode()   # LISP en ASCII pur
+    with open(os.path.join(HERE, "lustre_3d.lsp"), "w", encoding="ascii", newline="\r\n") as f:
+        f.write(src)
+
+
 if __name__ == "__main__":
     rows = load()
     plan(rows)
     model3d(rows)
-    print(f"{len(rows)} suspensions -> lustre_plan.dxf, lustre_3d.dxf")
+    lisp(rows)
+    print(f"{len(rows)} suspensions -> lustre_plan.dxf, lustre_3d.dxf, lustre_3d.lsp")
