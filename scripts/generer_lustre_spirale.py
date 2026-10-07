@@ -25,7 +25,7 @@ OUT = sys.argv[2] if len(sys.argv) > 2 else "lustres/lustre-spirale-1200x800-H35
 
 # --- Paramètres -------------------------------------------------------------
 LONGUEUR, LARGEUR = 1200.0, 800.0      # pavillon (mm)
-EPAISSEUR_PAVILLON = 40.0
+EPAISSEUR_PAVILLON = 30.0           # hauteur de la ceinture inox
 HAUTEUR_TOTALE = 3500.0                # plafond -> bas de la boîte la plus basse
 NX, NY = 6, 5                          # 30 points de suspension
 MARGE = 60.0                           # marge bord pavillon -> axe des câbles
